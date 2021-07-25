@@ -1,100 +1,125 @@
 import React from "react";
-import {
-  makeStyles,
-  MuiThemeProvider,
-  createMuiTheme,
-} from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
-import Header from "../../containers/Header";
-import { Container, Typography } from "@material-ui/core";
-import headerImage from "../../public/img/photodune-4161018-group-of-students-m.jpg";
+import headerImage from "../../public/images/photodune-4161018-group-of-students-m.jpg";
 
-export default function HeaderBaner() {
-  const classes = useStyles();
+export default function Header() {
   return (
-    <div className={classes.root}>
-      <Header />
-      <Container maxWidth="false" className={classes.header}>
+    // Header
+    <div
+      id="header"
+      className="mdk-header mdk-header--bg-dark bg-dark js-mdk-header mb-0"
+      data-effects="parallax-background waterfall"
+      data-fixed
+      data-condenses
+    >
+      <div className="mdk-header__bg">
         <div
+          className="mdk-header__bg-front"
           style={{
-            backgroundColor: "#cfe8fc",
-            height: "55vh",
-            display: "flex",
+            backgroundImage: `url(${headerImage})`,
           }}
-          className={classes.headerImage}
+        ></div>
+      </div>
+      <div className="mdk-header__content justify-content-center">
+        <div
+          className="navbar navbar-expand navbar-dark-pickled-bluewood bg-transparent will-fade-background"
+          id="default-navbar"
+          data-primary
         >
-          <div style={{ backgroundColor: "#3f8cb5d1", height: "100%" }}>
-            <MuiThemeProvider theme={theme}>
-              <div
-                style={{
-                  padding: "7rem 1.5rem",
-                  textAlign: "left",
-                  margin: "auto 20rem",
-                  color: "white",
-                }}
+          <button
+            className="navbar-toggler w-auto mr-16pt d-block rounded-0"
+            type="button"
+            data-toggle="sidebar"
+          >
+            <span className="material-icons">short_text</span>
+          </button>
+
+          <a href="index.html" className="navbar-brand mr-16pt">
+            <img
+              src="images/logo-white.png"
+              alt="logo"
+              className="img-fluid"
+              style={{ width: 200 }}
+            />
+          </a>
+
+          <ul className="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
+            <li className="nav-item active">
+              <a href="index.html" className="nav-link">
+                Home
+              </a>
+            </li>
+            <li className="nav-item dropdown">
+              <a href="/courses" className="nav-link">
+                Courses
+              </a>
+            </li>
+            <li className="nav-item dropdown">
+              <a href="/#" className="nav-link">
+                About Us
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="pricing.html" className="nav-link">
+                Contact Us
+              </a>
+            </li>
+            <li className="nav-item dropdown">
+              <a href="/#" className="nav-link">
+                Careers
+              </a>
+            </li>
+          </ul>
+
+          <ul className="nav navbar-nav ml-auto mr-0">
+            <li className="nav-item">
+              <a
+                href="login.html"
+                className="nav-link"
+                data-toggle="tooltip"
+                data-title="Login"
+                data-placement="bottom"
+                data-boundary="window"
               >
-                <Typography
-                  variant="h2"
-                  style={{ fontWeight: "bold", marginBottom: "1rem" }}
-                >
-                  Learn to Code
-                </Typography>
-                <Typography
-                  variant="h5"
-                  style={{ marginBottom: "3rem", marginRight: "30rem" }}
-                >
-                  Business, Technology and Creative Skills taught by industry
-                  experts. Explore a wide range of skills with our professional
-                  tutorials.
-                </Typography>
-                <Button
-                  variant="contained"
-                  size="large"
-                  style={{
-                    marginBottom: "1rem",
-                    backgroundColor: "white",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Browse Courses
-                </Button>
-                <a href="/#" style={{ color: "white", textDecoration: "none" }}>
-                  <Typography>Are you a teacher?</Typography>
-                </a>
-              </div>
-            </MuiThemeProvider>
-          </div>
+                <i className="material-icons">lock_open</i>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="signup.html" className="btn btn-outline-white">
+                Get Started
+              </a>
+            </li>
+          </ul>
         </div>
-      </Container>
+
+        <div className="hero container page__container text-center text-md-left py-112pt">
+          <h1 className="text-white text-shadow">Learn to Code</h1>
+          <p
+            className="
+                lead
+                measure-hero-lead
+                mx-auto mx-md-0
+                text-white text-shadow
+                mb-48pt
+              "
+          >
+            Business, Technology and Creative Skills taught by industry experts.
+            Explore a wide range of skills with our professional tutorials.
+          </p>
+
+          <a
+            href="courses.html"
+            className="btn btn-lg btn-white btn--raised mb-16pt"
+          >
+            Browse Courses
+          </a>
+
+          <p className="mb-0">
+            <a href="/#" className="text-white text-shadow">
+              <strong>Are you a teacher?</strong>
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
-
-const theme = createMuiTheme({
-  typography: {
-    fontFamily: "'Exo 2'",
-  },
-});
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  header: {
-    padding: 0,
-  },
-  headerImage: {
-    backgroundImage: `url(${headerImage})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "100%",
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  logo: {
-    width: "100px",
-  },
-  title: {
-    flexGrow: 1,
-  },
-}));

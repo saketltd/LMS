@@ -1,12 +1,11 @@
 import React from "react";
-import logo from "../../public/img/Truelessons logo.png";
 
 export default function Footer() {
   return (
     <div style={{ fontFamily: "'Exo 2'", backgroundColor: "white" }}>
       <div className="pt-4 pb-4 border-bottom">
         <div className="container text-start">
-          <img src={logo} alt="" width="130" srcset="" /> <br />
+          <img alt="" width="130" srcset="" /> <br />
           <br />
           <small className="text-muted" style={{ width: "50%" }}>
             True Lessions is a beautifully crafted user interface for modern

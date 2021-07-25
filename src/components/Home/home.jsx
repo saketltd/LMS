@@ -1,20 +1,14 @@
 import React from "react";
+import Footer from "../../containers/Footer";
 import Header from "./header";
-import Blog from "./fromtheblog";
-import LearnigPath from "./learningPaths";
-import DesignCourses from "./designCourses";
-import Feedback from "./feedback";
-import Footer from "./footer";
+import Content from "./homeContent";
 
 export default function Home() {
   return (
-    <>
+    <div className="mdk-header-layout js-mdk-header-layout">
       <Header />
-      <Blog />
-      <LearnigPath />
-      <DesignCourses />
-      <Feedback />
+      <Content />
       <Footer />
-    </>
+    </div>
   );
 }

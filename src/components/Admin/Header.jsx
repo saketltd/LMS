@@ -1,79 +1,284 @@
 import React from "react";
-import india from "../../public/img/1280px-Flag_of_India.svg.png";
 
 export default function Dashboard() {
   return (
-    <div style={{ fontFamily: "'Exo 2'" }}>
-      <div
-        className="container border"
-        style={{ maxWidth: "100%", borderRadius: "10px" }}
-      >
-        <nav className="navbar navbar-dark bg-dark">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="/#">
-              <div className="d-flex justify-content-center align-items-center">
-                <div
-                  className="d-flex rounded justify-content-center align-items-center"
-                  style={{
-                    width: "40px",
-                    height: "40px",
-                    backgroundColor: "#373d43",
-                  }}
-                >
-                  <i class="fas fa-chart-line"></i>
-                </div>
-                <div className="ms-3" style={{ fontSize: "13px" }}>
-                  <p class="fw-bold mb-0">Earnings</p>
-                  <small className="text-muted">₹12.60k</small>
-                </div>
-                <div
-                  className="d-flex rounded justify-content-center align-items-center ms-3"
-                  style={{
-                    width: "40px",
-                    height: "40px",
-                    backgroundColor: "#373d43",
-                  }}
-                >
-                  <i class="fas fa-receipt"></i>
-                </div>
-                <div className="ms-3" style={{ fontSize: "13px" }}>
-                  <p class="fw-bold mb-0">Sales</p>
-                  <small className="text-muted">256</small>
+    <div
+      id="header"
+      className="mdk-header js-mdk-header mb-0"
+      data-fixed
+      data-effects=""
+    >
+      <div className="mdk-header__content">
+        <div
+          className="navbar navbar-expand pr-0 navbar-dark-pickled-bluewood navbar-shadow"
+          id="default-navbar"
+          data-primary
+        >
+          <button
+            className="navbar-toggler w-auto mr-16pt d-block rounded-0"
+            type="button"
+            data-toggle="sidebar"
+          >
+            <span className="material-icons">short_text</span>
+          </button>
+
+          <a href="/" className="navbar-brand mr-16pt">
+            <img
+              src="images/logo-white.png"
+              alt="logo"
+              className="img-fluid"
+              style={{ width: 200 }}
+            />
+          </a>
+
+          <span className="d-none d-md-flex align-items-center mr-16pt">
+            <span className="avatar avatar-sm mr-12pt">
+              <span className="avatar-title rounded navbar-avatar">
+                <i className="material-icons">trending_up</i>
+              </span>
+            </span>
+
+            <small className="flex d-flex flex-column">
+              <strong className="navbar-text-100">Earnings</strong>
+              <span className="navbar-text-50">&dollar;12.3k</span>
+            </small>
+          </span>
+          <span className="d-none d-md-flex align-items-center mr-16pt">
+            <span className="avatar avatar-sm mr-12pt">
+              <span className="avatar-title rounded navbar-avatar">
+                <i className="material-icons">receipt</i>
+              </span>
+            </span>
+
+            <small className="flex d-flex flex-column">
+              <strong className="navbar-text-100">Sales</strong>
+              <span className="navbar-text-50">264</span>
+            </small>
+          </span>
+
+          <form
+            className="search-form navbar-search d-none d-md-flex mr-16pt"
+            action="https://luma.humatheme.com/Demos/Fixed_Layout/index.html"
+          >
+            <button className="btn" type="submit">
+              <i className="material-icons">search</i>
+            </button>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search ..."
+            />
+          </form>
+
+          <div className="flex"></div>
+
+          <div className="nav navbar-nav flex-nowrap d-flex mr-16pt">
+            <div
+              className="nav-item dropdown dropdown-notifications dropdown-xs-down-full"
+              data-toggle="tooltip"
+              data-title="Messages"
+              data-placement="bottom"
+              data-boundary="window"
+            >
+              <button
+                className="nav-link btn-flush dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+                data-caret="false"
+              >
+                <i className="material-icons icon-24pt">mail_outline</i>
+              </button>
+              <div className="dropdown-menu dropdown-menu-right">
+                <div data-perfect-scrollbar className="position-relative">
+                  <div className="dropdown-header">
+                    <strong>Messages</strong>
+                  </div>
+                  <div className="list-group list-group-flush mb-0">
+                    <a
+                      href="/"
+                      className="list-group-item list-group-item-action unread"
+                    >
+                      <span className="d-flex align-items-center mb-1">
+                        <small className="text-black-50">5 minutes ago</small>
+
+                        <span className="ml-auto unread-indicator bg-accent"></span>
+                      </span>
+                      <span className="d-flex">
+                        <span className="avatar avatar-xs mr-2">
+                          <img
+                            src="../../public/images/people/110/woman-5.jpg"
+                            alt="people"
+                            className="avatar-img rounded-circle"
+                          />
+                        </span>
+                        <span className="flex d-flex flex-column">
+                          <strong className="text-black-100">Michelle</strong>
+                          <span className="text-black-70">
+                            Clients loved the new design.
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+
+                    <a
+                      href="/"
+                      className="list-group-item list-group-item-action"
+                    >
+                      <span className="d-flex align-items-center mb-1">
+                        <small className="text-black-50">5 minutes ago</small>
+                      </span>
+                      <span className="d-flex">
+                        <span className="avatar avatar-xs mr-2">
+                          <img
+                            src="../../public/images/people/110/woman-5.jpg"
+                            alt="people"
+                            className="avatar-img rounded-circle"
+                          />
+                        </span>
+                        <span className="flex d-flex flex-column">
+                          <strong className="text-black-100">Michelle</strong>
+                          <span className="text-black-70">🔥 Superb job..</span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </a>
-            <div className="d-flex my-auto justify-content-center align-items-center">
-              <a href="/#" className="text-light fs-5 me-3">
-                <i class="far fa-envelope"></i>
-              </a>
-              <a href="/#" className="text-light fs-5 me-3">
-                <i class="far fa-bell"></i>
-              </a>
-              <a href="/#" className="text-light fs-5 me-3">
-                <img
-                  className="rounded-circle"
-                  src={india}
-                  width="30"
-                  height="30"
-                  alt=""
-                  srcset=""
-                />
-              </a>
-              <a href="/#">
-                <div
-                  className="d-flex text-light fs-5 rounded-circle justify-content-center align-items-center"
-                  style={{
-                    backgroundColor: "blue",
-                    width: "40px",
-                    height: "40px",
-                  }}
-                >
-                  <i class="far fa-user"></i>
+            </div>
+            =
+            <div
+              className="nav-item ml-16pt dropdown dropdown-notifications dropdown-xs-down-full"
+              data-toggle="tooltip"
+              data-title="Notifications"
+              data-placement="bottom"
+              data-boundary="window"
+            >
+              <button
+                className="nav-link btn-flush dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+                data-caret="false"
+              >
+                <i className="material-icons">notifications_none</i>
+                <span className="badge badge-notifications badge-accent">
+                  2
+                </span>
+              </button>
+              <div className="dropdown-menu dropdown-menu-right">
+                <div data-perfect-scrollbar className="position-relative">
+                  <div className="dropdown-header">
+                    <strong>System notifications</strong>
+                  </div>
+                  <div className="list-group list-group-flush mb-0">
+                    <a
+                      href="/"
+                      className="list-group-item list-group-item-action unread"
+                    >
+                      <span className="d-flex align-items-center mb-1">
+                        <small className="text-black-50">3 minutes ago</small>
+
+                        <span className="ml-auto unread-indicator bg-accent"></span>
+                      </span>
+                      <span className="d-flex">
+                        <span className="avatar avatar-xs mr-2">
+                          <span className="avatar-title rounded-circle bg-light">
+                            <i className="material-icons font-size-16pt text-accent">
+                              account_circle
+                            </i>
+                          </span>
+                        </span>
+                        <span className="flex d-flex flex-column">
+                          <span className="text-black-70">
+                            Your profile information has not been synced
+                            correctly.
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+
+                    <a
+                      href="/"
+                      className="list-group-item list-group-item-action"
+                    >
+                      <span className="d-flex align-items-center mb-1">
+                        <small className="text-black-50">5 hours ago</small>
+                      </span>
+                      <span className="d-flex">
+                        <span className="avatar avatar-xs mr-2">
+                          <span className="avatar-title rounded-circle bg-light">
+                            <i className="material-icons font-size-16pt text-primary">
+                              group_add
+                            </i>
+                          </span>
+                        </span>
+                        <span className="flex d-flex flex-column">
+                          <strong className="text-black-100">Adrian. D</strong>
+                          <span className="text-black-70">
+                            Wants to join your private group.
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+
+                    <a
+                      href="/"
+                      className="list-group-item list-group-item-action"
+                    >
+                      <span className="d-flex align-items-center mb-1">
+                        <small className="text-black-50">1 day ago</small>
+                      </span>
+                      <span className="d-flex">
+                        <span className="avatar avatar-xs mr-2">
+                          <span className="avatar-title rounded-circle bg-light">
+                            <i className="material-icons font-size-16pt text-warning">
+                              storage
+                            </i>
+                          </span>
+                        </span>
+                        <span className="flex d-flex flex-column">
+                          <span className="text-black-70">
+                            Your deploy was successful.
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div className="nav-item dropdown">
+              <a
+                href="/#"
+                className="nav-link d-flex align-items-center dropdown-toggle"
+                data-toggle="dropdown"
+                data-caret="false"
+              >
+                <span className="avatar avatar-sm mr-8pt2">
+                  <span className="avatar-title rounded-circle bg-primary">
+                    <i className="material-icons">account_box</i>
+                  </span>
+                </span>
               </a>
+              <div className="dropdown-menu dropdown-menu-right">
+                <div className="dropdown-header">
+                  <strong>Account</strong>
+                </div>
+                <a className="dropdown-item" href="edit-account.html">
+                  Edit Account
+                </a>
+                <a className="dropdown-item" href="billing.html">
+                  Billing
+                </a>
+                <a className="dropdown-item" href="billing-history.html">
+                  Payments
+                </a>
+                <a className="dropdown-item" href="login.html">
+                  Logout
+                </a>
+              </div>
             </div>
           </div>
-        </nav>
+        </div>
       </div>
     </div>
   );

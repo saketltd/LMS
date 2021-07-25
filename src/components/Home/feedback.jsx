@@ -1,58 +1,158 @@
 import React from "react";
-import luke from "../../public/img/256_luke-porter-261779-unsplash.jpg";
 
 export default function Feedback() {
   return (
-    <div style={{ fontFamily: "'Exo 2'" }}>
-      <div className="pt-4 pb-4 border-bottom">
-        <div className="container text-center">
-          <div style={{ paddingBottom: "3rem" }}>
-            <h2 className="fw-bold mb-3 text-center">
-              Feedback
-              <hr
-                style={{
-                  borderRadius: "2px",
-                  backgroundColor: "#5567ff",
-                  margin: "5px auto",
-                  width: "11%",
-                  height: "4px",
-                }}
-              />
-            </h2>
-            <p className="text-black-70 mx-auto" style={{ width: "50%" }}>
-              What other students turned professionals have to say about us
-              after learning with us and reaching their goals.
-            </p>
-          </div>
+    <div class="page-section">
+      <div class="container page__container">
+        <div class="page-headline text-center">
+          <h2>Feedback</h2>
+          <p class="lead measure-lead mx-auto text-70">
+            What other students turned professionals have to say about us after
+            learning with us and reaching their goals.
+          </p>
+        </div>
 
-          <div className="card" style={{ width: "50%", margin: "auto" }}>
-            <div className="card-body text-muted">
-              A wonderful course on how to start. Eddie beautifully conveys all
-              essentials of a becoming a good Angular developer. Very glad to
-              have taken this course. Thank you Eddie Bryan.
-            </div>
-          </div>
-
-          <div className="row mt-3" style={{ width: "50%", margin: "auto" }}>
-            <div className="col-auto">
-              <img src={luke} alt="" className="rounded-circle" width="50px" />
-            </div>
-            <div className="col-auto text-start">
-              <h6 class="card-title fw-bold mb-0">Learn Sketch</h6>
-              <small className="text-muted">Elijah Murray</small>
-              <div
-                style={{
-                  fontSize: "12px",
-                  color: "orange",
-                }}
+        <div class="position-relative carousel-card p-0 mx-auto">
+          <div class="row d-block js-mdk-carousel" id="carousel-feedback">
+            <a
+              class="carousel-control-next js-mdk-carousel-control mt-n24pt"
+              href="#carousel-feedback"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-icon material-icons"
+                aria-hidden="true"
               >
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="far fa-star"></span>
-                <span class="far fa-star"></span>
-                &nbsp;
-                <span className="text-dark text-muted">4/5</span>
+                keyboard_arrow_right
+              </span>
+              <span class="sr-only">Next</span>
+            </a>
+            <div class="mdk-carousel__content">
+              <div class="col-12 col-md-6">
+                <div class="card card-feedback card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="text-70 small mb-0">
+                      A wonderful course on how to start. Eddie beautifully
+                      conveys all essentials of a becoming a good Angular
+                      developer. Very glad to have taken this course. Thank you
+                      Eddie Bryan.
+                    </p>
+                  </blockquote>
+                </div>
+                <div class="media ml-12pt">
+                  <div class="media-left mr-12pt">
+                    <a href="student-profile.html" class="avatar avatar-sm">
+                      <span class="avatar-title rounded-circle">UK</span>
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <a href="student-profile.html" class="card-title">
+                      Umberto Kass
+                    </a>
+                    <div class="rating mt-4pt">
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star_border</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <div class="card card-feedback card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="text-70 small mb-0">
+                      A wonderful course on how to start. Eddie beautifully
+                      conveys all essentials of a becoming a good Angular
+                      developer. Very glad to have taken this course. Thank you
+                      Eddie Bryan.
+                    </p>
+                  </blockquote>
+                </div>
+                <div class="media ml-12pt">
+                  <div class="media-left mr-12pt">
+                    <a href="student-profile.html" class="avatar avatar-sm">
+                      <span class="avatar-title rounded-circle">UK</span>
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <a href="student-profile.html" class="card-title">
+                      Umberto Kass
+                    </a>
+                    <div class="rating mt-4pt">
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star_border</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <div class="card card-feedback card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="text-70 small mb-0">
+                      A wonderful course on how to start. Eddie beautifully
+                      conveys all essentials of a becoming a good Angular
+                      developer. Very glad to have taken this course. Thank you
+                      Eddie Bryan.
+                    </p>
+                  </blockquote>
+                </div>
+                <div class="media ml-12pt">
+                  <div class="media-left mr-12pt">
+                    <a href="student-profile.html" class="avatar avatar-sm">
+                      <span class="avatar-title rounded-circle">UK</span>
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <a href="student-profile.html" class="card-title">
+                      Umberto Kass
+                    </a>
+                    <div class="rating mt-4pt">
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star</span>
+                      </span>
+                      <span class="rating__item">
+                        <span class="material-icons">star_border</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -3,11 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import logo from "../../public/img/Truelessons logo.png";
 import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import headerImage from "../../public/img/photodune-4161018-group-of-students-m.jpg";
 
 export default function Header() {
   const classes = useStyles();
@@ -25,7 +23,7 @@ export default function Header() {
               <MenuIcon />
             </IconButton>
             <Button>
-              <img src={logo} alt="True Lessons" className={classes.logo} />
+              <img alt="True Lessons" className={classes.logo} />
             </Button>
             <div className={classes.title}>
               <Link
@@ -62,7 +60,6 @@ const useStyles = makeStyles((theme) => ({
     padding: 0,
   },
   headerImage: {
-    backgroundImage: `url(${headerImage})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "100%",
   },

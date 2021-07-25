@@ -1,89 +1,91 @@
 import React from "react";
-import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
-import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
-import UpdateIcon from "@material-ui/icons/Update";
-import image from "../../public/img/sketch_430x168.png";
-import image1 from "../../public/img/invision_430x168.png";
-import image2 from "../../public/img/photoshop_430x168.png";
-import luke from "../../public/img/256_luke-porter-261779-unsplash.jpg";
-import luke1 from "../../public/img/256_michael-dam-258165-unsplash.jpg";
-import luke2 from "../../public/img/256_rsz_1andy-lee-642320-unsplash.jpg";
-import invision from "../../public/img/invision_200x168.png";
 
 export default function Blog() {
   return (
-    <div style={{ fontFamily: "'Exo 2'" }}>
-      <div className="bg-white border-bottom pt-3 pb-3">
-        <div className="container" style={{ fontFamily: "'Exo 2'" }}>
-          <div className="row">
-            <div class="d-flex col-md align-items-center border-md-0 mb-16pt mb-md-0 pb-16pt pb-md-0">
+    <div>
+      <div className="border-bottom-2 py-16pt navbar-light bg-white border-bottom-2">
+        <div className="container page__container">
+          <div className="row align-items-center">
+            <div
+              className="
+                  d-flex
+                  col-md
+                  align-items-center
+                  border-bottom border-md-0
+                  mb-16pt mb-md-0
+                  pb-16pt pb-md-0
+                "
+            >
               <div
-                class="rounded-circle bg-primary w-64 h-64 d-inline-flex align-items-center justify-content-center mr-16pt"
-                style={{
-                  width: 70,
-                  height: 70,
-                  borderRadius: "50%",
-                  marginRight: 12,
-                }}
+                className="
+                    rounded-circle
+                    bg-primary
+                    w-64
+                    h-64
+                    d-inline-flex
+                    align-items-center
+                    justify-content-center
+                    mr-16pt
+                  "
               >
-                <SubscriptionsIcon style={{ color: "white" }} />
+                <i className="material-icons text-white">subscriptions</i>
               </div>
-              <div class="flex">
-                <div class="card-title mb-4pt" style={{ fontWeight: "bold" }}>
-                  8,000+ Courses
-                </div>
-                <p
-                  class="card-subtitle text-black-70"
-                  style={{ fontSize: 12, color: "gray" }}
-                >
+              <div className="flex">
+                <div className="card-title mb-4pt">8,000+ Courses</div>
+                <p className="card-subtitle text-70">
                   Explore a wide range of skills.
                 </p>
               </div>
             </div>
-            <div class="d-flex col-md align-items-center border-md-0 mb-16pt mb-md-0 pb-16pt pb-md-0">
+            <div
+              className="
+                  d-flex
+                  col-md
+                  align-items-center
+                  border-bottom border-md-0
+                  mb-16pt mb-md-0
+                  pb-16pt pb-md-0
+                "
+            >
               <div
-                class="rounded-circle bg-primary w-64 h-64 d-inline-flex align-items-center justify-content-center mr-16pt"
-                style={{
-                  width: 70,
-                  height: 70,
-                  borderRadius: "50%",
-                  marginRight: 12,
-                }}
+                className="
+                    rounded-circle
+                    bg-primary
+                    w-64
+                    h-64
+                    d-inline-flex
+                    align-items-center
+                    justify-content-center
+                    mr-16pt
+                  "
               >
-                <VerifiedUserIcon style={{ color: "white" }} />
+                <i className="material-icons text-white">verified_user</i>
               </div>
-              <div class="flex">
-                <div class="card-title mb-4pt" style={{ fontWeight: "bold" }}>
-                  By Industry Experts
-                </div>
-                <p
-                  class="card-subtitle text-black-70"
-                  style={{ fontSize: 12, color: "gray" }}
-                >
+              <div className="flex">
+                <div className="card-title mb-4pt">By Industry Experts</div>
+                <p className="card-subtitle text-70">
                   Professional development from the best people.
                 </p>
               </div>
             </div>
-            <div class="d-flex col-md align-items-center border-md-0 mb-16pt mb-md-0 pb-16pt pb-md-0">
+            <div className="d-flex col-md align-items-center">
               <div
-                class="rounded-circle bg-primary w-64 h-64 d-inline-flex align-items-center justify-content-center mr-16pt"
-                style={{
-                  width: 70,
-                  height: 70,
-                  borderRadius: "50%",
-                  marginRight: 12,
-                }}
+                className="
+                    rounded-circle
+                    bg-primary
+                    w-64
+                    h-64
+                    d-inline-flex
+                    align-items-center
+                    justify-content-center
+                    mr-16pt
+                  "
               >
-                <UpdateIcon style={{ color: "white" }} />
+                <i className="material-icons text-white">update</i>
               </div>
-              <div class="flex">
-                <div class="card-title mb-4pt" style={{ fontWeight: "bold" }}>
-                  Unlimited Access
-                </div>
-                <p
-                  class="card-subtitle text-black-70"
-                  style={{ fontSize: 12, color: "gray" }}
-                >
+              <div className="flex">
+                <div className="card-title mb-4pt">Unlimited Access</div>
+                <p className="card-subtitle text-70">
                   Unlock Library and learn any topic with one subscription.
                 </p>
               </div>
@@ -91,214 +93,295 @@ export default function Blog() {
           </div>
         </div>
       </div>
-      <div className="pt-4 pb-4 border-bottom">
-        <div className="container">
-          <p style={{ fontWeight: "bold" }}>FROM THE BLOG</p>
-          <div class="row">
-            <div class="col-sm-4">
+
+      <div className="page-section border-bottom-2">
+        <div className="container page__container">
+          <div className="page-separator">
+            <div className="page-separator__text">From the blog</div>
+          </div>
+
+          <div className="row card-group-row">
+            <div className="col-md-6 col-lg-4 card-group-row__col">
               <div
-                class="card shadow-sm p-3 mb-5 bg-white rounded"
-                style={{ backgroundImage: `url(${image})`, height: "12rem" }}
+                className="
+                    card card--elevated
+                    posts-card-popular
+                    overlay
+                    card-group-row__card
+                  "
               >
-                <div class="card-body">
-                  <div className="row">
-                    <div className="col-10">
-                      <a href="/#">
-                        <img
-                          style={{
-                            width: "1.5rem",
-                            height: "1.5rem",
-                            border: "2px solid white",
-                          }}
-                          src={luke}
-                          alt="Luke"
-                          className="rounded-circle"
-                        />
-                      </a>
+                <img
+                  src="images/paths/sketch_430x168.png"
+                  alt=""
+                  className="card-img"
+                />
+                <div
+                  className="fullbleed bg-primary"
+                  style={{ opacity: "0.5" }}
+                ></div>
+                <div className="posts-card-popular__content">
+                  <div className="card-body d-flex align-items-center">
+                    <div className="avatar-group flex">
+                      <div
+                        className="avatar avatar-xs"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Janell D."
+                      >
+                        <a href="/#">
+                          <img
+                            src="images/256_luke-porter-261779-unsplash.jpg"
+                            alt="Avatar"
+                            className="avatar-img rounded-circle"
+                          />
+                        </a>
+                      </div>
                     </div>
-                    <div className="col-2 justify-content-center align-items-center">
-                      <span className="text-light" style={{ fontSize: 13 }}>
-                        <i class="fas fa-eye"></i> <small>327</small>
-                      </span>
-                    </div>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      className="d-flex align-items-center"
+                      href="/#"
+                    >
+                      <i
+                        className="material-icons mr-1"
+                        style={{ fontSize: "inherit" }}
+                      >
+                        remove_red_eye
+                      </i>
+                      <small>327</small>
+                    </a>
                   </div>
-                  <div
-                    style={{
-                      position: "absolute",
-                      bottom: "0",
-                    }}
-                  >
-                    <p class="mb-0 text-muted">SKETCH</p>
-                    <h5 class="card-title text-light mb-3">
+                  <div className="posts-card-popular__title card-body">
+                    <small className="text-muted text-uppercase">sketch</small>
+                    <a className="card-title" href="blog-post.html">
                       Merge Duplicates Inconsistent Symbols
-                    </h5>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+
+            <div className="col-md-6 col-lg-4 card-group-row__col">
               <div
-                class="card shadow-sm p-3 mb-5 bg-white rounded"
-                style={{
-                  backgroundImage: `url(${image1})`,
-                  height: "12rem",
-                }}
+                className="
+                    card card--elevated
+                    posts-card-popular
+                    overlay
+                    card-group-row__card
+                  "
               >
-                <div class="card-body">
-                  <div className="row">
-                    <div className="col-10">
-                      <a href="/#">
-                        <img
-                          style={{
-                            width: "1.5rem",
-                            height: "1.5rem",
-                            border: "2px solid white",
-                          }}
-                          src={luke1}
-                          alt="Luke"
-                          className="rounded-circle"
-                        />
-                      </a>
+                <img
+                  src="images/paths/invision_430x168.png"
+                  alt=""
+                  className="card-img"
+                />
+                <div
+                  className="fullbleed bg-primary"
+                  style={{ opacity: "0.5" }}
+                ></div>
+                <div className="posts-card-popular__content">
+                  <div className="card-body d-flex align-items-center">
+                    <div className="avatar-group flex">
+                      <div
+                        className="avatar avatar-xs"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Janell D."
+                      >
+                        <a href="/#">
+                          <img
+                            src="images/256_michael-dam-258165-unsplash.jpg"
+                            alt="Avatar"
+                            className="avatar-img rounded-circle"
+                          />
+                        </a>
+                      </div>
                     </div>
-                    <div className="col-2 justify-content-center align-items-center">
-                      <span className="text-light" style={{ fontSize: 13 }}>
-                        <i class="fas fa-eye"></i> <small>327</small>
-                      </span>
-                    </div>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      className="d-flex align-items-center"
+                      href="/#"
+                    >
+                      <i
+                        className="material-icons mr-1"
+                        style={{ fontSize: "inherit" }}
+                      >
+                        remove_red_eye
+                      </i>
+                      <small>327</small>
+                    </a>
                   </div>
-                  <div
-                    style={{
-                      position: "absolute",
-                      bottom: "0",
-                    }}
-                  >
-                    <p class="mb-0 text-muted">INVISION</p>
-                    <h5 class="card-title text-light mb-3">
+                  <div className="posts-card-popular__title card-body">
+                    <small className="text-muted text-uppercase">
+                      invision
+                    </small>
+                    <a className="card-title" href="blog-post.html">
                       Design Systems Essentials
-                    </h5>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+
+            <div className="col-md-6 col-lg-4 card-group-row__col">
               <div
-                class="card shadow-sm p-3 mb-5 bg-white rounded"
-                style={{
-                  backgroundImage: `url(${image2})`,
-                  height: "12rem",
-                }}
+                className="
+                    card card--elevated
+                    posts-card-popular
+                    overlay
+                    card-group-row__card
+                  "
               >
-                <div class="card-body">
-                  <div className="row">
-                    <div className="col-10">
-                      <a href="/#">
-                        <img
-                          style={{
-                            width: "1.5rem",
-                            height: "1.5rem",
-                            border: "2px solid white",
-                          }}
-                          src={luke2}
-                          alt="Luke"
-                          className="rounded-circle"
-                        />
-                      </a>
+                <img
+                  src="images/paths/photoshop_430x168.png"
+                  alt=""
+                  className="card-img"
+                />
+                <div
+                  className="fullbleed bg-primary"
+                  style={{ opacity: "0.5" }}
+                ></div>
+                <div className="posts-card-popular__content">
+                  <div className="card-body d-flex align-items-center">
+                    <div className="avatar-group flex">
+                      <div
+                        className="avatar avatar-xs"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Janell D."
+                      >
+                        <a href="/#">
+                          <img
+                            src="images/256_rsz_1andy-lee-642320-unsplash.jpg"
+                            alt="Avatar"
+                            className="avatar-img rounded-circle"
+                          />
+                        </a>
+                      </div>
                     </div>
-                    <div className="col-2 justify-content-center align-items-center">
-                      <span className="text-light" style={{ fontSize: 13 }}>
-                        <i class="fas fa-eye"></i> <small>327</small>
-                      </span>
-                    </div>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      className="d-flex align-items-center"
+                      href="/#"
+                    >
+                      <i
+                        className="material-icons mr-1"
+                        style={{ fontSize: "inherit" }}
+                      >
+                        remove_red_eye
+                      </i>
+                      <small>327</small>
+                    </a>
                   </div>
-                  <div
-                    style={{
-                      position: "absolute",
-                      bottom: "0",
-                    }}
-                  >
-                    <p class="mb-0 text-muted">Photoshop</p>
-                    <h5 class="card-title text-light mb-3">
+                  <div className="posts-card-popular__title card-body">
+                    <small className="text-muted text-uppercase">
+                      photoshop
+                    </small>
+                    <a className="card-title" href="blog-post.html">
                       Semantic Logo Design
-                    </h5>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="card shadow-sm p-3 mb-5 bg-body rounded">
-            <div className="row">
-              <div class="col-auto">
-                <a href="/#">
-                  <img
-                    src={invision}
-                    alt=""
-                    srcset=""
-                    className="rounded"
-                    width="70"
-                  />
-                </a>
-              </div>
-              <div className="col-3">
-                <a
-                  href="/#"
-                  className="card-title text-dark fw-bold text-decoration-none mr-3"
-                >
-                  Design System Essentials
-                </a>
-                <br />
-                <small className="text-muted">35 Views last week</small>
-              </div>
-              <div className="col-2 my-auto">
-                <div className="text-uppercase text-muted">
-                  <i class="far fa-folder"></i> invision
+          <div className="posts-cards">
+            <div className="card posts-card mb-0">
+              <div
+                className="
+                    posts-card__content
+                    d-flex
+                    align-items-center
+                    flex-wrap
+                  "
+              >
+                <div className="avatar avatar-lg mr-3">
+                  <a href="blog-post.html">
+                    <img
+                      src="images/paths/invision_200x168.png"
+                      alt="avatar"
+                      className="avatar-img rounded"
+                    />
+                  </a>
                 </div>
-              </div>
-              <div className="col-auto my-auto">
-                <div className="text-muted">11 Nov, 2018 07:46 AM</div>
-              </div>
-              <div className="col-auto my-auto">
-                <a href="/#">
-                  <img
-                    style={{
-                      width: "1.5rem",
-                      height: "1.5rem",
-                      border: "2px solid white",
-                    }}
-                    src={luke2}
-                    alt="Luke"
-                    className="rounded-circle"
-                  />
-                </a>
-                <a href="/#">
-                  <img
-                    style={{
-                      width: "1.5rem",
-                      height: "1.5rem",
-                      border: "2px solid white",
-                    }}
-                    src={luke2}
-                    alt="Luke"
-                    className="rounded-circle"
-                  />
-                </a>
-                <a href="/#">
-                  <img
-                    style={{
-                      width: "1.5rem",
-                      height: "1.5rem",
-                      border: "2px solid white",
-                    }}
-                    src={luke2}
-                    alt="Luke"
-                    className="rounded-circle"
-                  />
-                </a>
-              </div>
-              <div className="col-auto text-muted my-auto">
-                <a href="/#" className="text-dark text-decoration-none">
-                  <small>+2 more</small>
-                </a>
+                <div className="posts-card__title flex d-flex flex-column">
+                  <a href="blog-post.html" className="card-title mr-3">
+                    Design Systems Essentials
+                  </a>
+                  <small className="text-50">35 views last week</small>
+                </div>
+                <div
+                  className="
+                      d-flex
+                      align-items-center
+                      flex-column flex-sm-row
+                      posts-card__meta
+                    "
+                >
+                  <div
+                    className="
+                        mr-3
+                        text-50 text-uppercase
+                        posts-card__tag
+                        d-flex
+                        align-items-center
+                      "
+                  >
+                    <i className="material-icons text-muted-light mr-1">
+                      folder_open
+                    </i>
+                    inVision
+                  </div>
+                  <div className="mr-3 text-50 posts-card__date">
+                    <small>11 Nov, 2018 07:46 AM</small>
+                  </div>
+                  <div className="media ml-sm-auto align-items-center">
+                    <div className="media-left mr-2 avatar-group">
+                      <div
+                        className="avatar avatar-xs"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Janell D."
+                      >
+                        <img
+                          src="images/256_rsz_1andy-lee-642320-unsplash.jpg"
+                          alt="Avatar"
+                          className="avatar-img rounded-circle"
+                        />
+                      </div>
+
+                      <div
+                        className="avatar avatar-xs"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Janell D."
+                      >
+                        <img
+                          src="images/256_michael-dam-258165-unsplash.jpg"
+                          alt="Avatar"
+                          className="avatar-img rounded-circle"
+                        />
+                      </div>
+
+                      <div
+                        className="avatar avatar-xs"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Janell D."
+                      >
+                        <img
+                          src="images/256_luke-porter-261779-unsplash.jpg"
+                          alt="Avatar"
+                          className="avatar-img rounded-circle"
+                        />
+                      </div>
+                    </div>
+                    <div className="media-body">
+                      <a href="/#">+2 more</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
