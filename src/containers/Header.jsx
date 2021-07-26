@@ -54,7 +54,7 @@ export default function Header() {
               </a>
             </li>
             <li className="nav-item dropdown">
-              <a href="/#" className="nav-link">
+              <a href="/career" className="nav-link">
                 Careers
               </a>
             </li>
