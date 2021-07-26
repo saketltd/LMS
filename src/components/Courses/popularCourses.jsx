@@ -64,11 +64,8 @@ export default function Polular() {
                 <div class="d-flex">
                   <div class="flex">
                     <a class="card-title" href="student-course.html">
-                      Newsletter Design
+                      Clinical Research
                     </a>
-                    <small class="text-50 font-weight-bold mb-4pt">
-                      Elijah Murray
-                    </small>
                   </div>
                   <a
                     href="student-course.html"
@@ -116,13 +113,7 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">Newsletter Design</div>
-                <p class="lh-1 mb-0">
-                  <span class="text-50 small">with</span>
-                  <span class="text-50 small font-weight-bold">
-                    Elijah Murray
-                  </span>
-                </p>
+                <div class="card-title mb-0">Clinical Reasearch</div>
               </div>
             </div>
 
@@ -232,11 +223,8 @@ export default function Polular() {
                 <div class="d-flex">
                   <div class="flex">
                     <a class="card-title" href="student-course.html">
-                      Adobe XD
+                      Clinical Research - 2
                     </a>
-                    <small class="text-50 font-weight-bold mb-4pt">
-                      Elijah Murray
-                    </small>
                   </div>
                   <a
                     href="student-course.html"
@@ -284,13 +272,7 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">Adobe XD</div>
-                <p class="lh-1 mb-0">
-                  <span class="text-50 small">with</span>
-                  <span class="text-50 small font-weight-bold">
-                    Elijah Murray
-                  </span>
-                </p>
+                <div class="card-title mb-0">Clinical Research - 2</div>
               </div>
             </div>
 
@@ -400,11 +382,8 @@ export default function Polular() {
                 <div class="d-flex">
                   <div class="flex">
                     <a class="card-title" href="student-course.html">
-                      inVision App
+                      Clinical Data Management
                     </a>
-                    <small class="text-50 font-weight-bold mb-4pt">
-                      Elijah Murray
-                    </small>
                   </div>
                   <a
                     href="student-course.html"
@@ -452,13 +431,7 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">inVision App</div>
-                <p class="lh-1 mb-0">
-                  <span class="text-50 small">with</span>
-                  <span class="text-50 small font-weight-bold">
-                    Elijah Murray
-                  </span>
-                </p>
+                <div class="card-title mb-0">Clinical Data Management</div>
               </div>
             </div>
 
@@ -568,11 +541,8 @@ export default function Polular() {
                 <div class="d-flex">
                   <div class="flex">
                     <a class="card-title" href="student-course.html">
-                      Craft by inVision
+                      Pharamacovigilance
                     </a>
-                    <small class="text-50 font-weight-bold mb-4pt">
-                      Elijah Murray
-                    </small>
                   </div>
                   <a
                     href="student-course.html"
@@ -620,13 +590,7 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">Craft by inVision</div>
-                <p class="lh-1 mb-0">
-                  <span class="text-50 small">with</span>
-                  <span class="text-50 small font-weight-bold">
-                    Elijah Murray
-                  </span>
-                </p>
+                <div class="card-title mb-0">Pharamacovigilance</div>
               </div>
             </div>
 

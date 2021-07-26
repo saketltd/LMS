@@ -5,7 +5,7 @@ export default function DesignCourses() {
     <div className="page-section border-bottom-2">
       <div className="container page__container">
         <div className="page-separator">
-          <div className="page-separator__text">Design Courses</div>
+          <div className="page-separator__text">Learning Paths</div>
         </div>
 
         <div className="row card-group-row">
@@ -43,11 +43,8 @@ export default function DesignCourses() {
                 <div className="d-flex">
                   <div className="flex">
                     <a className="card-title" href="student-course.html">
-                      Learn Sketch
+                      Fundamentals in Clinical Research_Level-1
                     </a>
-                    <small className="text-50 font-weight-bold mb-4pt">
-                      Elijah Murray
-                    </small>
                   </div>
                   <a
                     href="student-course.html"
@@ -118,13 +115,9 @@ export default function DesignCourses() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title mb-0">Learn Sketch</div>
-                  <p className="lh-1 mb-0">
-                    <span className="text-50 small">with</span>
-                    <span className="text-50 small font-weight-bold">
-                      Elijah Murray
-                    </span>
-                  </p>
+                  <div className="card-title mb-0">
+                    Fundamentals in Clinical Research_Level-1
+                  </div>
                 </div>
               </div>
 
@@ -231,7 +224,7 @@ export default function DesignCourses() {
                 data-position=""
                 data-height="140"
               >
-                <img src="images/paths/flinto_430x168.png" alt="course" />
+                <img src="images/paths/sketch_430x168.png" alt="course" />
                 <span className="overlay__content">
                   <span className="overlay__action d-flex flex-column text-center">
                     <i className="material-icons icon-32pt">
@@ -246,11 +239,8 @@ export default function DesignCourses() {
                 <div className="d-flex">
                   <div className="flex">
                     <a className="card-title" href="student-course.html">
-                      Learn Flinto
+                      Fundamentals in Clinical Research_Level-2
                     </a>
-                    <small className="text-50 font-weight-bold mb-4pt">
-                      Elijah Murray
-                    </small>
                   </div>
                   <a
                     href="student-course.html"
@@ -313,7 +303,7 @@ export default function DesignCourses() {
               <div className="media">
                 <div className="media-left mr-12pt">
                   <img
-                    src="images/paths/flinto_40x40%402x.png"
+                    src="images/paths/sketch_40x40%402x.png"
                     width="40"
                     height="40"
                     alt="Angular"
@@ -321,13 +311,9 @@ export default function DesignCourses() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title mb-0">Learn Flinto</div>
-                  <p className="lh-1 mb-0">
-                    <span className="text-50 small">with</span>
-                    <span className="text-50 small font-weight-bold">
-                      Elijah Murray
-                    </span>
-                  </p>
+                  <div className="card-title mb-0">
+                    Fundamentals in Clinical Research_Level-2
+                  </div>
                 </div>
               </div>
 
@@ -434,7 +420,7 @@ export default function DesignCourses() {
                 data-position=""
                 data-height="140"
               >
-                <img src="images/paths/photoshop_430x168.png" alt="course" />
+                <img src="images/paths/sketch_430x168.png" alt="course" />
                 <span className="overlay__content">
                   <span className="overlay__action d-flex flex-column text-center">
                     <i className="material-icons icon-32pt">
@@ -449,11 +435,8 @@ export default function DesignCourses() {
                 <div className="d-flex">
                   <div className="flex">
                     <a className="card-title" href="student-course.html">
-                      Learn Photoshop
+                      Advanced Concepts in CR_Level-1
                     </a>
-                    <small className="text-50 font-weight-bold mb-4pt">
-                      Elijah Murray
-                    </small>
                   </div>
                   <a
                     href="student-course.html"
@@ -516,7 +499,7 @@ export default function DesignCourses() {
               <div className="media">
                 <div className="media-left mr-12pt">
                   <img
-                    src="images/paths/photoshop_40x40%402x.png"
+                    src="images/paths/sketch_40x40%402x.png"
                     width="40"
                     height="40"
                     alt="Angular"
@@ -524,13 +507,9 @@ export default function DesignCourses() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title mb-0">Learn Photoshop</div>
-                  <p className="lh-1 mb-0">
-                    <span className="text-50 small">with</span>
-                    <span className="text-50 small font-weight-bold">
-                      Elijah Murray
-                    </span>
-                  </p>
+                  <div className="card-title mb-0">
+                    Advanced Concepts in CR_Level-1
+                  </div>
                 </div>
               </div>
 
@@ -652,11 +631,8 @@ export default function DesignCourses() {
                 <div className="d-flex">
                   <div className="flex">
                     <a className="card-title" href="student-course.html">
-                      Learn Figma
+                      Advanced Concepts in CR_Level-2
                     </a>
-                    <small className="text-50 font-weight-bold mb-4pt">
-                      Elijah Murray
-                    </small>
                   </div>
                   <a
                     href="student-course.html"
@@ -727,13 +703,9 @@ export default function DesignCourses() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title mb-0">Learn Figma</div>
-                  <p className="lh-1 mb-0">
-                    <span className="text-50 small">with</span>
-                    <span className="text-50 small font-weight-bold">
-                      Elijah Murray
-                    </span>
-                  </p>
+                  <div className="card-title mb-0">
+                    Advanced Concepts in CR_Level-2
+                  </div>
                 </div>
               </div>
 

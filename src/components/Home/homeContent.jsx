@@ -6,10 +6,7 @@ import LearnigPath from "./learningPaths";
 
 export default function Content() {
   return (
-    <div
-      className="mdk-header-layout__content page-content"
-      style={{ paddingTop: "580px" }}
-    >
+    <div className="mdk-header-layout__content page-content">
       <Blog />
       <LearnigPath />
       <DesignCourses />

@@ -72,27 +72,5 @@
   <body class="layout-sticky-subnav layout-default">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-
-    <script>
-      (function () {
-        "use strict";
-        var headerNode = document.querySelector(".mdk-header");
-        var layoutNode = document.querySelector(".mdk-header-layout");
-        var componentNode = layoutNode ? layoutNode : headerNode;
-        componentNode.addEventListener(
-          "domfactory-component-upgraded",
-          function () {
-            headerNode.mdkHeader.eventTarget.addEventListener(
-              "scroll",
-              function () {
-                var progress = headerNode.mdkHeader.getScrollState().progress;
-                var navbarNode = headerNode.querySelector("#default-navbar");
-                navbarNode.classList.toggle("bg-transparent", progress <= 0.2);
-              }
-            );
-          }
-        );
-      })();
-    </script>
   </body>
 </html>

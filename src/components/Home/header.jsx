@@ -7,9 +7,7 @@ export default function Header() {
     <div
       id="header"
       className="mdk-header mdk-header--bg-dark bg-dark js-mdk-header mb-0"
-      data-effects="parallax-background waterfall"
-      data-fixed
-      data-condenses
+      style={{ position: "relative", zIndex: 1 }}
     >
       <div className="mdk-header__bg">
         <div

@@ -5,7 +5,7 @@ export default function LearnigPath() {
     <div className="page-section border-bottom-2">
       <div className="container page__container">
         <div className="page-separator">
-          <div className="page-separator__text">Learning Paths</div>
+          <div className="page-separator__text">Top Courses</div>
         </div>
 
         <div className="row card-group-row">
@@ -60,7 +60,7 @@ export default function LearnigPath() {
                         </div>
                       </div>
                       <div className="flex">
-                        <div className="card-title">React Native</div>
+                        <div className="card-title">CLINICAL RESEARCH</div>
                         <p className="flex text-50 lh-1 mb-0">
                           <small>18 courses</small>
                         </p>
@@ -99,7 +99,7 @@ export default function LearnigPath() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title">React Native</div>
+                  <div className="card-title">CLINICAL RESEARCH</div>
                   <p className="text-50 d-flex lh-1 mb-0 small">18 courses</p>
                 </div>
               </div>
@@ -228,7 +228,9 @@ export default function LearnigPath() {
                         </div>
                       </div>
                       <div className="flex">
-                        <div className="card-title">Dev Ops</div>
+                        <div className="card-title">
+                          CLINICAL DATA MANAGEMENT
+                        </div>
                         <p className="flex text-50 lh-1 mb-0">
                           <small>18 courses</small>
                         </p>
@@ -267,7 +269,7 @@ export default function LearnigPath() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title">Dev Ops</div>
+                  <div className="card-title">CLINICAL DATA MANAGEMENT</div>
                   <p className="text-50 d-flex lh-1 mb-0 small">18 courses</p>
                 </div>
               </div>
@@ -396,7 +398,7 @@ export default function LearnigPath() {
                         </div>
                       </div>
                       <div className="flex">
-                        <div className="card-title">Redis</div>
+                        <div className="card-title">PHARMACOVIGILANCE</div>
                         <p className="flex text-50 lh-1 mb-0">
                           <small>18 courses</small>
                         </p>
@@ -435,7 +437,7 @@ export default function LearnigPath() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title">Redis</div>
+                  <div className="card-title">PHARMACOVIGILANCE</div>
                   <p className="text-50 d-flex lh-1 mb-0 small">18 courses</p>
                 </div>
               </div>
