@@ -152,9 +152,8 @@ export default function Blog() {
                     </a>
                   </div>
                   <div className="posts-card-popular__title card-body">
-                    <small className="text-muted text-uppercase">sketch</small>
-                    <a className="card-title" href="blog-post.html">
-                      Merge Duplicates Inconsistent Symbols
+                    <a className="card-title" href="/blog">
+                      The Importance of EdTech in a Post-pandemic World
                     </a>
                   </div>
                 </div>
@@ -171,7 +170,7 @@ export default function Blog() {
                   "
               >
                 <img
-                  src="images/paths/invision_430x168.png"
+                  src="images/paths/sketch_430x168.png"
                   alt=""
                   className="card-img"
                 />
@@ -212,11 +211,8 @@ export default function Blog() {
                     </a>
                   </div>
                   <div className="posts-card-popular__title card-body">
-                    <small className="text-muted text-uppercase">
-                      invision
-                    </small>
-                    <a className="card-title" href="blog-post.html">
-                      Design Systems Essentials
+                    <a className="card-title" href="/blog">
+                      Covishield VS Covaxin
                     </a>
                   </div>
                 </div>
@@ -233,7 +229,7 @@ export default function Blog() {
                   "
               >
                 <img
-                  src="images/paths/photoshop_430x168.png"
+                  src="images/paths/sketch_430x168.png"
                   alt=""
                   className="card-img"
                 />
@@ -274,11 +270,8 @@ export default function Blog() {
                     </a>
                   </div>
                   <div className="posts-card-popular__title card-body">
-                    <small className="text-muted text-uppercase">
-                      photoshop
-                    </small>
-                    <a className="card-title" href="blog-post.html">
-                      Semantic Logo Design
+                    <a className="card-title" href="/blog">
+                      The Importance of EdTech in a Post-pandemic World
                     </a>
                   </div>
                 </div>
@@ -286,7 +279,7 @@ export default function Blog() {
             </div>
           </div>
 
-          <div className="posts-cards">
+          {/* <div className="posts-cards">
             <div className="card posts-card mb-0">
               <div
                 className="
@@ -384,7 +377,7 @@ export default function Blog() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

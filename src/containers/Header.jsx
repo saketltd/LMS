@@ -33,7 +33,7 @@ export default function Header() {
           </a>
 
           <ul className="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
-            <li className="nav-item active">
+            <li className="nav-item">
               <a href="/" className="nav-link">
                 Home
               </a>
@@ -44,12 +44,12 @@ export default function Header() {
               </a>
             </li>
             <li className="nav-item dropdown">
-              <a href="/#" className="nav-link">
+              <a href="/about" className="nav-link">
                 About Us
               </a>
             </li>
             <li className="nav-item">
-              <a href="pricing.html" className="nav-link">
+              <a href="/contact" className="nav-link">
                 Contact Us
               </a>
             </li>
@@ -63,7 +63,7 @@ export default function Header() {
           <ul className="nav navbar-nav ml-auto mr-0">
             <li className="nav-item">
               <a
-                href="login.html"
+                href="/login"
                 className="nav-link"
                 data-toggle="tooltip"
                 data-title="Login"
@@ -74,7 +74,7 @@ export default function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="signup.html" className="btn btn-outline-white">
+              <a href="/signup" className="btn btn-outline-white">
                 Get Started
               </a>
             </li>

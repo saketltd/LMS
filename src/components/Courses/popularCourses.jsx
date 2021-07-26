@@ -49,8 +49,8 @@ export default function Polular() {
             data-toggle="popover"
             data-trigger="click"
           >
-            <a href="student-course.html" class="js-image" data-position="">
-              <img src="images/paths/mailchimp_430x168.png" alt="course" />
+            <a href="/studentCourse" class="js-image" data-position="">
+              <img src="images/paths/sketch_430x168.png" alt="course" />
               <span class="overlay__content align-items-start justify-content-start">
                 <span class="overlay__action card-body d-flex align-items-center">
                   <i class="material-icons mr-4pt">play_circle_outline</i>
@@ -63,12 +63,12 @@ export default function Polular() {
               <div class="card-body">
                 <div class="d-flex">
                   <div class="flex">
-                    <a class="card-title" href="student-course.html">
-                      Clinical Research
+                    <a class="card-title" href="/studentCourse">
+                      CLINICAL RESEARCH APPROACHES
                     </a>
                   </div>
                   <a
-                    href="student-course.html"
+                    href="/studentCourse"
                     data-toggle="tooltip"
                     data-title="Remove Favorite"
                     data-placement="top"
@@ -113,7 +113,7 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">Clinical Reasearch</div>
+                <div class="card-title mb-0">CLINICAL RESEARCH APPROACHES </div>
               </div>
             </div>
 
@@ -193,7 +193,7 @@ export default function Polular() {
                 </div>
               </div>
               <div class="col text-right">
-                <a href="student-course.html" class="btn btn-primary">
+                <a href="/studentCourse" class="btn btn-primary">
                   Watch trailer
                 </a>
               </div>
@@ -208,8 +208,8 @@ export default function Polular() {
             data-toggle="popover"
             data-trigger="click"
           >
-            <a href="student-course.html" class="js-image" data-position="">
-              <img src="images/paths/xd_430x168.png" alt="course" />
+            <a href="/studentCourse" class="js-image" data-position="">
+              <img src="images/paths/sketch_430x168.png" alt="course" />
               <span class="overlay__content align-items-start justify-content-start">
                 <span class="overlay__action card-body d-flex align-items-center">
                   <i class="material-icons mr-4pt">play_circle_outline</i>
@@ -222,12 +222,12 @@ export default function Polular() {
               <div class="card-body">
                 <div class="d-flex">
                   <div class="flex">
-                    <a class="card-title" href="student-course.html">
-                      Clinical Research - 2
+                    <a class="card-title" href="/studentCourse">
+                      DRUGS, APPROVAL &amp; MARKETING PROCESS
                     </a>
                   </div>
                   <a
-                    href="student-course.html"
+                    href="/studentCourse"
                     data-toggle="tooltip"
                     data-title="Add Favorite"
                     data-placement="top"
@@ -272,7 +272,9 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">Clinical Research - 2</div>
+                <div class="card-title mb-0">
+                  DRUGS, APPROVAL &amp; MARKETING PROCESS
+                </div>
               </div>
             </div>
 
@@ -352,7 +354,7 @@ export default function Polular() {
                 </div>
               </div>
               <div class="col text-right">
-                <a href="student-course.html" class="btn btn-primary">
+                <a href="/studentCourse" class="btn btn-primary">
                   Watch trailer
                 </a>
               </div>
@@ -367,8 +369,8 @@ export default function Polular() {
             data-toggle="popover"
             data-trigger="click"
           >
-            <a href="student-course.html" class="js-image" data-position="">
-              <img src="images/paths/invision_430x168.png" alt="course" />
+            <a href="/studentCourse" class="js-image" data-position="">
+              <img src="images/paths/sketch_430x168.png" alt="course" />
               <span class="overlay__content align-items-start justify-content-start">
                 <span class="overlay__action card-body d-flex align-items-center">
                   <i class="material-icons mr-4pt">play_circle_outline</i>
@@ -381,12 +383,12 @@ export default function Polular() {
               <div class="card-body">
                 <div class="d-flex">
                   <div class="flex">
-                    <a class="card-title" href="student-course.html">
-                      Clinical Data Management
+                    <a class="card-title" href="/studentCourse">
+                      HARMONIZATION ACTIVITIES
                     </a>
                   </div>
                   <a
-                    href="student-course.html"
+                    href="/studentCourse"
                     data-toggle="tooltip"
                     data-title="Add Favorite"
                     data-placement="top"
@@ -431,7 +433,7 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">Clinical Data Management</div>
+                <div class="card-title mb-0">HARMONIZATION ACTIVITIES</div>
               </div>
             </div>
 
@@ -511,7 +513,7 @@ export default function Polular() {
                 </div>
               </div>
               <div class="col text-right">
-                <a href="student-course.html" class="btn btn-primary">
+                <a href="/studentCourse" class="btn btn-primary">
                   Watch trailer
                 </a>
               </div>
@@ -526,8 +528,8 @@ export default function Polular() {
             data-toggle="popover"
             data-trigger="click"
           >
-            <a href="student-course.html" class="js-image" data-position="">
-              <img src="images/paths/craft_430x168.png" alt="course" />
+            <a href="/studentCourse" class="js-image" data-position="">
+              <img src="images/paths/sketch_430x168.png" alt="course" />
               <span class="overlay__content align-items-start justify-content-start">
                 <span class="overlay__action card-body d-flex align-items-center">
                   <i class="material-icons mr-4pt">play_circle_outline</i>
@@ -540,12 +542,12 @@ export default function Polular() {
               <div class="card-body">
                 <div class="d-flex">
                   <div class="flex">
-                    <a class="card-title" href="student-course.html">
-                      Pharamacovigilance
+                    <a class="card-title" href="/studentCourse">
+                      SCIENTIFIC COMMUNITY
                     </a>
                   </div>
                   <a
-                    href="student-course.html"
+                    href="/studentCourse"
                     data-toggle="tooltip"
                     data-title="Add Favorite"
                     data-placement="top"
@@ -590,7 +592,9 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">Pharamacovigilance</div>
+                <div class="card-title mb-0">
+                  SCIENTIFIC COMMUNITY - ROLES &amp; RESPONSIBILITIES
+                </div>
               </div>
             </div>
 
@@ -670,7 +674,7 @@ export default function Polular() {
                 </div>
               </div>
               <div class="col text-right">
-                <a href="student-course.html" class="btn btn-primary">
+                <a href="/studentCourse" class="btn btn-primary">
                   Watch trailer
                 </a>
               </div>

@@ -1,14 +1,92 @@
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, "Exo 2";
-  font-size: 0.8125rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #272c33;
-  background-color: #f5f7fa !important;
-}
 .checked {
   color: orange;
+}
+
+.extra-small-icon a {
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+figure.figurefx {
+  margin: 30px auto;
+  padding: 0;
+  display: block;
+  position: relative;
+  overflow: hidden; /* hide overflowing elements by default */
+}
+
+figure.figurefx figcaption {
+  position: absolute;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  background: white;
+  padding: 15px;
+  z-index: 100;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  top: 50%;
+  left: 0;
+  -moz-transform: translate3d(
+    -100%,
+    -50%,
+    0
+  ); /* position caption outside layout horizontally and centered vertically */
+  -webkit-transform: translate3d(-100%, -50%, 0);
+  transform: translate3d(-100%, -50%, 0);
+  opacity: 0;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+figure.figurefx figcaption a {
+  text-decoration: none;
+}
+
+/*** Push Up effect ****/
+figure.pushup img {
+  -moz-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+figure.pushup figcaption {
+  top: 100%;
+  opacity: 1;
+  -moz-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure.pushup:hover img {
+  -moz-transform: translate3d(
+    0,
+    -20px,
+    0
+  ); /* move image up vertically a bit for parallax effect */
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+  opacity: 0.5;
+}
+
+figure.pushup:hover figcaption {
+  -moz-transform: translate3d(
+    0,
+    -100%,
+    0
+  ); /* move caption up vertically to fully reveal caption */
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
 }

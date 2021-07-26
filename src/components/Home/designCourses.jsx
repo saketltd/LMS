@@ -23,7 +23,7 @@ export default function DesignCourses() {
               data-trigger="click"
             >
               <a
-                href="student-course.html"
+                href="/studentCourse"
                 className="card-img-top js-image"
                 data-position=""
                 data-height="140"
@@ -42,12 +42,12 @@ export default function DesignCourses() {
               <div className="card-body flex">
                 <div className="d-flex">
                   <div className="flex">
-                    <a className="card-title" href="student-course.html">
+                    <a className="card-title" href="/studentCourse">
                       Fundamentals in Clinical Research_Level-1
                     </a>
                   </div>
                   <a
-                    href="student-course.html"
+                    href="/studentCourse"
                     data-toggle="tooltip"
                     data-title="Add Favorite"
                     data-placement="top"
@@ -197,7 +197,7 @@ export default function DesignCourses() {
                   </div>
                 </div>
                 <div className="col text-right">
-                  <a href="student-course.html" className="btn btn-primary">
+                  <a href="/studentCourse" className="btn btn-primary">
                     Watch trailer
                   </a>
                 </div>
@@ -219,7 +219,7 @@ export default function DesignCourses() {
               data-trigger="click"
             >
               <a
-                href="student-course.html"
+                href="/studentCourse"
                 className="card-img-top js-image"
                 data-position=""
                 data-height="140"
@@ -238,12 +238,12 @@ export default function DesignCourses() {
               <div className="card-body flex">
                 <div className="d-flex">
                   <div className="flex">
-                    <a className="card-title" href="student-course.html">
+                    <a className="card-title" href="/studentCourse">
                       Fundamentals in Clinical Research_Level-2
                     </a>
                   </div>
                   <a
-                    href="student-course.html"
+                    href="/studentCourse"
                     data-toggle="tooltip"
                     data-title="Add Favorite"
                     data-placement="top"
@@ -393,7 +393,7 @@ export default function DesignCourses() {
                   </div>
                 </div>
                 <div className="col text-right">
-                  <a href="student-course.html" className="btn btn-primary">
+                  <a href="/studentCourse" className="btn btn-primary">
                     Watch trailer
                   </a>
                 </div>
@@ -415,7 +415,7 @@ export default function DesignCourses() {
               data-trigger="click"
             >
               <a
-                href="student-course.html"
+                href="/studentCourse"
                 className="card-img-top js-image"
                 data-position=""
                 data-height="140"
@@ -434,12 +434,12 @@ export default function DesignCourses() {
               <div className="card-body flex">
                 <div className="d-flex">
                   <div className="flex">
-                    <a className="card-title" href="student-course.html">
+                    <a className="card-title" href="/studentCourse">
                       Advanced Concepts in CR_Level-1
                     </a>
                   </div>
                   <a
-                    href="student-course.html"
+                    href="/studentCourse"
                     data-toggle="tooltip"
                     data-title="Add Favorite"
                     data-placement="top"
@@ -589,7 +589,7 @@ export default function DesignCourses() {
                   </div>
                 </div>
                 <div className="col text-right">
-                  <a href="student-course.html" className="btn btn-primary">
+                  <a href="/studentCourse" className="btn btn-primary">
                     Watch trailer
                   </a>
                 </div>
@@ -611,12 +611,12 @@ export default function DesignCourses() {
               data-trigger="click"
             >
               <a
-                href="student-course.html"
+                href="/studentCourse"
                 className="card-img-top js-image"
                 data-position=""
                 data-height="140"
               >
-                <img src="images/paths/figma_430x168.png" alt="course" />
+                <img src="images/paths/sketch_430x168.png" alt="course" />
                 <span className="overlay__content">
                   <span className="overlay__action d-flex flex-column text-center">
                     <i className="material-icons icon-32pt">
@@ -630,12 +630,12 @@ export default function DesignCourses() {
               <div className="card-body flex">
                 <div className="d-flex">
                   <div className="flex">
-                    <a className="card-title" href="student-course.html">
+                    <a className="card-title" href="/studentCourse">
                       Advanced Concepts in CR_Level-2
                     </a>
                   </div>
                   <a
-                    href="student-course.html"
+                    href="/studentCourse"
                     data-toggle="tooltip"
                     data-title="Add Favorite"
                     data-placement="top"
@@ -785,7 +785,7 @@ export default function DesignCourses() {
                   </div>
                 </div>
                 <div className="col text-right">
-                  <a href="student-course.html" className="btn btn-primary">
+                  <a href="/studentCourse" className="btn btn-primary">
                     Watch trailer
                   </a>
                 </div>

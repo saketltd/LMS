@@ -30,7 +30,10 @@ export default function Feedback() {
             </a>
             <div className="mdk-carousel__content">
               <div className="col-12 col-md-6">
-                <div className="card card-feedback card-body">
+                <div
+                  className="card card-feedback card-body"
+                  style={{ height: "200px" }}
+                >
                   <blockquote className="blockquote mb-0">
                     <p className="text-70 small mb-0">
                       Having joined ACRI in 2018, I have been subject to a
@@ -81,7 +84,10 @@ export default function Feedback() {
               </div>
 
               <div className="col-12 col-md-6">
-                <div className="card card-feedback card-body">
+                <div
+                  className="card card-feedback card-body"
+                  style={{ height: "200px" }}
+                >
                   <blockquote className="blockquote mb-0">
                     <p className="text-70 small mb-0">
                       I joined ACRI after completing my Bachelor’s in
@@ -130,7 +136,10 @@ export default function Feedback() {
               </div>
 
               <div className="col-12 col-md-6">
-                <div className="card card-feedback card-body">
+                <div
+                  className="card card-feedback card-body"
+                  style={{ height: "200px" }}
+                >
                   <blockquote className="blockquote mb-0">
                     <p className="text-70 small mb-0">
                       ACRI is the perfect institute for aspirants of Life
@@ -160,6 +169,115 @@ export default function Feedback() {
                   <div className="media-body media-middle">
                     <a href="student-profile.html" className="card-title">
                       Dr. Anupama A Sattigeri
+                    </a>
+                    <div className="rating mt-4pt">
+                      <span className="rating__item">
+                        <span className="material-icons">star</span>
+                      </span>
+                      <span className="rating__item">
+                        <span className="material-icons">star</span>
+                      </span>
+                      <span className="rating__item">
+                        <span className="material-icons">star</span>
+                      </span>
+                      <span className="rating__item">
+                        <span className="material-icons">star</span>
+                      </span>
+                      <span className="rating__item">
+                        <span className="material-icons">star_border</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-6">
+                <div
+                  className="card card-feedback card-body"
+                  style={{ height: "200px" }}
+                >
+                  <blockquote className="blockquote mb-0">
+                    <p className="text-70 small mb-0">
+                      I wanted to take up an academic course in Clinical
+                      Research after learning about the scope it entails. But
+                      the question persisted; Where from? I finally breathed a
+                      sigh of relief after landing in ACRI! The amazing staff at
+                      the institute is the reason I got to interview with
+                      leading companies and I’m happy to be placed in a top
+                      pharmaceutical company as a Drug Safety Associate.
+                      Grateful to the wonderful people at ACRI!
+                    </p>
+                  </blockquote>
+                </div>
+                <div className="media ml-12pt">
+                  <div className="media-left mr-12pt">
+                    <a href="student-profile.html" className="avatar avatar-sm">
+                      <img
+                        src="images/Shruthi BR.jpg"
+                        alt="Shruthi BR"
+                        className="avatar-title rounded-circle"
+                      ></img>
+                    </a>
+                  </div>
+                  <div className="media-body media-middle">
+                    <a href="student-profile.html" className="card-title">
+                      Dr. Shruti B.R.
+                    </a>
+                    <div className="rating mt-4pt">
+                      <span className="rating__item">
+                        <span className="material-icons">star</span>
+                      </span>
+                      <span className="rating__item">
+                        <span className="material-icons">star</span>
+                      </span>
+                      <span className="rating__item">
+                        <span className="material-icons">star</span>
+                      </span>
+                      <span className="rating__item">
+                        <span className="material-icons">star</span>
+                      </span>
+                      <span className="rating__item">
+                        <span className="material-icons">star_border</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-6">
+                <div
+                  className="card card-feedback card-body"
+                  style={{ height: "200px" }}
+                >
+                  <blockquote className="blockquote mb-0">
+                    <p className="text-70 small mb-0">
+                      ACRI is without a doubt the ideal institute to enhance
+                      one’s path in the clinical research field. Having opted
+                      for the three-months course, I got to learn a great deal
+                      and the four modules were perfectly segmented. Personality
+                      development sessions gave my confidence an instant boost
+                      and the aptitude tests prepared me to tackle tricky maths.
+                      These efforts of the institutes combined by mine led me to
+                      be placed at Parexel, a leading CRO. ACRI has given me the
+                      best learning experience and I would suggest any aspirant
+                      planning to take up careers in Clinical Research to give
+                      ACRI a shot.
+                    </p>
+                  </blockquote>
+                </div>
+                <div className="media ml-12pt">
+                  <div className="media-left mr-12pt">
+                    <a href="student-profile.html" className="avatar avatar-sm">
+                      <img
+                        src="images/Vyshnavi .M.jpg"
+                        alt="Vyshnavi .M"
+                        className="avatar-title rounded-circle"
+                      ></img>
+                    </a>
+                  </div>
+                  <div className="media-body media-middle">
+                    <a href="student-profile.html" className="card-title">
+                      Vyshnavi M.
                     </a>
                     <div className="rating mt-4pt">
                       <span className="rating__item">

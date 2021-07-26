@@ -2,9 +2,15 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-dark border-top-2 mt-auto">
+    <div
+      className=" border-top-2 mt-auto"
+      style={{ backgroundColor: "#303956" }}
+    >
       <div className="container page__container page-section d-flex flex-column">
-        <div className="row" style={{ paddingTop: "5%", paddingBottom: "5%" }}>
+        <div
+          className="row justify-content-center"
+          style={{ paddingTop: "5%", paddingBottom: "5%" }}
+        >
           <div className="col-12 col-lg-3 col-md-4 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
             <img
               className="brand-icon"
@@ -15,62 +21,241 @@ export default function Footer() {
             />
             <p
               className="measure-lead-max mr-8pt"
-              style={{ width: "95%", color: "#7f8b9c" }}
+              style={{
+                width: "95%",
+                color: "#7f8b9c",
+                lineHeight: "30px",
+                fontSize: 15,
+              }}
             >
               True Lessons is a dedicated platform offering specialized courses
               in Clinical Research as well as in all-round communicative and
               language development training.
             </p>
+            <div>
+              <ul
+                className="extra-small-icon"
+                style={{ listStyle: "none", padding: 0 }}
+              >
+                <li
+                  style={{
+                    marginLeft: 0,
+                    margin: "0 2px",
+                    display: "inline-block",
+                  }}
+                >
+                  <a
+                    href="https://www.facebook.com/avignaclinicalresearchinstitute"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: "#fff", display: "inline-block" }}
+                  >
+                    <i
+                      style={{ fontWeight: "400" }}
+                      class="fab fa-facebook-f"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  style={{
+                    marginLeft: 0,
+                    margin: "0 2px",
+                    display: "inline-block",
+                  }}
+                >
+                  {" "}
+                  <a
+                    href="https://www.instagram.com/acriindia/"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: "#fff", display: "inline-block" }}
+                  >
+                    <i
+                      style={{ fontWeight: "400" }}
+                      class="fab fa-instagram"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  style={{
+                    marginLeft: 0,
+                    margin: "0 2px",
+                    display: "inline-block",
+                  }}
+                >
+                  {" "}
+                  <a
+                    href="https://twitter.com/ACRIIndia"
+                    target="_blank"
+                    style={{ color: "#fff", display: "inline-block" }}
+                    rel="noreferrer"
+                  >
+                    <i style={{ fontWeight: "400" }} class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li
+                  style={{
+                    marginLeft: 0,
+                    margin: "0 2px",
+                    display: "inline-block",
+                  }}
+                >
+                  <a
+                    href="https://www.linkedin.com/in/avignaclinicalresearch/?originalSubdomain=in"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: "#fff", display: "inline-block" }}
+                  >
+                    <i
+                      style={{ fontWeight: "400" }}
+                      class="fab fa-linkedin"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  style={{
+                    marginLeft: 0,
+                    margin: "0 2px",
+                    display: "inline-block",
+                  }}
+                >
+                  {" "}
+                  <a
+                    href="https://in.pinterest.com/avignaclinicalresearch/_created/"
+                    target="_blank"
+                    style={{ color: "#fff", display: "inline-block" }}
+                    rel="noreferrer"
+                  >
+                    <i
+                      style={{ fontWeight: "400" }}
+                      class="fab fa-pinterest"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  style={{
+                    marginLeft: 0,
+                    margin: "0 2px",
+                    display: "inline-block",
+                  }}
+                >
+                  {" "}
+                  <a
+                    href="https://www.youtube.com/channel/UCVD6JlUI5Hg1eN9Aoanp7fg"
+                    target="_blank"
+                    style={{ color: "#fff", display: "inline-block" }}
+                    rel="noreferrer"
+                  >
+                    <i style={{ fontWeight: "400" }} class="fab fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="col-12 col-lg-2 offset-lg-1 col-md-4 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
             <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom"></span>
             <ul
               style={{
-                marginTop: 25,
+                marginTop: 45,
                 fontSize: 15,
                 padding: 0,
                 listStyle: "none",
               }}
             >
-              <li>
+              <li style={{ marginBottom: "7px" }}>
                 <a href="/about" style={{ color: "#7f8b9c" }}>
                   About Us
                 </a>
               </li>
-              <li>
+              <li style={{ marginBottom: "7px" }}>
                 <a href="/clinical" style={{ color: "#7f8b9c" }}>
                   Clinical Research
                 </a>
               </li>
-              <li>
+              <li style={{ marginBottom: "7px" }}>
                 <a href="/career" style={{ color: "#7f8b9c" }}>
                   Career Development
                 </a>
               </li>
-              <li>
+              <li style={{ marginBottom: "7px" }}>
                 <a href="/about#team" style={{ color: "#7f8b9c" }}>
                   Team
                 </a>
               </li>
-              <li>
+              <li style={{ marginBottom: "7px" }}>
                 <a href="/contact" style={{ color: "#7f8b9c" }}>
                   Contact us
                 </a>
               </li>
             </ul>
           </div>
+          <div class="col-12 col-lg-2 col-md-4 col-sm-6 xs-margin-45px-bottom">
+            <span
+              class="d-block text-white"
+              style={{
+                marginBottom: "20px",
+                fontWeight: "500",
+                fontSize: "15px",
+              }}
+            >
+              Featured Courses
+            </span>
+            <ul
+              style={{
+                fontSize: 15,
+                padding: 0,
+                listStyle: "none",
+              }}
+            >
+              <li style={{ marginBottom: "7px" }}>
+                <a href="/pgdcr" style={{ color: "#7f8b9c" }}>
+                  PG Diploma in Clinical Research
+                </a>
+              </li>
+              <li style={{ marginBottom: "7px" }}>
+                <a href="/oet" style={{ color: "#7f8b9c" }}>
+                  OET
+                </a>
+              </li>
+              <li style={{ marginBottom: "7px" }}>
+                <a href="/IELTS" style={{ color: "#7f8b9c" }}>
+                  IELTS
+                </a>
+              </li>
+              <li style={{ marginBottom: "7px" }}>
+                <a href="/TOEFL" style={{ color: "#7f8b9c" }}>
+                  TOEFL
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <p className="mb-8pt d-flex">
-          <a href="/#" className="text-70 text-underline mr-8pt small">
-            Terms
-          </a>
-          <a href="/#" className="text-70 text-underline small">
-            Privacy policy
-          </a>
-        </p>
-        <p className="text-50 small mt-n1 mb-0">
-          Copyright 2019 &copy; All rights reserved.
-        </p>
+      </div>
+      <div
+        style={{
+          paddingTop: "35px",
+          paddingBottom: "35px",
+          borderTop: "1px solid rgba(255, 255, 255, .1)",
+        }}
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 sm-margin-15px-bottom"></div>
+            <div class="col-12 col-md-6 text-center text-md-right last-paragraph-no-margin">
+              <p style={{ fontSize: 15, color: "#8890a4" }}>
+                © 2021 True Lessons is Proudly Powered by{" "}
+                <a
+                  href="https://cognilements.com/"
+                  target="_blank"
+                  class="text-decoration-line-bottom text-white"
+                  rel="noreferrer"
+                >
+                  Cognilements
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
