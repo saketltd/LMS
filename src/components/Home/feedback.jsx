@@ -5,7 +5,7 @@ export default function Feedback() {
     <div className="page-section">
       <div className="container page__container">
         <div className="page-headline text-center">
-          <h2>Feedback</h2>
+          <h2>Testimonials</h2>
           <p className="lead measure-lead mx-auto text-70">
             What other students turned professionals have to say about us after
             learning with us and reaching their goals.
