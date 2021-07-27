@@ -673,7 +673,7 @@ export default function Development() {
             <div className="media">
               <div className="media-left mr-12pt">
                 <img
-                  src="images/paths/figma_40x40%402x.png"
+                  src="images/paths/sketch_40x40%402x.png"
                   width="40"
                   height="40"
                   alt="Angular"

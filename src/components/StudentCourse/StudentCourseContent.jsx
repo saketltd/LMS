@@ -29,12 +29,14 @@ export default function StudentCourseContent() {
         <div class="mdk-box__content">
           <div class="hero py-64pt text-center text-sm-left">
             <div class="container page__container">
-              <h1 class="text-white">Angular Fundamentals</h1>
+              <h1 class="text-white">
+                Learn the fundamentals of clinical research and phases of
+                clinical trials.
+              </h1>
               <p class="lead text-white-50 measure-hero-lead">
-                It’s not every day that one of the most important front-end
-                libraries in web development gets a complete overhaul. Keep your
-                skills relevant and up-to-date with this comprehensive
-                introduction to Google’s popular community project.
+                Clear the basics of Clinical Trials. Understand the phases of a
+                Clinical Trial. Have insight into Toxicokinetic Studies. Be
+                informed about the Evolution of Clinical Research
               </p>
               <div class="d-flex flex-column flex-sm-row align-items-center justify-content-start">
                 <a
@@ -100,7 +102,9 @@ export default function StudentCourseContent() {
                     data-target="#course-toc-2"
                     data-parent="#parent"
                   >
-                    <span class="flex">Getting Started with Angular</span>
+                    <span class="flex">
+                      Clear the basics of Clinical Trials
+                    </span>
                     <span class="accordion__toggle-icon material-icons">
                       keyboard_arrow_down
                     </span>
@@ -122,7 +126,7 @@ export default function StudentCourseContent() {
                         </i>
                       </span>
                       <a class="flex" href="student-lesson.html">
-                        Introduction to TypeScript
+                        Introduction
                       </a>
                       <span class="text-muted">50m 13s</span>
                     </div>
@@ -131,7 +135,7 @@ export default function StudentCourseContent() {
                         <i class="material-icons icon-16pt">lock</i>
                       </span>
                       <a class="flex" href="student-lesson.html">
-                        Comparing Angular to AngularJS
+                        Comparing
                       </a>
                       <span class="text-muted">12m 10s</span>
                     </div>
@@ -140,7 +144,7 @@ export default function StudentCourseContent() {
                         <i class="material-icons icon-16pt">hourglass_empty</i>
                       </span>
                       <a class="flex" href="student-take-quiz.html">
-                        Quiz: Getting Started With Angular
+                        Quiz: Getting Started
                       </a>
                     </div>
                   </div>
@@ -154,7 +158,7 @@ export default function StudentCourseContent() {
                     data-parent="#parent"
                   >
                     <span class="flex">
-                      Creating and Communicating Between Angular Components
+                      Understand the phases of a Clinical Trial.
                     </span>
                     <span class="accordion__toggle-icon material-icons">
                       keyboard_arrow_down
@@ -166,7 +170,7 @@ export default function StudentCourseContent() {
                         <i class="material-icons icon-16pt">lock</i>
                       </span>
                       <a class="flex" href="student-lesson.html">
-                        Angular Components
+                        Phases
                       </a>
                       <span class="text-muted">04:23</span>
                     </div>
@@ -180,24 +184,11 @@ export default function StudentCourseContent() {
                     data-target="#course-toc-4"
                     data-parent="#parent"
                   >
-                    <span class="flex">
-                      Exploring the Angular Template Syntax
-                    </span>
+                    <span class="flex">Exploring</span>
                     <span class="accordion__toggle-icon material-icons">
                       keyboard_arrow_down
                     </span>
                   </a>
-                  <div class="accordion__menu collapse" id="course-toc-4">
-                    <div class="accordion__menu-link">
-                      <span class="icon-holder icon-holder--small icon-holder--light rounded-circle d-inline-flex icon--left">
-                        <i class="material-icons icon-16pt">lock</i>
-                      </span>
-                      <a class="flex" href="student-lesson.html">
-                        Template Syntax
-                      </a>
-                      <span class="text-muted">04:23</span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -254,28 +245,26 @@ export default function StudentCourseContent() {
                 <li class="d-flex align-items-center">
                   <span class="material-icons text-50 mr-8pt">check</span>
                   <span class="text-70">
-                    Fundamentals of working with Angular
+                    Fundamentals of working with Clinical Research
                   </span>
                 </li>
                 <li class="d-flex align-items-center">
                   <span class="material-icons text-50 mr-8pt">check</span>
                   <span class="text-70">
-                    Create complete Angular applications
+                    Understand the phases of a Clinical Trial
                   </span>
-                </li>
-                <li class="d-flex align-items-center">
-                  <span class="material-icons text-50 mr-8pt">check</span>
-                  <span class="text-70">Working with the Angular CLI</span>
                 </li>
                 <li class="d-flex align-items-center">
                   <span class="material-icons text-50 mr-8pt">check</span>
                   <span class="text-70">
-                    Understanding Dependency Injection
+                    Have insight into Toxicokinetic Studies
                   </span>
                 </li>
                 <li class="d-flex align-items-center">
                   <span class="material-icons text-50 mr-8pt">check</span>
-                  <span class="text-70">Testing with Angular</span>
+                  <span class="text-70">
+                    Be informed about the Evolution of Clinical Research
+                  </span>
                 </li>
               </ul>
             </div>

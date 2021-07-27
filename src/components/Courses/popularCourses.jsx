@@ -105,7 +105,7 @@ export default function Polular() {
             <div class="media">
               <div class="media-left mr-12pt">
                 <img
-                  src="images/paths/mailchimp_40x40%402x.png"
+                  src="images/paths/sketch_40x40%402x.png"
                   width="40"
                   height="40"
                   alt="Angular"
@@ -257,7 +257,7 @@ export default function Polular() {
             <div class="media">
               <div class="media-left mr-12pt">
                 <img
-                  src="images/paths/xd_40x40%402x.png"
+                  src="images/paths/sketch_40x40%402x.png"
                   width="40"
                   height="40"
                   alt="Angular"
@@ -411,7 +411,7 @@ export default function Polular() {
             <div class="media">
               <div class="media-left mr-12pt">
                 <img
-                  src="images/paths/invision_40x40%402x.png"
+                  src="images/paths/sketch_40x40%402x.png"
                   width="40"
                   height="40"
                   alt="Angular"
@@ -563,7 +563,7 @@ export default function Polular() {
             <div class="media">
               <div class="media-left mr-12pt">
                 <img
-                  src="images/paths/craft_40x40%402x.png"
+                  src="images/paths/sketch_40x40%402x.png"
                   width="40"
                   height="40"
                   alt="Angular"

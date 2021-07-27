@@ -31,7 +31,7 @@ export default function Blog() {
                 <i className="material-icons text-white">subscriptions</i>
               </div>
               <div className="flex">
-                <div className="card-title mb-4pt">8,000+ Courses</div>
+                <div className="card-title mb-4pt">20+ Courses</div>
                 <p className="card-subtitle text-70">
                   Explore a wide range of skills.
                 </p>

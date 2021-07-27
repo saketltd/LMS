@@ -20,8 +20,7 @@ export default function BlogContent() {
               </div>
               <div class="flex">
                 <h1 class="h2 measure-lead-max mb-16pt">
-                  Defects in the Healthcare System as highlighted during the
-                  Covid-19 pandemic.
+                  The Importance of EdTech in a Post-pandemic World.
                 </h1>
               </div>
             </div>
@@ -47,85 +46,150 @@ export default function BlogContent() {
                 </div>
                 <div class="flex">
                   <p class="lead measure-paragraph-max">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A,
-                    accusamus culpa deserunt distinctio, eos expedita inventore
-                    labore laborum libero magnam nisi recusandae sapiente sunt
-                    unde, voluptatibus? Accusantium distinctio laborum nihil,
-                    nostrum possimus quos rem repellendus tenetur voluptatem! A,
-                    ad adipisci commodi doloribus id maxime provident quo
-                    suscipit. Itaque, recusandae ut.
+                    Education, as we know it today, is taking a fluid shape and
+                    size. It is now not just limited to thick textbooks and a
+                    bag full of study material. The conventional model of
+                    education is witnessing a transformation. This
+                    transformation is being driven and directed keeping
+                    technology at the helm. We see seminars, educational
+                    meet-ups, conferences, parent-teacher meets, and classes
+                    taking place over the internet. This said revolution has not
+                    occurred overnight and is definitely not the final frontier
+                    of what we today refer to as “Education Technology” or
+                    “EdTech”.
                   </p>
                 </div>
               </div>
 
               <blockquote class="blockquote blockquote--reverse pl-0">
                 <p class="text-50">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Cumque debitis distinctio earum et fugiat id itaque officia
-                  provident quasi! Dolorem, fuga modi molestias natus non nulla
-                  optio porro praesentium provident quaerat.
+                  To put it simply, EdTech or Education Technology is the
+                  incorporation of technology into education. Varied mediums and
+                  channels are utilized to share information, keeping the
+                  learning aspect in the center. Lesson plans are no longer
+                  lengthy process maps on papers, students’ inventory management
+                  is not only limited to stocky record books and classes no
+                  longer require the tangible presence, neither of the teacher
+                  nor the student.
                 </p>
                 <footer class="blockquote-footer">
                   Someone famous in
                   <cite title="Source Title">Source Title</cite>
                 </footer>
               </blockquote>
+              <div class="measure-lead-max">
+                <div class="page-separator">
+                  <div class="page-separator__text">Comments</div>
+                </div>
+
+                <div class="d-flex mb-24pt">
+                  <a href="/" class="avatar avatar-sm mr-12pt">
+                    <span class="avatar-title rounded-circle">LB</span>
+                  </a>
+                  <div class="flex">
+                    <div class="form-group">
+                      <label for="comment" class="form-label">
+                        Your comment
+                      </label>
+                      <textarea
+                        class="form-control"
+                        name="comment"
+                        id="comment"
+                        rows="3"
+                        placeholder="Type here to leave a comment ..."
+                      ></textarea>
+                    </div>
+                    <button class="btn btn-outline-secondary">
+                      Post comment
+                    </button>
+                  </div>
+                </div>
+                <div class="pt-3 mb-24pt">
+                  <h4>2 Comments</h4>
+                  <div class="d-flex mb-3">
+                    <a href="/" class="avatar avatar-sm mr-12pt">
+                      <span class="avatar-title rounded-circle">JF</span>
+                    </a>
+                    <div class="flex">
+                      <a href="/" class="text-body">
+                        <strong>Joseph S. Ferland</strong>
+                      </a>
+                      <br />
+                      <p class="mt-1 text-70">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Vero neque magnam modi corrupti in aliquid odit
+                        eligendi pariatur! Ad consequatur illo voluptates,
+                        dignissimos tenetur odit magni excepturi! Nesciunt,
+                        fuga, vel.
+                      </p>
+                      <div class="d-flex align-items-center">
+                        <small class="text-50 mr-2">27 min ago</small>
+                        <a href="/" class="text-50">
+                          <small>Liked</small>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="ml-sm-32pt mt-3 card p-3">
+                    <div class="d-flex">
+                      <a href="/" class="avatar avatar-sm mr-12pt">
+                        <span class="avatar-title rounded-circle">FM</span>
+                      </a>
+                      <div class="flex">
+                        <div class="d-flex align-items-center">
+                          <a href="/" class="text-body">
+                            <strong>FrontendMatter</strong>
+                          </a>
+                          <small class="ml-auto text-muted">just now</small>
+                        </div>
+                        <p class="mt-1 text-70">
+                          Hi Joseph,
+                          <br /> Thank you for purchasing our course! <br />
+                          <br />
+                          Please have a look at the charts library documentation{" "}
+                          <a href="/">here</a> and follow the instructions.
+                        </p>
+
+                        <div class="d-flex align-items-center">
+                          <a
+                            href="/"
+                            class="text-50 d-flex align-items-center text-decoration-0"
+                          >
+                            <i
+                              class="material-icons mr-1"
+                              style={{ fontSize: "inherit" }}
+                            >
+                              favorite_border
+                            </i>{" "}
+                            3
+                          </a>
+                          <a
+                            href="/"
+                            class="text-50 d-flex align-items-center text-decoration-0 ml-3"
+                          >
+                            <i
+                              class="material-icons mr-1"
+                              style={{ fontSize: "inherit" }}
+                            >
+                              thumb_up
+                            </i>{" "}
+                            13
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a href="/" class="btn btn-block btn-light">
+                    Load more ...
+                  </a>
+                </div>
+              </div>
             </div>
             <div class="col-lg-4">
               <div class="page-separator">
                 <div class="page-separator__text">Recommended</div>
-              </div>
-
-              <div class="mb-8pt d-flex align-items-center">
-                <a
-                  href="blog-post.html"
-                  class="avatar avatar-lg overlay overlay--primary mr-12pt"
-                >
-                  <img
-                    src="images/paths/invision_200x168.png"
-                    alt="public/images/paths/invision_200x168.png"
-                    class="avatar-img rounded"
-                  />
-                  <span class="overlay__content"></span>
-                </a>
-                <div class="flex">
-                  <a class="card-title mb-4pt" href="blog-post.html">
-                    Design Systems Essentials
-                  </a>
-                  <div class="d-flex align-items-center">
-                    <small class="text-muted mr-8pt">
-                      <a href="/#">inVision</a>
-                    </small>
-                    <small class="text-muted mr-8pt">35 Views</small>
-                    <small class="text-muted">11 Nov, 2018</small>
-                  </div>
-                </div>
-              </div>
-
-              <div class="mb-8pt d-flex align-items-center">
-                <a
-                  href="blog-post.html"
-                  class="avatar avatar-lg overlay overlay--primary mr-12pt"
-                >
-                  <img
-                    src="images/paths/photoshop_200x168.png"
-                    alt="public/images/paths/photoshop_200x168.png"
-                    class="avatar-img rounded"
-                  />
-                  <span class="overlay__content"></span>
-                </a>
-                <div class="flex">
-                  <a class="card-title mb-4pt" href="blog-post.html">
-                    Semantic Logo Design
-                  </a>
-                  <div class="d-flex align-items-center">
-                    <small class="text-muted mr-8pt">
-                      <a href="/#">Photoshop</a>
-                    </small>
-                    <small class="text-muted mr-8pt">78 Views</small>
-                    <small class="text-muted">10 Nov, 2018</small>
-                  </div>
-                </div>
               </div>
 
               <div class="mb-16pt d-flex align-items-center">
@@ -142,12 +206,53 @@ export default function BlogContent() {
                 </a>
                 <div class="flex">
                   <a class="card-title mb-4pt" href="blog-post.html">
-                    Merge Duplicates Inconsistent Symbols &amp; Styles
+                    The Importance of EdTech in a Post-pandemic World.
                   </a>
                   <div class="d-flex align-items-center">
-                    <small class="text-muted mr-8pt">
-                      <a href="/#">Sketch</a>
-                    </small>
+                    <small class="text-muted mr-8pt">78 Views</small>
+                    <small class="text-muted">09 Nov, 2018</small>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-16pt d-flex align-items-center">
+                <a
+                  href="blog-post.html"
+                  class="avatar avatar-lg overlay overlay--primary mr-12pt"
+                >
+                  <img
+                    src="images/paths/sketch_200x168.png"
+                    alt="public/images/paths/sketch_200x168.png"
+                    class="avatar-img rounded"
+                  />
+                  <span class="overlay__content"></span>
+                </a>
+                <div class="flex">
+                  <a class="card-title mb-4pt" href="blog-post.html">
+                    Covishield VS Covaxin.
+                  </a>
+                  <div class="d-flex align-items-center">
+                    <small class="text-muted mr-8pt">78 Views</small>
+                    <small class="text-muted">09 Nov, 2018</small>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-16pt d-flex align-items-center">
+                <a
+                  href="blog-post.html"
+                  class="avatar avatar-lg overlay overlay--primary mr-12pt"
+                >
+                  <img
+                    src="images/paths/sketch_200x168.png"
+                    alt="public/images/paths/sketch_200x168.png"
+                    class="avatar-img rounded"
+                  />
+                  <span class="overlay__content"></span>
+                </a>
+                <div class="flex">
+                  <a class="card-title mb-4pt" href="blog-post.html">
+                    Who’s WHO in Research?
+                  </a>
+                  <div class="d-flex align-items-center">
                     <small class="text-muted mr-8pt">78 Views</small>
                     <small class="text-muted">09 Nov, 2018</small>
                   </div>

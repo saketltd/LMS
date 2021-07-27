@@ -90,7 +90,7 @@ export default function Header() {
         </div>
 
         <div className="hero container page__container text-center text-md-left py-112pt">
-          <h1 className="text-white text-shadow">Learn to Code</h1>
+          <h1 className="text-white text-shadow">Blended Learning</h1>
           <p
             className="
                 lead
@@ -100,8 +100,7 @@ export default function Header() {
                 mb-48pt
               "
           >
-            Business, Technology and Creative Skills taught by industry experts.
-            Explore a wide range of skills with our professional tutorials.
+            Makes the New Professional
           </p>
 
           <a
@@ -110,12 +109,6 @@ export default function Header() {
           >
             Browse Courses
           </a>
-
-          <p className="mb-0">
-            <a href="/#" className="text-white text-shadow">
-              <strong>Are you a teacher?</strong>
-            </a>
-          </p>
         </div>
       </div>
     </div>
