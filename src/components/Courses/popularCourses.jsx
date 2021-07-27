@@ -113,54 +113,47 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">CLINICAL RESEARCH APPROACHES </div>
+                <div class="card-title mb-0">CLINICAL RESEARCH APPROACHES</div>
               </div>
             </div>
 
             <p class="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the fundamentals of CLINICAL RESEARCH APPROACHES.
             </p>
 
-            <div class="mb-16pt">
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+            <div className="mb-16pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Fundamentals of working with Angular</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Clear the basics of Clinical Trials</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Create complete Angular applications</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Understand the phases of a Clinical Trial</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Working with the Angular CLI</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Have insight into Toxicokinetic Studies</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Understanding Dependency Injection</small>
-                </p>
-              </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
-                  check
-                </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Testing with Angular</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>
+                    Be informed about the Evolution of Clinical Research
+                  </small>
                 </p>
               </div>
             </div>
@@ -279,49 +272,42 @@ export default function Polular() {
             </div>
 
             <p class="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the fundamentals of DRUGS, APPROVAL &amp; MARKETING PROCESS.
             </p>
 
-            <div class="mb-16pt">
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+            <div className="mb-16pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Fundamentals of working with Angular</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Clear the basics of Clinical Trials</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Create complete Angular applications</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Understand the phases of a Clinical Trial</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Working with the Angular CLI</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Have insight into Toxicokinetic Studies</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Understanding Dependency Injection</small>
-                </p>
-              </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
-                  check
-                </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Testing with Angular</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>
+                    Be informed about the Evolution of Clinical Research
+                  </small>
                 </p>
               </div>
             </div>
@@ -438,49 +424,42 @@ export default function Polular() {
             </div>
 
             <p class="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the fundamentals of HARMONIZATION ACTIVITIES.
             </p>
 
-            <div class="mb-16pt">
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+            <div className="mb-16pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Fundamentals of working with Angular</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Clear the basics of Clinical Trials</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Create complete Angular applications</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Understand the phases of a Clinical Trial</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Working with the Angular CLI</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Have insight into Toxicokinetic Studies</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Understanding Dependency Injection</small>
-                </p>
-              </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
-                  check
-                </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Testing with Angular</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>
+                    Be informed about the Evolution of Clinical Research
+                  </small>
                 </p>
               </div>
             </div>
@@ -599,49 +578,43 @@ export default function Polular() {
             </div>
 
             <p class="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the fundamentals of SCIENTIFIC COMMUNITY - ROLES &amp;
+              RESPONSIBILITIES.
             </p>
 
-            <div class="mb-16pt">
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+            <div className="mb-16pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Fundamentals of working with Angular</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Clear the basics of Clinical Trials</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Create complete Angular applications</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Understand the phases of a Clinical Trial</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Working with the Angular CLI</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Have insight into Toxicokinetic Studies</small>
                 </p>
               </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
                   check
                 </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Understanding Dependency Injection</small>
-                </p>
-              </div>
-              <div class="d-flex align-items-center">
-                <span class="material-icons icon-16pt text-50 mr-8pt">
-                  check
-                </span>
-                <p class="flex text-50 lh-1 mb-0">
-                  <small>Testing with Angular</small>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>
+                    Be informed about the Evolution of Clinical Research
+                  </small>
                 </p>
               </div>
             </div>

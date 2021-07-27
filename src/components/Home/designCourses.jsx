@@ -122,8 +122,7 @@ export default function DesignCourses() {
               </div>
 
               <p className="my-16pt text-70">
-                Learn the fundamentals of working with Angular and how to create
-                basic applications.
+                Learn the fundamentals Clinical Research_Level-1.
               </p>
 
               <div className="mb-16pt">
@@ -132,7 +131,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Fundamentals of working with Angular</small>
+                    <small>Clear the basics of Clinical Trials</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -140,7 +139,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Create complete Angular applications</small>
+                    <small>Understand the phases of a Clinical Trial</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -148,7 +147,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Working with the Angular CLI</small>
+                    <small>Have insight into Toxicokinetic Studies</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -156,15 +155,9 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Understanding Dependency Injection</small>
-                  </p>
-                </div>
-                <div className="d-flex align-items-center">
-                  <span className="material-icons icon-16pt text-50 mr-8pt">
-                    check
-                  </span>
-                  <p className="flex text-50 lh-1 mb-0">
-                    <small>Testing with Angular</small>
+                    <small>
+                      Be informed about the Evolution of Clinical Research
+                    </small>
                   </p>
                 </div>
               </div>
@@ -328,7 +321,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Fundamentals of working with Angular</small>
+                    <small>Clear the basics of Clinical Trials</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -336,7 +329,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Create complete Angular applications</small>
+                    <small>Understand the phases of a Clinical Trial</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -344,7 +337,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Working with the Angular CLI</small>
+                    <small>Have insight into Toxicokinetic Studies</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -352,15 +345,9 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Understanding Dependency Injection</small>
-                  </p>
-                </div>
-                <div className="d-flex align-items-center">
-                  <span className="material-icons icon-16pt text-50 mr-8pt">
-                    check
-                  </span>
-                  <p className="flex text-50 lh-1 mb-0">
-                    <small>Testing with Angular</small>
+                    <small>
+                      Be informed about the Evolution of Clinical Research
+                    </small>
                   </p>
                 </div>
               </div>
@@ -514,8 +501,7 @@ export default function DesignCourses() {
               </div>
 
               <p className="my-16pt text-70">
-                Learn the fundamentals of working with Angular and how to create
-                basic applications.
+                Learn the fundamentals of Advanced Concepts in CR_Level-1.
               </p>
 
               <div className="mb-16pt">
@@ -524,7 +510,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Fundamentals of working with Angular</small>
+                    <small>Clear the basics of Clinical Trials</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -532,7 +518,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Create complete Angular applications</small>
+                    <small>Understand the phases of a Clinical Trial</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -540,7 +526,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Working with the Angular CLI</small>
+                    <small>Have insight into Toxicokinetic Studies</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -548,15 +534,9 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Understanding Dependency Injection</small>
-                  </p>
-                </div>
-                <div className="d-flex align-items-center">
-                  <span className="material-icons icon-16pt text-50 mr-8pt">
-                    check
-                  </span>
-                  <p className="flex text-50 lh-1 mb-0">
-                    <small>Testing with Angular</small>
+                    <small>
+                      Be informed about the Evolution of Clinical Research
+                    </small>
                   </p>
                 </div>
               </div>
@@ -720,7 +700,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Fundamentals of working with Angular</small>
+                    <small>Clear the basics of Clinical Trials</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -728,7 +708,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Create complete Angular applications</small>
+                    <small>Understand the phases of a Clinical Trial</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -736,7 +716,7 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Working with the Angular CLI</small>
+                    <small>Have insight into Toxicokinetic Studies</small>
                   </p>
                 </div>
                 <div className="d-flex align-items-center">
@@ -744,15 +724,9 @@ export default function DesignCourses() {
                     check
                   </span>
                   <p className="flex text-50 lh-1 mb-0">
-                    <small>Understanding Dependency Injection</small>
-                  </p>
-                </div>
-                <div className="d-flex align-items-center">
-                  <span className="material-icons icon-16pt text-50 mr-8pt">
-                    check
-                  </span>
-                  <p className="flex text-50 lh-1 mb-0">
-                    <small>Testing with Angular</small>
+                    <small>
+                      Be informed about the Evolution of Clinical Research
+                    </small>
                   </p>
                 </div>
               </div>

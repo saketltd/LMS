@@ -109,8 +109,7 @@ export default function LearnigPath() {
               </div>
 
               <p className="mt-16pt text-70">
-                Learn the fundamentals of working with React Native and how to
-                create basic applications.
+                Learn the fundamentals of working with Clinical Research.
               </p>
 
               <div className="my-32pt">
@@ -281,8 +280,7 @@ export default function LearnigPath() {
               </div>
 
               <p className="mt-16pt text-70">
-                Learn the fundamentals of working with Dev Ops and how to create
-                basic applications.
+                Learn the fundamentals of Clinical Data Management.
               </p>
 
               <div className="my-32pt">
@@ -404,7 +402,7 @@ export default function LearnigPath() {
                         </div>
                       </div>
                       <div className="flex">
-                        <div className="card-title">PHARMACOVIGILANCE</div>
+                        <div className="card-title">Pharmacovigilance</div>
                         <p className="flex text-50 lh-1 mb-0">
                           <small>courses</small>
                         </p>
@@ -443,14 +441,13 @@ export default function LearnigPath() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title">PHARMACOVIGILANCE</div>
+                  <div className="card-title">Pharmacovigilance</div>
                   <p className="text-50 d-flex lh-1 mb-0 small">18 courses</p>
                 </div>
               </div>
 
               <p className="mt-16pt text-70">
-                Learn the fundamentals of working with Redis and how to create
-                basic applications.
+                Learn the fundamentals of Pharmacovigilance.
               </p>
 
               <div className="my-32pt">
