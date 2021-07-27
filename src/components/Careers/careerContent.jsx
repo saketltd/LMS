@@ -5,14 +5,6 @@ export default function CareerContent() {
     <div class="mdk-header-layout__content page-content ">
       <div class="page-section">
         <div class="container page__container">
-          <div class="page-headline text-center">
-            <h2>Careers</h2>
-            <h4>
-              Opportunities don't{" "}
-              <span style={{ color: "#007bff" }}>happen</span> you{" "}
-              <span style={{ color: "#007bff" }}>create</span> them.
-            </h4>
-          </div>
           <div class="page-headline text-center mt-5">
             <h2>A Glimpse of What We're Building</h2>
             <h4>Placed Students</h4>
@@ -134,6 +126,11 @@ export default function CareerContent() {
 
           <div class="page-headline text-center mt-5">
             <h2>Career Insights</h2>
+            <h4>
+              Opportunities don't{" "}
+              <span style={{ color: "#007bff" }}>happen</span> you{" "}
+              <span style={{ color: "#007bff" }}>create</span> them.
+            </h4>
           </div>
 
           <div

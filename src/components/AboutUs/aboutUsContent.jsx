@@ -310,7 +310,7 @@ export default function AboutUsContent() {
                     <div className="col-4">
                       <figure class="figurefx pushup">
                         <img
-                          src="images/4.jpg"
+                          src="images/Principal Mentor- Smitha Parthiban.jpg"
                           alt="..."
                           className="rounded"
                           width="85%"
@@ -324,7 +324,7 @@ export default function AboutUsContent() {
                     <div className="col-4">
                       <figure class="figurefx pushup">
                         <img
-                          src="images/1.jpg"
+                          src="images/Academic Mentor- Amrutha Babu.jpg"
                           alt="..."
                           className="rounded"
                           width="85%"
@@ -340,7 +340,7 @@ export default function AboutUsContent() {
                     <div className="col-4">
                       <figure class="figurefx pushup">
                         <img
-                          src="images/3.jpg"
+                          src="images/Academic Mentor-Dr. Divya Sunil.jpg"
                           alt="..."
                           className="rounded"
                           width="85%"
@@ -354,7 +354,7 @@ export default function AboutUsContent() {
                     <div className="col-4">
                       <figure class="figurefx pushup">
                         <img
-                          src="images/5.jpg"
+                          src="images/Academic Mentor Dr. Smitha Seshagiri.jpg"
                           alt="..."
                           className="rounded"
                           width="85%"
@@ -368,7 +368,7 @@ export default function AboutUsContent() {
                     <div className="col-4">
                       <figure class="figurefx pushup">
                         <img
-                          src="images/2.jpg"
+                          src="images/Customer Success Manager- Sushma K P.jpg"
                           alt="..."
                           className="rounded"
                           width="85%"

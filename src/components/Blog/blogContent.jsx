@@ -72,10 +72,76 @@ export default function BlogContent() {
                   longer require the tangible presence, neither of the teacher
                   nor the student.
                 </p>
-                <footer class="blockquote-footer">
-                  Someone famous in
-                  <cite title="Source Title">Source Title</cite>
-                </footer>
+                <p class="text-50">
+                  The world struggled (and it still is) to grapple with the
+                  outbreak of the virus in the earlier half of 2020. The
+                  pandemic changed the face and functioning of everything
+                  “normal”. At such a volatile conjecture, continuing with the
+                  customary means of education was off the cards. The collective
+                  uncertainty of such times have compelled institutions to
+                  resort to online modes of teaching. Be it Microsoft Teams,
+                  Google Meet or Zoom, a considerable chunk of students &
+                  teachers are observed trying to embrace the technological
+                  shift. Since the most primary condition of the pandemic is to
+                  avoid social meets and promote distancing, EdTech as a term
+                  has now begun to take rounds all over the world.
+                </p>
+                <p class="text-50">
+                  As humankind prepares to make the shift from offline to
+                  online, there still are a few underlying challenges that need
+                  to be addressed & shed light on. In order to have a
+                  standardized approach towards online learning, we need to
+                  first figure out the feasibility of tech tools being made
+                  available for every learner. Provided proper addressal of the
+                  said concern, EdTech has the potential to overtake the entire
+                  model of learning as we have known, seen and accepted it
+                  ourselves, during our times.
+                </p>
+                <p class="text-50">
+                  Globally, the education and training industries combined
+                  account for disbursing more than $4 trillion, showing an
+                  immense increase since 2000 by a whopping 84 percent. Now
+                  these are some big figures, aren’t they? We will try to see
+                  the impact EdTech is projected to have, if it is adopted as a
+                  globally standardized mode of learning.
+                </p>
+                <p class="text-50">
+                  <strong> EdTech’s impact on Cost :</strong> We have seen that
+                  the traditional system of learning consumes great deals of
+                  resources. Material like paper, pen, ink, leather and a
+                  multitude of other raw materials is expended in this mode.
+                  This deems the traditional mode of learning inefficient,
+                  considering the total cost of resources being spent.
+                </p>
+                <p class="text-50">
+                  An American survey highlighted that despite the huge spending
+                  on resources, reading and maths scores have remained stagnant
+                  and it is estimated that nearly 85% of every dollar spent on
+                  education is spent on delivering it.
+                </p>
+                <p class="text-50">
+                  However, cost effectiveness is not the exclusive driving force
+                  in EdTech’s rise but it is an indispensably important factor
+                  in considering high educational expenditure and educational
+                  performance.
+                </p>
+                <p class="text-50">
+                  Revamped user engagement and scope for a bigger learning
+                  impact Students have been responding well to newer methods of
+                  learning. A number of factors have played a role in generating
+                  and maintaining student engagement throughout the last couple
+                  of years, as far as EdTech as a separate branch is concerned.
+                  Gamification, multi-media based learning, casual mobile
+                  learning apps and interactive learning platforms are creating
+                  a major transition in the way content is presented & received;
+                  it is getting immersive and seamless.
+                </p>
+                <p class="text-50">
+                  Given the above factors, EdTech is not only significant in
+                  shaping the way our future gen will be looking at education
+                  but also for being ready for a constantly evolving, changing
+                  and uncertain world.
+                </p>
               </blockquote>
               <div class="measure-lead-max">
                 <div class="page-separator">
