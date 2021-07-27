@@ -260,7 +260,7 @@ export default function CareerContent() {
                     />
                     <h5 className="text-center mt-2">ANUPAMA KURLE</h5>
                     <img
-                      src="images/FORTE.jpeg"
+                      src="images/Forte.jpeg"
                       alt=""
                       srcset=""
                       width="65px"
