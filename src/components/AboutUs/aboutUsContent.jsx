@@ -59,7 +59,7 @@ export default function AboutUsContent() {
 
         <div className="row">
           <div className="col-6">
-            <div class="card" style={{ height: "45vh" }}>
+            <div class="card" style={{ height: "95%" }}>
               <div class="card-body" style={{ padding: "4rem" }}>
                 <div class="d-flex mb-1">
                   <div class="avatar avatar-sm mr-3">
@@ -94,7 +94,7 @@ export default function AboutUsContent() {
             </div>
           </div>
           <div className="col-6">
-            <div class="card" style={{ height: "45vh" }}>
+            <div class="card" style={{ height: "95%" }}>
               <div class="card-body" style={{ padding: "4rem" }}>
                 <div class="d-flex mb-1">
                   <div class="avatar avatar-sm mr-3">
@@ -133,7 +133,7 @@ export default function AboutUsContent() {
         </div>
         <div className="row">
           <div className="col-6">
-            <div class="card" style={{ height: "45vh" }}>
+            <div class="card" style={{ height: "95%" }}>
               <div class="card-body" style={{ padding: "4rem" }}>
                 <div class="d-flex mb-1">
                   <div class="avatar avatar-sm mr-3">
@@ -168,7 +168,7 @@ export default function AboutUsContent() {
             </div>
           </div>
           <div className="col-6">
-            <div class="card" style={{ height: "45vh" }}>
+            <div class="card" style={{ height: "95%" }}>
               <div class="card-body" style={{ padding: "4rem" }}>
                 <div class="d-flex mb-1">
                   <div class="avatar avatar-sm mr-3">
@@ -310,6 +310,20 @@ export default function AboutUsContent() {
                     <div className="col-4">
                       <figure class="figurefx pushup">
                         <img
+                          src="images/4.jpg"
+                          alt="..."
+                          className="rounded"
+                          width="85%"
+                        />
+                        <figcaption>
+                          <strong>Dr. Smitha Parthiban</strong> <br />
+                          <span>Principal Mentor</span>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div className="col-4">
+                      <figure class="figurefx pushup">
+                        <img
                           src="images/1.jpg"
                           alt="..."
                           className="rounded"
@@ -318,20 +332,6 @@ export default function AboutUsContent() {
                         <figcaption>
                           <strong>Ms. Amrutha Babu</strong> <br />
                           <span>Academic Mentor</span>
-                        </figcaption>
-                      </figure>
-                    </div>
-                    <div className="col-4">
-                      <figure class="figurefx pushup">
-                        <img
-                          src="images/2.jpg"
-                          alt="..."
-                          className="rounded"
-                          width="85%"
-                        />
-                        <figcaption>
-                          <strong>Ms. Sushma K P</strong> <br />
-                          <span>Customer Success Manager</span>
                         </figcaption>
                       </figure>
                     </div>
@@ -354,20 +354,6 @@ export default function AboutUsContent() {
                     <div className="col-4">
                       <figure class="figurefx pushup">
                         <img
-                          src="images/4.jpg"
-                          alt="..."
-                          className="rounded"
-                          width="85%"
-                        />
-                        <figcaption>
-                          <strong>Dr. Smitha Parthiban</strong> <br />
-                          <span>Principal Mentor</span>
-                        </figcaption>
-                      </figure>
-                    </div>
-                    <div className="col-4">
-                      <figure class="figurefx pushup">
-                        <img
                           src="images/5.jpg"
                           alt="..."
                           className="rounded"
@@ -376,6 +362,20 @@ export default function AboutUsContent() {
                         <figcaption>
                           <strong>Dr. Smitha Seshagiri</strong> <br />
                           <span>Academic Mentor</span>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div className="col-4">
+                      <figure class="figurefx pushup">
+                        <img
+                          src="images/2.jpg"
+                          alt="..."
+                          className="rounded"
+                          width="85%"
+                        />
+                        <figcaption>
+                          <strong>Ms. Sushma K P</strong> <br />
+                          <span>Customer Success Manager</span>
                         </figcaption>
                       </figure>
                     </div>
