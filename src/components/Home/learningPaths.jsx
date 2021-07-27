@@ -60,9 +60,11 @@ export default function LearnigPath() {
                         </div>
                       </div>
                       <div className="flex">
-                        <div className="card-title">CLINICAL RESEARCH</div>
+                        <div className="card-title">
+                          PG Diploma in Clinical Research
+                        </div>
                         <p className="flex text-50 lh-1 mb-0">
-                          <small>18 courses</small>
+                          <small>courses</small>
                         </p>
                       </div>
                     </div>
@@ -99,8 +101,10 @@ export default function LearnigPath() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title">CLINICAL RESEARCH</div>
-                  <p className="text-50 d-flex lh-1 mb-0 small">18 courses</p>
+                  <div className="card-title">
+                    PG Diploma in Clinical Research
+                  </div>
+                  <p className="text-50 d-flex lh-1 mb-0 small">courses</p>
                 </div>
               </div>
 
@@ -229,10 +233,10 @@ export default function LearnigPath() {
                       </div>
                       <div className="flex">
                         <div className="card-title">
-                          CLINICAL DATA MANAGEMENT
+                          PG Diploma in Clinical Data Management
                         </div>
                         <p className="flex text-50 lh-1 mb-0">
-                          <small>18 courses</small>
+                          <small>courses</small>
                         </p>
                       </div>
                     </div>
@@ -269,8 +273,10 @@ export default function LearnigPath() {
                   />
                 </div>
                 <div className="media-body">
-                  <div className="card-title">CLINICAL DATA MANAGEMENT</div>
-                  <p className="text-50 d-flex lh-1 mb-0 small">18 courses</p>
+                  <div className="card-title">
+                    PG Diploma in Clinical Data Management
+                  </div>
+                  <p className="text-50 d-flex lh-1 mb-0 small">courses</p>
                 </div>
               </div>
 
@@ -400,7 +406,7 @@ export default function LearnigPath() {
                       <div className="flex">
                         <div className="card-title">PHARMACOVIGILANCE</div>
                         <p className="flex text-50 lh-1 mb-0">
-                          <small>18 courses</small>
+                          <small>courses</small>
                         </p>
                       </div>
                     </div>

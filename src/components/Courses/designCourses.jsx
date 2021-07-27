@@ -4,7 +4,9 @@ export default function DesignCourses() {
   return (
     <>
       <div class="page-separator">
-        <div class="page-separator__text">Design Courses</div>
+        <div class="page-separator__text">
+          DRUGS, APPROVAL & MARKETING PROCESS
+        </div>
       </div>
 
       <div className="row card-group-row">
@@ -42,7 +44,7 @@ export default function DesignCourses() {
               <div className="d-flex">
                 <div className="flex">
                   <a className="card-title" href="/studentCourse">
-                    Fundamentals in Clinical Research_Level-1
+                    PRE-CLINICAL REGULATORIES
                   </a>
                 </div>
                 <a
@@ -114,15 +116,12 @@ export default function DesignCourses() {
                 />
               </div>
               <div className="media-body">
-                <div className="card-title mb-0">
-                  Fundamentals in Clinical Research_Level-1
-                </div>
+                <div className="card-title mb-0">PRE-CLINICAL REGULATORIES</div>
               </div>
             </div>
 
             <p className="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the fundamentals PRE-CLINICAL REGULATORIES.
             </p>
 
             <div className="mb-16pt">
@@ -238,7 +237,7 @@ export default function DesignCourses() {
               <div className="d-flex">
                 <div className="flex">
                   <a className="card-title" href="/studentCourse">
-                    Fundamentals in Clinical Research_Level-2
+                    IND – ANNUAL REPORT
                   </a>
                 </div>
                 <a
@@ -310,15 +309,12 @@ export default function DesignCourses() {
                 />
               </div>
               <div className="media-body">
-                <div className="card-title mb-0">
-                  Fundamentals in Clinical Research_Level-2
-                </div>
+                <div className="card-title mb-0">IND – ANNUAL REPORT</div>
               </div>
             </div>
 
             <p className="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the fundamentals of IND – ANNUAL REPORT.
             </p>
 
             <div className="mb-16pt">
@@ -434,7 +430,7 @@ export default function DesignCourses() {
               <div className="d-flex">
                 <div className="flex">
                   <a className="card-title" href="/studentCourse">
-                    Advanced Concepts in CR_Level-1
+                    ORPHAN DRUGS
                   </a>
                 </div>
                 <a
@@ -506,16 +502,11 @@ export default function DesignCourses() {
                 />
               </div>
               <div className="media-body">
-                <div className="card-title mb-0">
-                  Advanced Concepts in CR_Level-1
-                </div>
+                <div className="card-title mb-0">ORPHAN DRUGS</div>
               </div>
             </div>
 
-            <p className="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
-            </p>
+            <p className="my-16pt text-70">ORPHAN DRUGS</p>
 
             <div className="mb-16pt">
               <div className="d-flex align-items-center">
@@ -630,7 +621,7 @@ export default function DesignCourses() {
               <div className="d-flex">
                 <div className="flex">
                   <a className="card-title" href="/studentCourse">
-                    Advanced Concepts in CR_Level-2
+                    GENERICS & REFERENCE DRUGS
                   </a>
                 </div>
                 <a
@@ -703,14 +694,13 @@ export default function DesignCourses() {
               </div>
               <div className="media-body">
                 <div className="card-title mb-0">
-                  Advanced Concepts in CR_Level-2
+                  GENERICS & REFERENCE DRUGS
                 </div>
               </div>
             </div>
 
             <p className="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the fundamentals GENERICS & REFERENCE DRUGS.
             </p>
 
             <div className="mb-16pt">

@@ -39,22 +39,6 @@ export default function LoginContent() {
           </form>
         </div>
       </div>
-      <div class="page-separator justify-content-center m-0">
-        <div class="page-separator__text">or sign-in with</div>
-      </div>
-      <div class="bg-body pt-32pt pb-32pt pb-md-64pt text-center">
-        <div class="container page__container">
-          <a href="index.html" class="btn btn-secondary btn-block-xs">
-            Facebook
-          </a>
-          <a href="index.html" class="btn btn-secondary btn-block-xs">
-            Twitter
-          </a>
-          <a href="index.html" class="btn btn-secondary btn-block-xs">
-            Google+
-          </a>
-        </div>
-      </div>
     </div>
   );
 }

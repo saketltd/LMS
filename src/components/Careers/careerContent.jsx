@@ -169,7 +169,7 @@ export default function CareerContent() {
               </div>
             </div>
           </div>
-          {/* <div class="page-headline text-center mt-5">
+          <div class="page-headline text-center mt-5">
             <h2>A Glimpse of What We're Building</h2>
             <h4>Placed Students</h4>
           </div>
@@ -204,143 +204,89 @@ export default function CareerContent() {
                   transform: "translate3d(0px, 0px, 0px)",
                 }}
               >
-                <div
-                  class="col-12 col-md-6 mdk-carousel__item"
-                  style={{ width: "558px" }}
-                >
-                  <div class="card card-feedback card-body">
-                    <blockquote class="blockquote mb-0">
-                      <p class="text-70 small mb-0">
-                        A wonderful course on how to start. Eddie beautifully
-                        conveys all essentials of a becoming a good Angular
-                        developer. Very glad to have taken this course. Thank
-                        you Eddie Bryan.
-                      </p>
-                    </blockquote>
-                  </div>
-                  <div class="media ml-12pt">
-                    <div class="media-left mr-12pt">
-                      <a href="student-profile.html" class="avatar avatar-sm">
-                        <span class="avatar-title rounded-circle">UK</span>
-                      </a>
-                    </div>
-                    <div class="media-body media-middle">
-                      <a href="student-profile.html" class="card-title">
-                        Umberto Kass
-                      </a>
-                      <div class="rating mt-4pt">
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star_border</span>
-                        </span>
-                      </div>
-                    </div>
+                <div class="col-2 mdk-carousel__item">
+                  <div class="card card-feedback card-body justify-content-center align-items-center">
+                    <img
+                      src="images/Priya Sunny.jpg"
+                      alt=""
+                      srcset=""
+                      width="220px"
+                    />
+                    <h5 className="text-center mt-2">PRIYA SUNNY</h5>
+                    <img
+                      src="images/PAREXEL 1.png"
+                      alt=""
+                      srcset=""
+                      width="65px"
+                    />
                   </div>
                 </div>
-
-                <div
-                  class="col-12 col-md-6 mdk-carousel__item"
-                  style={{ width: "558px" }}
-                >
-                  <div class="card card-feedback card-body">
-                    <blockquote class="blockquote mb-0">
-                      <p class="text-70 small mb-0">
-                        A wonderful course on how to start. Eddie beautifully
-                        conveys all essentials of a becoming a good Angular
-                        developer. Very glad to have taken this course. Thank
-                        you Eddie Bryan.
-                      </p>
-                    </blockquote>
-                  </div>
-                  <div class="media ml-12pt">
-                    <div class="media-left mr-12pt">
-                      <a href="student-profile.html" class="avatar avatar-sm">
-                        <span class="avatar-title rounded-circle">UK</span>
-                      </a>
-                    </div>
-                    <div class="media-body media-middle">
-                      <a href="student-profile.html" class="card-title">
-                        Umberto Kass
-                      </a>
-                      <div class="rating mt-4pt">
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star_border</span>
-                        </span>
-                      </div>
-                    </div>
+                <div class="col-2 mdk-carousel__item">
+                  <div class="card card-feedback card-body justify-content-center align-items-center">
+                    <img
+                      src="images/Smitha B R.jpg"
+                      alt=""
+                      srcset=""
+                      width="220px"
+                    />
+                    <h5 className="text-center mt-2">SMITA B. R.</h5>
+                    <img src="images/IQVIA.png" alt="" srcset="" width="65px" />
                   </div>
                 </div>
-
-                <div
-                  class="col-12 col-md-6 mdk-carousel__item"
-                  style={{ width: "558px" }}
-                >
-                  <div class="card card-feedback card-body">
-                    <blockquote class="blockquote mb-0">
-                      <p class="text-70 small mb-0">
-                        A wonderful course on how to start. Eddie beautifully
-                        conveys all essentials of a becoming a good Angular
-                        developer. Very glad to have taken this course. Thank
-                        you Eddie Bryan.
-                      </p>
-                    </blockquote>
+                <div class="col-2 mdk-carousel__item">
+                  <div class="card card-feedback card-body justify-content-center align-items-center">
+                    <img
+                      src="images/Pradeeksha.jpg"
+                      alt=""
+                      srcset=""
+                      width="220px"
+                    />
+                    <h5 className="text-center mt-2">PRADEEKSHA</h5>
+                    <img
+                      src="images/COVANCE 1.jpg"
+                      alt=""
+                      srcset=""
+                      width="65px"
+                    />
                   </div>
-                  <div class="media ml-12pt">
-                    <div class="media-left mr-12pt">
-                      <a href="student-profile.html" class="avatar avatar-sm">
-                        <span class="avatar-title rounded-circle">UK</span>
-                      </a>
-                    </div>
-                    <div class="media-body media-middle">
-                      <a href="student-profile.html" class="card-title">
-                        Umberto Kass
-                      </a>
-                      <div class="rating mt-4pt">
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star</span>
-                        </span>
-                        <span class="rating__item">
-                          <span class="material-icons">star_border</span>
-                        </span>
-                      </div>
-                    </div>
+                </div>
+                <div class="col-2 mdk-carousel__item">
+                  <div class="card card-feedback card-body justify-content-center align-items-center">
+                    <img
+                      src="images/Anupama Kurle.jpg"
+                      alt=""
+                      srcset=""
+                      width="220px"
+                    />
+                    <h5 className="text-center mt-2">ANUPAMA KURLE</h5>
+                    <img
+                      src="images/FORTE.jpeg"
+                      alt=""
+                      srcset=""
+                      width="65px"
+                    />
+                  </div>
+                </div>
+                <div class="col-2 mdk-carousel__item">
+                  <div class="card card-feedback card-body justify-content-center align-items-center">
+                    <img
+                      src="images/Chaithrashree G S.jpg"
+                      alt=""
+                      srcset=""
+                      width="220px"
+                    />
+                    <h5 className="text-center mt-2">CHAITHRASHREE G S</h5>
+                    <img
+                      src="images/Nethradhama.jpeg"
+                      alt=""
+                      srcset=""
+                      width="65px"
+                    />
                   </div>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

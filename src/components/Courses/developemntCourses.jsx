@@ -4,7 +4,7 @@ export default function Development() {
   return (
     <>
       <div class="page-separator">
-        <div class="page-separator__text">Development Courses</div>
+        <div class="page-separator__text">CLINICAL RESEARCH APPROACHES </div>
       </div>
 
       <div className="row card-group-row">
@@ -42,7 +42,7 @@ export default function Development() {
               <div className="d-flex">
                 <div className="flex">
                   <a className="card-title" href="/studentCourse">
-                    Fundamentals in Clinical Research_Level-1
+                    EVOLUTION OF CLINICAL RESEARCH PART-1
                   </a>
                 </div>
                 <a
@@ -115,14 +115,13 @@ export default function Development() {
               </div>
               <div className="media-body">
                 <div className="card-title mb-0">
-                  Fundamentals in Clinical Research_Level-1
+                  EVOLUTION OF CLINICAL RESEARCH PART-1
                 </div>
               </div>
             </div>
 
             <p className="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the EVOLUTION OF CLINICAL RESEARCH PART-1.
             </p>
 
             <div className="mb-16pt">
@@ -238,7 +237,7 @@ export default function Development() {
               <div className="d-flex">
                 <div className="flex">
                   <a className="card-title" href="/studentCourse">
-                    Fundamentals in Clinical Research_Level-2
+                    EVOLUTION OF CLINICAL RESEARCH PART-2
                   </a>
                 </div>
                 <a
@@ -311,14 +310,13 @@ export default function Development() {
               </div>
               <div className="media-body">
                 <div className="card-title mb-0">
-                  Fundamentals in Clinical Research_Level-2
+                  EVOLUTION OF CLINICAL RESEARCH PART-2
                 </div>
               </div>
             </div>
 
             <p className="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the EVOLUTION OF CLINICAL RESEARCH PART-2.
             </p>
 
             <div className="mb-16pt">
@@ -434,7 +432,7 @@ export default function Development() {
               <div className="d-flex">
                 <div className="flex">
                   <a className="card-title" href="/studentCourse">
-                    Advanced Concepts in CR_Level-1
+                    DRUG DISCOVERY & DEVELOPMENT_JOURNEY OF A DRUG
                   </a>
                 </div>
                 <a
@@ -507,14 +505,13 @@ export default function Development() {
               </div>
               <div className="media-body">
                 <div className="card-title mb-0">
-                  Advanced Concepts in CR_Level-1
+                  DRUG DISCOVERY & DEVELOPMENT_JOURNEY OF A DRUG
                 </div>
               </div>
             </div>
 
             <p className="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the DRUG DISCOVERY & DEVELOPMENT_JOURNEY OF A DRUG.
             </p>
 
             <div className="mb-16pt">
@@ -630,7 +627,7 @@ export default function Development() {
               <div className="d-flex">
                 <div className="flex">
                   <a className="card-title" href="/studentCourse">
-                    Advanced Concepts in CR_Level-2
+                    PHASES OF CLINICAL TRIAL
                   </a>
                 </div>
                 <a
@@ -702,15 +699,12 @@ export default function Development() {
                 />
               </div>
               <div className="media-body">
-                <div className="card-title mb-0">
-                  Advanced Concepts in CR_Level-2
-                </div>
+                <div className="card-title mb-0">PHASES OF CLINICAL TRIAL</div>
               </div>
             </div>
 
             <p className="my-16pt text-70">
-              Learn the fundamentals of working with Angular and how to create
-              basic applications.
+              Learn the fundamentals of working with PHASES OF CLINICAL TRIAL.
             </p>
 
             <div className="mb-16pt">

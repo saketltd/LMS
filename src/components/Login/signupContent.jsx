@@ -133,22 +133,6 @@ export default function SignupContent() {
           </div>
         </div>
       </div>
-      <div class="page-separator justify-content-center m-0">
-        <div class="page-separator__text">or sign-in with</div>
-      </div>
-      <div class="page-section text-center">
-        <div class="container page__container">
-          <a href="signup-payment.html" class="btn btn-secondary btn-block-xs">
-            Facebook
-          </a>
-          <a href="signup-payment.html" class="btn btn-secondary btn-block-xs">
-            Twitter
-          </a>
-          <a href="signup-payment.html" class="btn btn-secondary btn-block-xs">
-            Google+
-          </a>
-        </div>
-      </div>
     </div>
   );
 }

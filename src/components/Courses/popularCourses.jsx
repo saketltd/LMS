@@ -64,7 +64,7 @@ export default function Polular() {
                 <div class="d-flex">
                   <div class="flex">
                     <a class="card-title" href="/studentCourse">
-                      CLINICAL RESEARCH APPROACHES
+                      ADVANCE CONCEPTS IN CR LEVEL-1
                     </a>
                   </div>
                   <a

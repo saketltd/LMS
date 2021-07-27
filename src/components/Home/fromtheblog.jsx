@@ -121,22 +121,7 @@ export default function Blog() {
                 ></div>
                 <div className="posts-card-popular__content">
                   <div className="card-body d-flex align-items-center">
-                    <div className="avatar-group flex">
-                      <div
-                        className="avatar avatar-xs"
-                        data-toggle="tooltip"
-                        data-placement="top"
-                        title="Janell D."
-                      >
-                        <a href="/#">
-                          <img
-                            src="images/256_luke-porter-261779-unsplash.jpg"
-                            alt="Avatar"
-                            className="avatar-img rounded-circle"
-                          />
-                        </a>
-                      </div>
-                    </div>
+                    <div className="avatar-group flex"></div>
                     <a
                       style={{ textDecoration: "none" }}
                       className="d-flex align-items-center"
@@ -180,22 +165,7 @@ export default function Blog() {
                 ></div>
                 <div className="posts-card-popular__content">
                   <div className="card-body d-flex align-items-center">
-                    <div className="avatar-group flex">
-                      <div
-                        className="avatar avatar-xs"
-                        data-toggle="tooltip"
-                        data-placement="top"
-                        title="Janell D."
-                      >
-                        <a href="/#">
-                          <img
-                            src="images/256_michael-dam-258165-unsplash.jpg"
-                            alt="Avatar"
-                            className="avatar-img rounded-circle"
-                          />
-                        </a>
-                      </div>
-                    </div>
+                    <div className="avatar-group flex"></div>
                     <a
                       style={{ textDecoration: "none" }}
                       className="d-flex align-items-center"
@@ -239,22 +209,7 @@ export default function Blog() {
                 ></div>
                 <div className="posts-card-popular__content">
                   <div className="card-body d-flex align-items-center">
-                    <div className="avatar-group flex">
-                      <div
-                        className="avatar avatar-xs"
-                        data-toggle="tooltip"
-                        data-placement="top"
-                        title="Janell D."
-                      >
-                        <a href="/#">
-                          <img
-                            src="images/256_rsz_1andy-lee-642320-unsplash.jpg"
-                            alt="Avatar"
-                            className="avatar-img rounded-circle"
-                          />
-                        </a>
-                      </div>
-                    </div>
+                    <div className="avatar-group flex"></div>
                     <a
                       style={{ textDecoration: "none" }}
                       className="d-flex align-items-center"
@@ -271,7 +226,7 @@ export default function Blog() {
                   </div>
                   <div className="posts-card-popular__title card-body">
                     <a className="card-title" href="/blog">
-                      The Importance of EdTech in a Post-pandemic World
+                      Who’s WHO in Research?
                     </a>
                   </div>
                 </div>

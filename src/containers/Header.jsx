@@ -15,13 +15,13 @@ export default function Header() {
           id="default-navbar"
           data-primary
         >
-          <button
+          {/* <button
             className="navbar-toggler w-auto mr-16pt d-block rounded-0"
             type="button"
             data-toggle="sidebar"
           >
             <span className="material-icons">short_text</span>
-          </button>
+          </button> */}
 
           <a href="/" className="navbar-brand mr-16pt">
             <img
