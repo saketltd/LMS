@@ -28,7 +28,7 @@ export default function Feedback() {
               </span>
               <span className="sr-only">Next</span>
             </a>
-            <div className="mdk-carousel__content">
+            <div className="mdk-carousel__content" style={{ maxWidth: "none" }}>
               <div className="col-12 col-md-6">
                 <div
                   className="card card-feedback card-body"
