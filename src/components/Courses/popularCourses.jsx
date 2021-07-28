@@ -64,7 +64,7 @@ export default function Polular() {
                 <div class="d-flex">
                   <div class="flex">
                     <a class="card-title" href="/studentCourse">
-                      ADVANCE CONCEPTS IN CR LEVEL-1
+                      Fundamentals in Clinical Research Level 1
                     </a>
                   </div>
                   <a
@@ -113,12 +113,14 @@ export default function Polular() {
                 />
               </div>
               <div class="media-body">
-                <div class="card-title mb-0">CLINICAL RESEARCH APPROACHES</div>
+                <div class="card-title mb-0">
+                  Fundamentals in Clinical Research Level 1
+                </div>
               </div>
             </div>
 
             <p class="my-16pt text-70">
-              Learn the fundamentals of CLINICAL RESEARCH APPROACHES.
+              Learn the Fundamentals in Clinical Research Level 1.
             </p>
 
             <div className="mb-16pt">
@@ -216,7 +218,7 @@ export default function Polular() {
                 <div class="d-flex">
                   <div class="flex">
                     <a class="card-title" href="/studentCourse">
-                      DRUGS, APPROVAL &amp; MARKETING PROCESS
+                      Fundamentals in Clinical Research Level 2
                     </a>
                   </div>
                   <a
@@ -266,13 +268,13 @@ export default function Polular() {
               </div>
               <div class="media-body">
                 <div class="card-title mb-0">
-                  DRUGS, APPROVAL &amp; MARKETING PROCESS
+                  Fundamentals in Clinical Research Level 2
                 </div>
               </div>
             </div>
 
             <p class="my-16pt text-70">
-              Learn the fundamentals of DRUGS, APPROVAL &amp; MARKETING PROCESS.
+              Learn the Fundamentals in Clinical Research Level 2.
             </p>
 
             <div className="mb-16pt">
@@ -370,159 +372,7 @@ export default function Polular() {
                 <div class="d-flex">
                   <div class="flex">
                     <a class="card-title" href="/studentCourse">
-                      HARMONIZATION ACTIVITIES
-                    </a>
-                  </div>
-                  <a
-                    href="/studentCourse"
-                    data-toggle="tooltip"
-                    data-title="Add Favorite"
-                    data-placement="top"
-                    data-boundary="window"
-                    class="ml-4pt material-icons text-20 card-course__icon-favorite"
-                  >
-                    favorite_border
-                  </a>
-                </div>
-                <div class="d-flex">
-                  <div class="rating flex">
-                    <span class="rating__item">
-                      <span class="material-icons">star</span>
-                    </span>
-                    <span class="rating__item">
-                      <span class="material-icons">star</span>
-                    </span>
-                    <span class="rating__item">
-                      <span class="material-icons">star</span>
-                    </span>
-                    <span class="rating__item">
-                      <span class="material-icons">star</span>
-                    </span>
-                    <span class="rating__item">
-                      <span class="material-icons">star_border</span>
-                    </span>
-                  </div>
-                  <small class="text-50">6 hours</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="popoverContainer d-none">
-            <div class="media">
-              <div class="media-left mr-12pt">
-                <img
-                  src="images/paths/sketch_40x40%402x.png"
-                  width="40"
-                  height="40"
-                  alt="Angular"
-                  class="rounded"
-                />
-              </div>
-              <div class="media-body">
-                <div class="card-title mb-0">HARMONIZATION ACTIVITIES</div>
-              </div>
-            </div>
-
-            <p class="my-16pt text-70">
-              Learn the fundamentals of HARMONIZATION ACTIVITIES.
-            </p>
-
-            <div className="mb-16pt">
-              <div className="d-flex align-items-center">
-                <span className="material-icons icon-16pt text-50 mr-8pt">
-                  check
-                </span>
-                <p className="flex text-50 lh-1 mb-0">
-                  <small>Clear the basics of Clinical Trials</small>
-                </p>
-              </div>
-              <div className="d-flex align-items-center">
-                <span className="material-icons icon-16pt text-50 mr-8pt">
-                  check
-                </span>
-                <p className="flex text-50 lh-1 mb-0">
-                  <small>Understand the phases of a Clinical Trial</small>
-                </p>
-              </div>
-              <div className="d-flex align-items-center">
-                <span className="material-icons icon-16pt text-50 mr-8pt">
-                  check
-                </span>
-                <p className="flex text-50 lh-1 mb-0">
-                  <small>Have insight into Toxicokinetic Studies</small>
-                </p>
-              </div>
-              <div className="d-flex align-items-center">
-                <span className="material-icons icon-16pt text-50 mr-8pt">
-                  check
-                </span>
-                <p className="flex text-50 lh-1 mb-0">
-                  <small>
-                    Be informed about the Evolution of Clinical Research
-                  </small>
-                </p>
-              </div>
-            </div>
-
-            <div class="row align-items-center">
-              <div class="col-auto">
-                <div class="d-flex align-items-center mb-4pt">
-                  <span class="material-icons icon-16pt text-50 mr-4pt">
-                    access_time
-                  </span>
-                  <p class="flex text-50 lh-1 mb-0">
-                    <small>6 hours</small>
-                  </p>
-                </div>
-                <div class="d-flex align-items-center mb-4pt">
-                  <span class="material-icons icon-16pt text-50 mr-4pt">
-                    play_circle_outline
-                  </span>
-                  <p class="flex text-50 lh-1 mb-0">
-                    <small>12 lessons</small>
-                  </p>
-                </div>
-                <div class="d-flex align-items-center">
-                  <span class="material-icons icon-16pt text-50 mr-4pt">
-                    assessment
-                  </span>
-                  <p class="flex text-50 lh-1 mb-0">
-                    <small>Beginner</small>
-                  </p>
-                </div>
-              </div>
-              <div class="col text-right">
-                <a href="/studentCourse" class="btn btn-primary">
-                  Watch trailer
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 col-xl-3 card-group-row__col">
-          <div
-            class="card card-sm card--elevated p-relative o-hidden overlay overlay--primary-dodger-blue js-overlay mdk-reveal js-mdk-reveal card-group-row__card"
-            data-partial-height="44"
-            data-toggle="popover"
-            data-trigger="click"
-          >
-            <a href="/studentCourse" class="js-image" data-position="">
-              <img src="images/paths/sketch_430x168.png" alt="course" />
-              <span class="overlay__content align-items-start justify-content-start">
-                <span class="overlay__action card-body d-flex align-items-center">
-                  <i class="material-icons mr-4pt">play_circle_outline</i>
-                  <span class="card-title text-white">Preview</span>
-                </span>
-              </span>
-            </a>
-
-            <div class="mdk-reveal__content">
-              <div class="card-body">
-                <div class="d-flex">
-                  <div class="flex">
-                    <a class="card-title" href="/studentCourse">
-                      SCIENTIFIC COMMUNITY
+                      Advanced concepts in clinical research level 1
                     </a>
                   </div>
                   <a
@@ -572,14 +422,167 @@ export default function Polular() {
               </div>
               <div class="media-body">
                 <div class="card-title mb-0">
-                  SCIENTIFIC COMMUNITY - ROLES &amp; RESPONSIBILITIES
+                  Advanced concepts in clinical research level 1
                 </div>
               </div>
             </div>
 
             <p class="my-16pt text-70">
-              Learn the fundamentals of SCIENTIFIC COMMUNITY - ROLES &amp;
-              RESPONSIBILITIES.
+              Learn the Advanced concepts in clinical research level 1.
+            </p>
+
+            <div className="mb-16pt">
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
+                  check
+                </span>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Clear the basics of Clinical Trials</small>
+                </p>
+              </div>
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
+                  check
+                </span>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Understand the phases of a Clinical Trial</small>
+                </p>
+              </div>
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
+                  check
+                </span>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>Have insight into Toxicokinetic Studies</small>
+                </p>
+              </div>
+              <div className="d-flex align-items-center">
+                <span className="material-icons icon-16pt text-50 mr-8pt">
+                  check
+                </span>
+                <p className="flex text-50 lh-1 mb-0">
+                  <small>
+                    Be informed about the Evolution of Clinical Research
+                  </small>
+                </p>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <div class="d-flex align-items-center mb-4pt">
+                  <span class="material-icons icon-16pt text-50 mr-4pt">
+                    access_time
+                  </span>
+                  <p class="flex text-50 lh-1 mb-0">
+                    <small>6 hours</small>
+                  </p>
+                </div>
+                <div class="d-flex align-items-center mb-4pt">
+                  <span class="material-icons icon-16pt text-50 mr-4pt">
+                    play_circle_outline
+                  </span>
+                  <p class="flex text-50 lh-1 mb-0">
+                    <small>12 lessons</small>
+                  </p>
+                </div>
+                <div class="d-flex align-items-center">
+                  <span class="material-icons icon-16pt text-50 mr-4pt">
+                    assessment
+                  </span>
+                  <p class="flex text-50 lh-1 mb-0">
+                    <small>Beginner</small>
+                  </p>
+                </div>
+              </div>
+              <div class="col text-right">
+                <a href="/studentCourse" class="btn btn-primary">
+                  Watch trailer
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 card-group-row__col">
+          <div
+            class="card card-sm card--elevated p-relative o-hidden overlay overlay--primary-dodger-blue js-overlay mdk-reveal js-mdk-reveal card-group-row__card"
+            data-partial-height="44"
+            data-toggle="popover"
+            data-trigger="click"
+          >
+            <a href="/studentCourse" class="js-image" data-position="">
+              <img src="images/paths/sketch_430x168.png" alt="course" />
+              <span class="overlay__content align-items-start justify-content-start">
+                <span class="overlay__action card-body d-flex align-items-center">
+                  <i class="material-icons mr-4pt">play_circle_outline</i>
+                  <span class="card-title text-white">Preview</span>
+                </span>
+              </span>
+            </a>
+
+            <div class="mdk-reveal__content">
+              <div class="card-body">
+                <div class="d-flex">
+                  <div class="flex">
+                    <a class="card-title" href="/studentCourse">
+                      Advanced concepts in Clinical Research Level 2
+                    </a>
+                  </div>
+                  <a
+                    href="/studentCourse"
+                    data-toggle="tooltip"
+                    data-title="Add Favorite"
+                    data-placement="top"
+                    data-boundary="window"
+                    class="ml-4pt material-icons text-20 card-course__icon-favorite"
+                  >
+                    favorite_border
+                  </a>
+                </div>
+                <div class="d-flex">
+                  <div class="rating flex">
+                    <span class="rating__item">
+                      <span class="material-icons">star</span>
+                    </span>
+                    <span class="rating__item">
+                      <span class="material-icons">star</span>
+                    </span>
+                    <span class="rating__item">
+                      <span class="material-icons">star</span>
+                    </span>
+                    <span class="rating__item">
+                      <span class="material-icons">star</span>
+                    </span>
+                    <span class="rating__item">
+                      <span class="material-icons">star_border</span>
+                    </span>
+                  </div>
+                  <small class="text-50">6 hours</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popoverContainer d-none">
+            <div class="media">
+              <div class="media-left mr-12pt">
+                <img
+                  src="images/paths/sketch_40x40%402x.png"
+                  width="40"
+                  height="40"
+                  alt="Angular"
+                  class="rounded"
+                />
+              </div>
+              <div class="media-body">
+                <div class="card-title mb-0">
+                  Advanced concepts in Clinical Research Level 2
+                </div>
+              </div>
+            </div>
+
+            <p class="my-16pt text-70">
+              Learn the Advanced concepts in Clinical Research Level 2.
             </p>
 
             <div className="mb-16pt">

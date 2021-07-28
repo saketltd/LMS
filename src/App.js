@@ -10,9 +10,9 @@ import StudentCourse from "./components/StudentCourse/StudentCourse";
 import About from "./components/AboutUs/about";
 import Contact from "./components/ContactUs/contact";
 import Career from "./components/Careers/career";
+import Student from "./components/Student/studentPanel";
 
 const MyComponent = (props) => {
-  useScript("https://use.typekit.net/foobar.js");
   useScript("vendor/jquery.min.js");
   useScript("vendor/popper.min.js");
   useScript("vendor/bootstrap.min.js");
@@ -41,6 +41,7 @@ function App() {
         <Route path="/about" component={About}></Route>
         <Route path="/contact" component={Contact}></Route>
         <Route path="/career" component={Career}></Route>
+        <Route path="/student" component={Student}></Route>
         <Route exact path="/login" component={Login}></Route>
         <Route exact path="/signup" component={Signup}></Route>
         <Route exact path="/blog" component={Blog}></Route>

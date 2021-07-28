@@ -5,7 +5,7 @@ export default function DesignCourses() {
     <>
       <div class="page-separator">
         <div class="page-separator__text">
-          DRUGS, APPROVAL & MARKETING PROCESS
+          Fundamentals of Clinical Research Level 2
         </div>
       </div>
 

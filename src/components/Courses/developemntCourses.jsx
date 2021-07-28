@@ -4,7 +4,9 @@ export default function Development() {
   return (
     <>
       <div class="page-separator">
-        <div class="page-separator__text">CLINICAL RESEARCH APPROACHES </div>
+        <div class="page-separator__text">
+          Fundamentals of Clinical Research Level 1
+        </div>
       </div>
 
       <div className="row card-group-row">
