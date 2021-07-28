@@ -302,8 +302,13 @@ export default function AboutUsContent() {
                           width="85%"
                         />
                         <figcaption>
-                          <strong>Anuradha Ramchandran</strong> <br />
-                          <span>CEO</span>
+                          <h5 className="m-0 p-0">Anuradha Ramchandran</h5>
+                          <br />
+                          <small className="text-muted">CEO</small>
+                          <br />
+                          <button type="button" class="btn btn-primary mt-2">
+                            Know More
+                          </button>
                         </figcaption>
                       </figure>
                     </div>
@@ -316,8 +321,13 @@ export default function AboutUsContent() {
                           width="85%"
                         />
                         <figcaption>
-                          <strong>Dr. Smitha Parthiban</strong> <br />
-                          <span>Principal Mentor</span>
+                          <h5 className="m-0 p-0">Dr. Smitha Parthiban</h5>
+                          <br />
+                          <small className="text-muted">Principal Mentor</small>
+                          <br />
+                          <button type="button" class="btn btn-primary mt-2">
+                            Know More
+                          </button>
                         </figcaption>
                       </figure>
                     </div>
@@ -330,8 +340,13 @@ export default function AboutUsContent() {
                           width="85%"
                         />
                         <figcaption>
-                          <strong>Ms. Amrutha Babu</strong> <br />
-                          <span>Academic Mentor</span>
+                          <h5 className="m-0 p-0">Ms. Amrutha Babu</h5>
+                          <br />
+                          <small className="text-muted">Academic Mentor</small>
+                          <br />
+                          <button type="button" class="btn btn-primary mt-2">
+                            Know More
+                          </button>
                         </figcaption>
                       </figure>
                     </div>
@@ -346,8 +361,13 @@ export default function AboutUsContent() {
                           width="85%"
                         />
                         <figcaption>
-                          <strong>Dr. Divya Sunil</strong> <br />
-                          <span>Academic Mentor</span>
+                          <h5 className="m-0 p-0">Dr. Divya Sunil</h5>
+                          <br />
+                          <small className="text-muted">Academic Mentor</small>
+                          <br />
+                          <button type="button" class="btn btn-primary mt-2">
+                            Know More
+                          </button>
                         </figcaption>
                       </figure>
                     </div>
@@ -360,8 +380,13 @@ export default function AboutUsContent() {
                           width="85%"
                         />
                         <figcaption>
-                          <strong>Dr. Smitha Seshagiri</strong> <br />
-                          <span>Academic Mentor</span>
+                          <h5 className="m-0 p-0">Dr. Smitha Seshagiri</h5>
+                          <br />
+                          <small className="text-muted">Academic Mentor</small>
+                          <br />
+                          <button type="button" class="btn btn-primary mt-2">
+                            Know More
+                          </button>
                         </figcaption>
                       </figure>
                     </div>
@@ -374,8 +399,14 @@ export default function AboutUsContent() {
                           width="85%"
                         />
                         <figcaption>
-                          <strong>Ms. Sushma K P</strong> <br />
-                          <span>Customer Success Manager</span>
+                          <h5 className="m-0 p-0">Ms. Sushma K P</h5> <br />
+                          <small className="text-muted">
+                            Customer Success Manager
+                          </small>
+                          <br />
+                          <button type="button" class="btn btn-primary mt-2">
+                            Know More
+                          </button>
                         </figcaption>
                       </figure>
                     </div>

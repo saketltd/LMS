@@ -38,6 +38,7 @@ export default function CareerContent() {
                 style={{
                   width: "1674px",
                   transform: "translate3d(0px, 0px, 0px)",
+                  maxWidth: "inherit",
                 }}
               >
                 <div class="col-2 mdk-carousel__item">
