@@ -3,7 +3,7 @@ import React from "react";
 export default function NewsSection() {
   return (
     <>
-      <div class="sidebar-sticky" style={{ width: "280px" }}>
+      <div class="sidebar-sticky" style={{ width: "100%" }}>
         <div
           className="d-flex align-items-center container"
           style={{
