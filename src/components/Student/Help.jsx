@@ -1,20 +1,20 @@
 import React from "react";
-import Dashboard from "./Dasboard";
 import Footer from "./Footer";
 import Header from "./Header";
-import NewsSection from "./NewsSection";
+import HelpContent from "./HelpContent";
+import ProfileSidebar from "./profileSidebar";
 
-export default function Student() {
+export default function Help() {
   return (
     <>
       <Header />
       <div className="row">
-        <div className="col-10">
-          <Dashboard />
-          <Footer />
-        </div>
         <div className="col-2">
-          <NewsSection />
+          <ProfileSidebar />
+        </div>
+        <div className="col-10">
+          <HelpContent />
+          <Footer />
         </div>
       </div>
     </>

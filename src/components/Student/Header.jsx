@@ -15,7 +15,7 @@ export default function Header() {
           id="default-navbar"
           data-primary
         >
-          <a href="/" className="navbar-brand mr-16pt">
+          <a href="/student" className="navbar-brand mr-16pt">
             <img
               src="images/logo-black@2x.png"
               alt="logo"
@@ -30,8 +30,8 @@ export default function Header() {
 
           <ul className="nav navbar-nav ml-auto mr-0">
             <li className="nav-item">
-              <a href="/signup" className="btn btn-outline-primary">
-                Get Started
+              <a href="/student" className="btn btn-outline-primary">
+                Dashboard
               </a>
             </li>
             <li className="nav-item">
@@ -51,9 +51,51 @@ export default function Header() {
                 alt="..."
               />
               <div className="ml-2">
-                <strong>Emma Tylor</strong>
-                <br />
-                <small>Student</small>
+                <div class="dropdown">
+                  <a
+                    href="#"
+                    class="nav-link align-items-center link-dark dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style={{ height: 15 }}
+                  >
+                    <strong>Emma Tylor</strong>
+                  </a>
+                  <small>Student</small>
+                  <ul
+                    class="dropdown-menu"
+                    style={{ left: "-50px" }}
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="/profile">
+                        <i class="fas fa-user me-2"></i> Profile
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="fas fa-shopping-cart me-2"></i> My Purchase
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="fas fa-file-alt me-3"></i> My Certificates
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/help">
+                        <i class="fas fa-question-circle me-2"></i> Help Center
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="fas fa-sign-out-alt me-2"></i> Logout
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </li>
           </ul>

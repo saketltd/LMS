@@ -1,4 +1,5 @@
 import React from "react";
+import Recommended from "./recommended";
 
 export default function Dashboard() {
   return (
@@ -140,12 +141,13 @@ export default function Dashboard() {
                         </div>
                       </div>
                       <div className="d-flex justify-content-center mt-4">
-                        <button
+                        <a
+                          href="/module"
                           className="btn btn-primary"
                           style={{ backgroundColor: "#3B7EB9" }}
                         >
                           Go To Module
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -707,326 +709,6 @@ export default function Dashboard() {
                 </div>
               </div>
               <div className="row mt-5">
-                <div className="col-3">
-                  <div
-                    class="card"
-                    style={{ width: "14rem", color: "#3B7EB9" }}
-                  >
-                    <div class="card-body">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Clinical Research
-                      </h6>
-                      <h5 class="card-title pb-3">
-                        Clinical Research Aproaches
-                      </h5>
-                      <div className="row">
-                        <div className="col-6">
-                          <div
-                            style={{
-                              display: "inline-block",
-                            }}
-                          >
-                            <i
-                              style={{
-                                fontSize: "30px",
-                              }}
-                              class="fas fa-desktop"
-                            ></i>
-                          </div>
-                          <div
-                            style={{
-                              display: "inline-block",
-                              marginLeft: "9px",
-                            }}
-                          >
-                            <h5 class="card-title" style={{ fontSize: "15px" }}>
-                              11
-                            </h5>
-                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
-                              videos
-                            </h6>
-                          </div>
-                        </div>
-                        <div className="col-6">
-                          <div
-                            style={{
-                              display: "inline-block",
-                            }}
-                          >
-                            <i
-                              style={{
-                                fontSize: "30px",
-                              }}
-                              class="far fa-clock"
-                            ></i>
-                          </div>
-                          <div
-                            style={{
-                              display: "inline-block",
-                              marginLeft: "9px",
-                            }}
-                          >
-                            <h5 class="card-title" style={{ fontSize: "15px" }}>
-                              05
-                            </h5>
-                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
-                              hours
-                            </h6>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="d-flex justify-content-center mt-4">
-                        <button
-                          className="btn btn-primary"
-                          style={{ backgroundColor: "#3B7EB9" }}
-                        >
-                          Go To Module
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-3">
-                  <div
-                    class="card"
-                    style={{ width: "14rem", color: "#3B7EB9" }}
-                  >
-                    <div class="card-body">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Clinical Research
-                      </h6>
-                      <h5 class="card-title pb-3">
-                        Clinical Research Aproaches
-                      </h5>
-                      <div className="row">
-                        <div className="col-6">
-                          <div
-                            style={{
-                              display: "inline-block",
-                            }}
-                          >
-                            <i
-                              style={{
-                                fontSize: "30px",
-                              }}
-                              class="fas fa-desktop"
-                            ></i>
-                          </div>
-                          <div
-                            style={{
-                              display: "inline-block",
-                              marginLeft: "9px",
-                            }}
-                          >
-                            <h5 class="card-title" style={{ fontSize: "15px" }}>
-                              11
-                            </h5>
-                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
-                              videos
-                            </h6>
-                          </div>
-                        </div>
-                        <div className="col-6">
-                          <div
-                            style={{
-                              display: "inline-block",
-                            }}
-                          >
-                            <i
-                              style={{
-                                fontSize: "30px",
-                              }}
-                              class="far fa-clock"
-                            ></i>
-                          </div>
-                          <div
-                            style={{
-                              display: "inline-block",
-                              marginLeft: "9px",
-                            }}
-                          >
-                            <h5 class="card-title" style={{ fontSize: "15px" }}>
-                              05
-                            </h5>
-                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
-                              hours
-                            </h6>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="d-flex justify-content-center mt-4">
-                        <button
-                          className="btn btn-primary"
-                          style={{ backgroundColor: "#3B7EB9" }}
-                        >
-                          Go To Module
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h3 style={{ color: "#3B7EB9" }}>Recommended Modules</h3>
-              <hr />
-              <div className="row mt-5">
-                <div className="col-3">
-                  <div
-                    class="card"
-                    style={{ width: "14rem", color: "#3B7EB9" }}
-                  >
-                    <div class="card-body">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Clinical Research
-                      </h6>
-                      <h5 class="card-title pb-3">
-                        Clinical Research Aproaches
-                      </h5>
-                      <div className="row">
-                        <div className="col-6">
-                          <div
-                            style={{
-                              display: "inline-block",
-                            }}
-                          >
-                            <i
-                              style={{
-                                fontSize: "30px",
-                              }}
-                              class="fas fa-desktop"
-                            ></i>
-                          </div>
-                          <div
-                            style={{
-                              display: "inline-block",
-                              marginLeft: "9px",
-                            }}
-                          >
-                            <h5 class="card-title" style={{ fontSize: "15px" }}>
-                              11
-                            </h5>
-                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
-                              videos
-                            </h6>
-                          </div>
-                        </div>
-                        <div className="col-6">
-                          <div
-                            style={{
-                              display: "inline-block",
-                            }}
-                          >
-                            <i
-                              style={{
-                                fontSize: "30px",
-                              }}
-                              class="far fa-clock"
-                            ></i>
-                          </div>
-                          <div
-                            style={{
-                              display: "inline-block",
-                              marginLeft: "9px",
-                            }}
-                          >
-                            <h5 class="card-title" style={{ fontSize: "15px" }}>
-                              05
-                            </h5>
-                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
-                              hours
-                            </h6>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="d-flex justify-content-center mt-4">
-                        <button
-                          className="btn btn-primary"
-                          style={{ backgroundColor: "#3B7EB9" }}
-                        >
-                          Go To Module
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-3">
-                  <div
-                    class="card"
-                    style={{ width: "14rem", color: "#3B7EB9" }}
-                  >
-                    <div class="card-body">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Clinical Research
-                      </h6>
-                      <h5 class="card-title pb-3">
-                        Clinical Research Aproaches
-                      </h5>
-                      <div className="row">
-                        <div className="col-6">
-                          <div
-                            style={{
-                              display: "inline-block",
-                            }}
-                          >
-                            <i
-                              style={{
-                                fontSize: "30px",
-                              }}
-                              class="fas fa-desktop"
-                            ></i>
-                          </div>
-                          <div
-                            style={{
-                              display: "inline-block",
-                              marginLeft: "9px",
-                            }}
-                          >
-                            <h5 class="card-title" style={{ fontSize: "15px" }}>
-                              11
-                            </h5>
-                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
-                              videos
-                            </h6>
-                          </div>
-                        </div>
-                        <div className="col-6">
-                          <div
-                            style={{
-                              display: "inline-block",
-                            }}
-                          >
-                            <i
-                              style={{
-                                fontSize: "30px",
-                              }}
-                              class="far fa-clock"
-                            ></i>
-                          </div>
-                          <div
-                            style={{
-                              display: "inline-block",
-                              marginLeft: "9px",
-                            }}
-                          >
-                            <h5 class="card-title" style={{ fontSize: "15px" }}>
-                              05
-                            </h5>
-                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
-                              hours
-                            </h6>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="d-flex justify-content-center mt-4">
-                        <button
-                          className="btn btn-primary"
-                          style={{ backgroundColor: "#3B7EB9" }}
-                        >
-                          Go To Module
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div className="col-3">
                   <div
                     class="card"
@@ -1193,7 +875,578 @@ export default function Dashboard() {
               role="tabpanel"
               aria-labelledby="profile-tab"
             >
-              ...
+              <div className="row mt-5">
+                <div className="col-3">
+                  <div class="card" style={{ width: "14rem" }}>
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button className="btn btn-dark">Go To Module</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div class="card" style={{ width: "14rem" }}>
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button className="btn btn-dark">Go To Module</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div class="card" style={{ width: "14rem" }}>
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button className="btn btn-dark">Go To Module</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div class="card" style={{ width: "14rem" }}>
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button className="btn btn-dark">Go To Module</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row mt-5">
+                <div className="col-3">
+                  <div class="card" style={{ width: "14rem" }}>
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button className="btn btn-dark">Go To Module</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div class="card" style={{ width: "14rem" }}>
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button className="btn btn-dark">Go To Module</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div class="card" style={{ width: "14rem" }}>
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button className="btn btn-dark">Go To Module</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div class="card" style={{ width: "14rem" }}>
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button className="btn btn-dark">Go To Module</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -1201,9 +1454,327 @@ export default function Dashboard() {
               role="tabpanel"
               aria-labelledby="contact-tab"
             >
-              ...
+              <div className="row mt-5">
+                <div className="col-3">
+                  <div
+                    class="card"
+                    style={{ width: "14rem", color: "#3B7EB9" }}
+                  >
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button
+                          className="btn btn-primary"
+                          style={{ backgroundColor: "#3B7EB9" }}
+                        >
+                          Go To Module
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div
+                    class="card"
+                    style={{ width: "14rem", color: "#3B7EB9" }}
+                  >
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button
+                          className="btn btn-primary"
+                          style={{ backgroundColor: "#3B7EB9" }}
+                        >
+                          Go To Module
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div
+                    class="card"
+                    style={{ width: "14rem", color: "#3B7EB9" }}
+                  >
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button
+                          className="btn btn-primary"
+                          style={{ backgroundColor: "#3B7EB9" }}
+                        >
+                          Go To Module
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div
+                    class="card"
+                    style={{ width: "14rem", color: "#3B7EB9" }}
+                  >
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Clinical Research
+                      </h6>
+                      <h5 class="card-title pb-3">
+                        Clinical Research Aproaches
+                      </h5>
+                      <div className="row">
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="fas fa-desktop"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              11
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              videos
+                            </h6>
+                          </div>
+                        </div>
+                        <div className="col-6">
+                          <div
+                            style={{
+                              display: "inline-block",
+                            }}
+                          >
+                            <i
+                              style={{
+                                fontSize: "30px",
+                              }}
+                              class="far fa-clock"
+                            ></i>
+                          </div>
+                          <div
+                            style={{
+                              display: "inline-block",
+                              marginLeft: "9px",
+                            }}
+                          >
+                            <h5 class="card-title" style={{ fontSize: "15px" }}>
+                              05
+                            </h5>
+                            <h6 class="card-subtitle mt-0 mb-0 text-muted">
+                              hours
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-center mt-4">
+                        <button
+                          className="btn btn-primary"
+                          style={{ backgroundColor: "#3B7EB9" }}
+                        >
+                          Go To Module
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <Recommended />
         </div>
       </div>
     </div>
