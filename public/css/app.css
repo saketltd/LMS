@@ -34942,27 +34942,28 @@ label {
   margin-bottom: 2rem;
 }
 .course-nav:before {
+  width: 75%;
   content: "";
   position: absolute;
-  top: calc(50% - 1px);
+  top: calc(50% - 11px);
   height: 2px;
   opacity: 0.2;
   z-index: -1;
 }
 [dir] .course-nav:before {
-  background-color: #fff;
+  background-color: #3b7eb9;
 }
 [dir="ltr"] .course-nav:before,
 [dir="rtl"] .course-nav:before {
-  left: 0;
+  left: 12%;
   right: 0;
 }
 .course-nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  width: 15px;
+  height: 15px;
 }
 [dir] .course-nav a {
   border-radius: 100px;

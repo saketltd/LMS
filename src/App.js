@@ -37,6 +37,9 @@ const MyComponent = (props) => {
   useScript("js/page.instructor-dashboard.js");
   useScript("vendor/list.min.js");
   useScript("js/list.js");
+  useScript("assets/js/util.js");
+  useScript("assets/js/swipe-content.js");
+  useScript("assets/js/main.js");
 };
 
 function App() {

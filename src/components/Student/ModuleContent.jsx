@@ -8,7 +8,143 @@ export default function ModuleContent() {
           <h2 className="mb-0 text-info">Clinical Research</h2>
           <p style={{ fontSize: 15 }}>Clinical Research Aproaches</p>
         </div>
-        <div className="container">
+        <div className="container py-5 my-5">
+          <nav class="course-nav">
+            <a href="#" style={{ fontSize: "25px", color: "#3B7EB9" }}>
+              <i class="fas fa-arrow-circle-left"></i>
+            </a>
+            <div className="d-flex align-items-center flex-column">
+              <a
+                data-toggle="tooltip"
+                data-placement="bottom"
+                data-title="Getting Started with Angular: Introduction"
+                href="#"
+                data-original-title=""
+                title=""
+              ></a>
+              <small className="text-info">START</small>
+            </div>
+            <div className="d-flex align-items-center flex-column">
+              <span
+                style={{
+                  position: "absolute",
+                  bottom: "70px",
+                  fontSize: "15px",
+                  color: "#3B7EB9",
+                }}
+              >
+                <i class="fas fa-file-invoice"></i>
+              </span>
+              <span
+                style={{
+                  position: "absolute",
+                  bottom: "40px",
+                  fontSize: "15px",
+                  color: "#3B7EB9",
+                }}
+              >
+                <i class="fas fa-check"></i>
+              </span>
+              <a
+                data-toggle="tooltip"
+                data-placement="bottom"
+                data-title="Getting Started with Angular: Introduction"
+                href="#"
+                data-original-title=""
+                title=""
+              ></a>
+              <small className="text-info">CHAPTER 1</small>
+            </div>
+            <div className="d-flex align-items-center flex-column">
+              <span
+                style={{
+                  position: "absolute",
+                  bottom: "40px",
+                  fontSize: "15px",
+                  color: "#3B7EB9",
+                }}
+              >
+                <i class="fas fa-check"></i>
+              </span>
+              <a
+                data-toggle="tooltip"
+                data-placement="bottom"
+                data-title="Getting Started with Angular: Introduction"
+                href="#"
+                data-original-title=""
+                title=""
+              ></a>
+              <small className="text-info">CHAPTER 2</small>
+            </div>
+            <div className="d-flex align-items-center flex-column">
+              <span
+                style={{
+                  position: "absolute",
+                  bottom: "40px",
+                  fontSize: "15px",
+                  color: "#3B7EB9",
+                }}
+              >
+                <i class="fas fa-check"></i>
+              </span>
+              <a
+                data-toggle="tooltip"
+                data-placement="bottom"
+                data-title="Getting Started with Angular: Introduction"
+                href="#"
+                data-original-title=""
+                title=""
+              ></a>
+              <small className="text-info">CHAPTER 3</small>
+            </div>
+            <div className="d-flex align-items-center flex-column">
+              <span
+                style={{
+                  position: "absolute",
+                  bottom: "40px",
+                  fontSize: "15px",
+                  color: "#3B7EB9",
+                }}
+              >
+                <i class="fas fa-check"></i>
+              </span>
+              <a
+                data-toggle="tooltip"
+                data-placement="bottom"
+                data-title="Getting Started with Angular: Introduction"
+                href="#"
+                data-original-title=""
+                title=""
+              ></a>
+              <small className="text-info">CHAPTER 4</small>
+            </div>
+            <div className="d-flex align-items-center flex-column">
+              <span
+                style={{
+                  position: "absolute",
+                  bottom: "40px",
+                  fontSize: "15px",
+                  color: "#3B7EB9",
+                }}
+              >
+                <i class="fas fa-check"></i>
+              </span>
+              <a
+                data-toggle="tooltip"
+                data-placement="bottom"
+                data-title="Getting Started with Angular: Introduction"
+                href="#"
+                data-original-title=""
+                title=""
+              ></a>
+              <small className="text-info">CHAPTER 5</small>
+            </div>
+            <a href="#" style={{ fontSize: "25px", color: "#3B7EB9" }}>
+              <i class="fas fa-arrow-circle-right"></i>
+            </a>
+          </nav>
+        </div>
+        <div className="container mb-5 pb-5">
           <div class="card">
             <div class="card-header" style={{ backgroundColor: "#CBE7FF66" }}>
               <h3 className="text-info">
