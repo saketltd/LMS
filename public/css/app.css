@@ -84,7 +84,7 @@ body {
 }
 [dir] body {
   margin: 0;
-  background-color: #fff;
+  background-color: #f5f7fa;
 }
 [dir="ltr"] body {
   text-align: left;

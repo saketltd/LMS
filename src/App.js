@@ -18,6 +18,14 @@ import Quiz from "./components/Student/Quiz";
 import Profile from "./components/Student/Profile";
 import Help from "./components/Student/Help";
 import CourseInfo from "./components/Student/CourseInfo";
+import ModulesList from "./components/Admin/ModuleList";
+import AddModule from "./components/Admin/AddModule";
+import EditModule from "./components/Admin/EditModule";
+import AddChapter from "./components/Admin/AddChapter";
+import EditChapter from "./components/Admin/EditChapter";
+import TopicList from "./components/Admin/TopicList";
+import AddTopic from "./components/Admin/AddTopic";
+import EditTopic from "./components/Admin/EditTopic";
 
 const MyComponent = (props) => {
   useScript("vendor/jquery.min.js");
@@ -59,6 +67,14 @@ function App() {
         <Route path="/profile" component={Profile}></Route>
         <Route path="/help" component={Help}></Route>
         <Route path="/courseInfo" component={CourseInfo}></Route>
+        <Route path="/moduleList" component={ModulesList}></Route>
+        <Route path="/addModule" component={AddModule}></Route>
+        <Route path="/editModule" component={EditModule}></Route>
+        <Route path="/topicList" component={TopicList}></Route>
+        <Route path="/addTopic" component={AddTopic}></Route>
+        <Route path="/editTopic" component={EditTopic}></Route>
+        <Route path="/addChapter" component={AddChapter}></Route>
+        <Route path="/editChapter" component={EditChapter}></Route>
         <Route exact path="/login" component={Login}></Route>
         <Route exact path="/signup" component={Signup}></Route>
         <Route exact path="/blog" component={Blog}></Route>
