@@ -35,6 +35,7 @@ const MyComponent = (props) => {
   useScript("vendor/dom-factory.js");
   useScript("vendor/material-design-kit.js");
   useScript("js/app.js");
+  useScript("js/quill.js");
   useScript("js/preloader.js");
   useScript("js/settings.js");
   useScript("vendor/moment.min.js");

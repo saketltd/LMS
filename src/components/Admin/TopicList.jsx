@@ -116,9 +116,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -146,9 +150,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -176,9 +184,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -206,9 +218,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -236,9 +252,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -266,9 +286,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -296,9 +320,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -326,9 +354,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -356,9 +388,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -386,9 +422,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -416,9 +456,13 @@ export default function TopicList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editTopic"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">

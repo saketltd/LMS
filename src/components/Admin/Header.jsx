@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Dashboard() {
+export default function Header() {
   return (
     <div
       id="header"
@@ -22,7 +22,7 @@ export default function Dashboard() {
             <span className="material-icons">short_text</span>
           </button>
 
-          <a href="/" className="navbar-brand mr-16pt">
+          <a href="/admin" className="navbar-brand mr-16pt">
             <img
               src="images/logo-white.png"
               alt="logo"

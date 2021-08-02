@@ -419,6 +419,9 @@ export default function Dashboard() {
             </div>
           </div>
         </div>
+        <div className="page-separator">
+          <div className="page-separator__text">Users</div>
+        </div>
         <div class="card mb-32pt">
           <div
             class="table-responsive"

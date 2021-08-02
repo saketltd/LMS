@@ -1,4 +1,5 @@
 import React from "react";
+import Drawer from "./Drawer";
 import Header from "./Header";
 
 export default function EditModule() {
@@ -71,6 +72,7 @@ export default function EditModule() {
           </div>
         </div>
       </div>
+      <Drawer />
     </>
   );
 }

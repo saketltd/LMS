@@ -1,4 +1,5 @@
 import React from "react";
+import Drawer from "./Drawer";
 import Header from "./Header";
 
 export default function AddTopic() {
@@ -70,6 +71,7 @@ export default function AddTopic() {
           </div>
         </div>
       </div>
+      <Drawer />
     </>
   );
 }

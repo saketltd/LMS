@@ -1,4 +1,5 @@
 import React from "react";
+import Drawer from "./Drawer";
 import Header from "./Header";
 export default function ModulesList() {
   return (
@@ -116,9 +117,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -146,9 +151,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -176,9 +185,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -206,9 +219,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -236,9 +253,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -266,9 +287,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -296,9 +321,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -326,9 +355,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -356,9 +389,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -386,9 +423,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -416,9 +457,13 @@ export default function ModulesList() {
                       </h3>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-success">
+                      <a
+                        href="/editModule"
+                        type="button"
+                        class="btn btn-success"
+                      >
                         <i class="far fa-edit"></i>
-                      </button>
+                      </a>
                     </td>
                     <td>
                       <button type="button" class="btn btn-danger">
@@ -463,6 +508,7 @@ export default function ModulesList() {
           </div>
         </div>
       </div>
+      <Drawer />
     </>
   );
 }

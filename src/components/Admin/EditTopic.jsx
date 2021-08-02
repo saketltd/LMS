@@ -1,4 +1,5 @@
 import React from "react";
+import Drawer from "./Drawer";
 import Header from "./Header";
 
 export default function EditTopic() {
@@ -71,6 +72,7 @@ export default function EditTopic() {
           </div>
         </div>
       </div>
+      <Drawer />
     </>
   );
 }
