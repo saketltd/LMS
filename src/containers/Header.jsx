@@ -8,6 +8,7 @@ export default function Header() {
       class="mdk-header js-mdk-header mb-0"
       data-fixed
       data-effects=""
+      style={{ zIndex: "100" }}
     >
       <div class="mdk-header__content">
         <div
@@ -74,7 +75,11 @@ export default function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="/signup" className="btn btn-outline-white">
+              <a
+                href="/signup"
+                className="btn btn-outline-white"
+                style={{ color: "white" }}
+              >
                 Get Started
               </a>
             </li>

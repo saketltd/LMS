@@ -12,34 +12,6 @@ export default function Drawer() {
           <ul class="sidebar-menu">
             <li class="sidebar-menu-item">
               <a
-                class="sidebar-menu-button js-sidebar-collapse"
-                data-toggle="collapse"
-                href="#enterprise_menu"
-              >
-                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">
-                  donut_large
-                </span>
-                Module
-                <span class="ml-auto sidebar-menu-toggle-icon"></span>
-              </a>
-              <ul
-                class="sidebar-submenu collapse sm-indent"
-                id="enterprise_menu"
-              >
-                <li class="sidebar-menu-item">
-                  <a class="sidebar-menu-button" href="/moduleList">
-                    <span class="sidebar-menu-text">List Module</span>
-                  </a>
-                </li>
-                <li class="sidebar-menu-item">
-                  <a class="sidebar-menu-button" href="/addModule">
-                    <span class="sidebar-menu-text">Add Module</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="sidebar-menu-item">
-              <a
                 class="sidebar-menu-button"
                 data-toggle="collapse"
                 href="#productivity_menu"
@@ -62,6 +34,34 @@ export default function Drawer() {
                 <li class="sidebar-menu-item">
                   <a class="sidebar-menu-button" href="/addTopic">
                     <span class="sidebar-menu-text">Add Topic</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-menu-item">
+              <a
+                class="sidebar-menu-button js-sidebar-collapse"
+                data-toggle="collapse"
+                href="#enterprise_menu"
+              >
+                <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">
+                  donut_large
+                </span>
+                Module
+                <span class="ml-auto sidebar-menu-toggle-icon"></span>
+              </a>
+              <ul
+                class="sidebar-submenu collapse sm-indent"
+                id="enterprise_menu"
+              >
+                <li class="sidebar-menu-item">
+                  <a class="sidebar-menu-button" href="/moduleList">
+                    <span class="sidebar-menu-text">List Module</span>
+                  </a>
+                </li>
+                <li class="sidebar-menu-item">
+                  <a class="sidebar-menu-button" href="/addModule">
+                    <span class="sidebar-menu-text">Add Module</span>
                   </a>
                 </li>
               </ul>

@@ -418,6 +418,18 @@ export default function EditChapter() {
                         keyboard_arrow_down
                       </span>
                     </a>
+                    <div class="accordion__menu collapse" id="course-toc-1">
+                      <div class="accordion__menu-link d-block">
+                        <div class="form-group mb-24pt">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Course title"
+                            value="Question"
+                          />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -429,7 +441,7 @@ export default function EditChapter() {
                       href="#"
                       class="accordion__toggle collapsed"
                       data-toggle="collapse"
-                      data-target="#course-toc-1"
+                      data-target="#course-toc-2"
                       data-parent="#parent"
                     >
                       <span class="flex">1. Edit Option</span>
@@ -437,6 +449,18 @@ export default function EditChapter() {
                         keyboard_arrow_down
                       </span>
                     </a>
+                    <div class="accordion__menu collapse" id="course-toc-2">
+                      <div class="accordion__menu-link d-block">
+                        <div class="form-group mb-24pt">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Course title"
+                            value="Option 1"
+                          />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -448,7 +472,7 @@ export default function EditChapter() {
                       href="#"
                       class="accordion__toggle collapsed"
                       data-toggle="collapse"
-                      data-target="#course-toc-1"
+                      data-target="#course-toc-3"
                       data-parent="#parent"
                     >
                       <span class="flex">2. Edit Option</span>
@@ -456,6 +480,18 @@ export default function EditChapter() {
                         keyboard_arrow_down
                       </span>
                     </a>
+                    <div class="accordion__menu collapse" id="course-toc-3">
+                      <div class="accordion__menu-link d-block">
+                        <div class="form-group mb-24pt">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Course title"
+                            value="Option 2"
+                          />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -483,15 +519,19 @@ export default function EditChapter() {
                     ></iframe>
                   </div>
                   <div class="card-body">
-                    <label class="form-label">URL</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      value="https://player.vimeo.com/video/97243285?title=0&amp;byline=0&amp;portrait=0"
-                      placeholder="Enter Video URL"
-                    />
+                    <label class="form-label">Add Video</label>
+                    <div class="custom-file">
+                      <input
+                        type="file"
+                        class="custom-file-input"
+                        id="inputGroupFile01"
+                      />
+                      <label class="custom-file-label" for="inputGroupFile01">
+                        Choose file
+                      </label>
+                    </div>
                     <small class="form-text text-muted">
-                      Enter a valid video URL.
+                      Enter a valid video.
                     </small>
                   </div>
                 </div>

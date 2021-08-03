@@ -40,7 +40,7 @@ export default function Header() {
 
             <small className="flex d-flex flex-column">
               <strong className="navbar-text-100">Earnings</strong>
-              <span className="navbar-text-50">&dollar;12.3k</span>
+              <span className="navbar-text-50">₹12.3k</span>
             </small>
           </span>
           <span className="d-none d-md-flex align-items-center mr-16pt">

@@ -26,6 +26,11 @@ import EditChapter from "./components/Admin/EditChapter";
 import TopicList from "./components/Admin/TopicList";
 import AddTopic from "./components/Admin/AddTopic";
 import EditTopic from "./components/Admin/EditTopic";
+import SmithaP from "./components/AboutUs/SmithaP";
+import Amrutha from "./components/AboutUs/Amrutha";
+import Sushma from "./components/AboutUs/Sushama";
+import DivyaSunil from "./components/AboutUs/DivyaSunil";
+import Smitha from "./components/AboutUs/Smitha";
 
 const MyComponent = (props) => {
   useScript("vendor/jquery.min.js");
@@ -80,6 +85,11 @@ function App() {
         <Route exact path="/signup" component={Signup}></Route>
         <Route exact path="/blog" component={Blog}></Route>
         <Route exact path="/studentCourse" component={StudentCourse}></Route>
+        <Route path="/SmithaP" component={SmithaP} />
+        <Route path="/Amrutha" component={Amrutha} />
+        <Route path="/Sushma" component={Sushma} />
+        <Route path="/DivyaSunil" component={DivyaSunil} />
+        <Route path="/Smitha" component={Smitha} />
         <Route exact path="/" component={Home}></Route>
       </Switch>
       {MyComponent()}
