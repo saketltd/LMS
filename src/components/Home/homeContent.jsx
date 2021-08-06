@@ -27,11 +27,11 @@ export default function Content() {
               <h3 className="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-2px w-80 xl-w-100 margin-twelve-bottom sm-margin-30px-bottom">
                 True Lessons
                 <br />
-                Because Blended Learning Makes the New Professional{" "}
+                World's Number 1 MedEdTech Platform{" "}
               </h3>
               <div className="d-inline-block">
                 <a
-                  href="/register"
+                  href="/login"
                   className="btn section-link btn-fancy btn-large btn-round-edge btn-primary margin-35px-right xs-margin-20px-bottom"
                 >
                   Register Now
@@ -176,7 +176,7 @@ export default function Content() {
                   </h4>
                 </a>
                 <a
-                  href="/clinical"
+                  href="/courses"
                   class="btn btn-fancy btn-small btn-round-edge btn-primary align-self-center margin-10px-top"
                 >
                   {/* <i class="fas fa-arrow-right icon-very-small text-white"></i> */}
@@ -195,10 +195,10 @@ export default function Content() {
               data-wow-delay="0.2s"
             >
               <div className="d-flex flex-column h-100 justify-content-start padding-6-rem-all text-center position-relative z-index-1 xl-padding-2-half-rem-lr lg-padding-8-rem-lr md-padding-5-rem-lr">
-                <p className="text-white">
+                <h6 className="text-white">
                   Spearheading supreme Clinical Research in India from 2010 with
                   a towering track record and apex faculty.
-                </p>
+                </h6>
                 <a
                   href="/contact"
                   className="btn btn-fancy btn-small btn-round-edge btn-primary align-self-center margin-10px-top"
@@ -216,7 +216,8 @@ export default function Content() {
               <div className="d-flex word-break flex-column h-100 padding-5-rem-all text-center position-relative z-index-1 xl-padding-3-rem-lr lg-padding-8-rem-lr">
                 <a href="/career">
                   <h4 className="alt-font font-weight-600 text-white text-uppercase mb-0 mt-auto letter-spacing-minus-1px">
-                    <span>Career</span> <span>Development</span>{" "}
+                    <span>Career</span> 
+                    <span>Development</span>
                     <span>Courses</span>
                   </h4>
                 </a>
@@ -239,11 +240,11 @@ export default function Content() {
               data-wow-delay="0.4s"
             >
               <div className="d-flex flex-column h-100 justify-content-start padding-5-rem-tb padding-6-rem-lr text-center position-relative z-index-1 xl-padding-3-rem-lr lg-padding-8-rem-lr">
-                <p className="text-white">
+                <h6 className="text-white">
                   Paving the way for proficient communicators since 2006.
                   <br />
                   <br />
-                </p>
+                </h6>
                 <a
                   href="/contact"
                   className="btn btn-fancy btn-small btn-round-edge btn-primary align-self-center margin-10px-top"
@@ -350,6 +351,7 @@ export default function Content() {
                   placeholder="Your name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
+                  required="required"
                 />
 
                 <input
@@ -359,21 +361,23 @@ export default function Content() {
                   placeholder="Your email address"
                   value={emailid}
                   onChange={(e) => setEmailid(e.target.value)}
+                  required="required"
                 />
 
                 <input
-                  class="input-border-bottom border-color-dark-white-transparent bg-transparent placeholder-light large-input text-white px-0 margin-25px-bottom border-radius-0px"
+                  class="input-border-bottom border-color-dark-white-transparent bg-transparent placeholder-light large-input text-white px-0 margin-25px-bottom border-radius-0px required"
                   type="tel"
                   name="phone"
                   placeholder="Mobile number"
                   value={mobileno}
                   maxLength="10"
                   onChange={(e) => setMobileno(e.target.value)}
+                  required="required"
                 />
 
                 <textarea
                   class="input-border-bottom border-color-dark-white-transparent bg-transparent placeholder-light large-input text-white px-0 margin-45px-bottom border-radius-0px"
-                  rows="3"
+                  rows="1"
                   placeholder="How can we help you?"
                   name="comment"
                   value={enquirymsg}
@@ -401,6 +405,9 @@ export default function Content() {
               <h6 className="alt-font text-extra-dark-gray font-weight-500">
                 Students Testimonial
               </h6>
+              <div className="text-gray alt-font  font-weight-400 line-height-20px">
+              Talking about placements, here's what our dear students have to say about their own experiences with True Lessons.</div>
+              
             </div>
           </div>
           <div className="row justify-content-center">
@@ -436,12 +443,12 @@ export default function Content() {
                                 Clinical Research after learning about the scope
                                 it entails. But the question persisted; Where
                                 from? I finally breathed a sigh of relief after
-                                landing in ACRI! The amazing staff at the
+                                landing in "True Lessons"! The amazing staff at the
                                 institute is the reason I got to interview with
                                 leading companies and I’m happy to be placed in
                                 a top pharmaceutical company as a Drug Safety
                                 Associate. Grateful to the wonderful people at
-                                ACRI!
+                                "True Lessons"!
                               </p>
                               <div className="text-extra-dark-gray alt-font text-uppercase font-weight-600 line-height-20px">
                                 Dr. Shruti B.R.
@@ -462,7 +469,7 @@ export default function Content() {
                             </div>
                             <div className="feature-box-content">
                               <p>
-                                I joined ACRI after completing my Bachelor’s in
+                                I joined "True Lessons" after completing my Bachelor’s in
                                 Biotechnology. I felt a pressing need to gather
                                 the right technical knowledge prior to joining
                                 the industry. Hence, I joined the PG Diploma
@@ -490,16 +497,16 @@ export default function Content() {
                             </div>
                             <div className="feature-box-content">
                               <p>
-                                Having joined ACRI in 2018, I have been subject
+                                Having joined "True Lessons" in 2018, I have been subject
                                 to a myriad of learning opportunities at the
-                                institute. The staff at ACRI were always
+                                institute. The staff at "True Lessons" were always
                                 supportive throughout my journey at the
                                 institute. All the technical sessions coupled
                                 with the PD ones really opened the right gates
                                 for me. It is because of the institute’s
                                 endeavour to provide excellent clinical research
                                 education that I got placed at IQVIA. I would
-                                recommend ACRI 10/10 for anyone that wants to
+                                recommend "True Lessons" 10/10 for anyone that wants to
                                 carve a niche for themselves in the clinical
                                 research space.
                               </p>
@@ -522,17 +529,17 @@ export default function Content() {
                             </div>
                             <div className="feature-box-content">
                               <p>
-                                ACRI is the perfect institute for aspirants of
+                                "True Lessons" is the perfect institute for aspirants of
                                 Life Sciences, Healthcare and Clinical Research
                                 looking to further their careers in the field.
-                                The courses offered at ACRI are comprehensive
+                                The courses offered at "True Lessons" are comprehensive
                                 and affordable. The staff, study material and
                                 overall conduct of the institution is what makes
-                                ACRI an ideal learning centre. Before joining
-                                ACRI, I had been to a couple of Clinical
+                                "True Lessons" an ideal learning centre. Before joining
+                                "True Lessons", I had been to a couple of Clinical
                                 Research institutes only to see minimal
                                 infrastructure and training staff at the time of
-                                my visit. I highly recommend ACRI as I have
+                                my visit. I highly recommend "True Lessons" as I have
                                 gotten placed in one of the best companies with
                                 a handsome package.
                               </p>
@@ -555,7 +562,7 @@ export default function Content() {
                             </div>
                             <div className="feature-box-content">
                               <p>
-                                ACRI is without a doubt the ideal institute to
+                                "True Lessons" is without a doubt the ideal institute to
                                 enhance one’s path in the clinical research
                                 field. Having opted for the three-months course,
                                 I got to learn a great deal and the four modules
@@ -564,10 +571,10 @@ export default function Content() {
                                 instant boost and the aptitude tests prepared me
                                 to tackle tricky maths. These efforts of the
                                 institutes combined by mine led me to be placed
-                                at Parexel, a leading CRO. ACRI has given me the
+                                at Parexel, a leading CRO. "True Lessons" has given me the
                                 best learning experience and I would suggest any
                                 aspirant planning to take up careers in Clinical
-                                Research to give ACRI a shot.
+                                Research to give "True Lessons" a shot.
                               </p>
                               <div className="text-extra-dark-gray alt-font text-uppercase font-weight-600 line-height-20px">
                                 Vyshnavi M.

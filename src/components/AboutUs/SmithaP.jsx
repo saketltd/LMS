@@ -1,7 +1,11 @@
 import React from "react";
+import Header from "../../containers/Header";
+import Footer from "../Home/footer";
 
 function SmithaP() {
   return (
+  <>
+  <Header />
     <div>
       <section>
         <div class="container">
@@ -62,6 +66,8 @@ function SmithaP() {
         </div>
       </section>
     </div>
+    <Footer />
+   </> 
   );
 }
 
