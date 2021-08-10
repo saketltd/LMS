@@ -1,4 +1,9 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+
+import SwiperCore, { Autoplay,Pagination,Navigation} from 'swiper/core';
+const isMobile = window.orientation > -1;
 
 export default function CareerContent() {
   return (
@@ -8,122 +13,360 @@ export default function CareerContent() {
           <div class="page-headline text-center mt-5">
             <h2>A Glimpse of What We're Building</h2>
             <h4>Placed Students</h4>
-          </div>
-
-          <div class="position-relative carousel-card p-0 mx-auto">
-            <div
-              class="row d-block js-mdk-carousel"
-              id="carousel-feedback"
-              data-interval="3000"
-              style={{ overflow: "hidden" }}
-              data-domfactory-upgraded="mdk-carousel"
-            >
-              <a
-                class="carousel-control-next js-mdk-carousel-control mt-n24pt"
-                href="#carousel-feedback"
-                role="button"
-                data-slide="next"
-                data-domfactory-upgraded="mdk-carousel-control"
-              >
-                <span
-                  class="carousel-control-icon material-icons"
-                  aria-hidden="true"
-                >
-                  keyboard_arrow_right
-                </span>
-                <span class="sr-only">Next</span>
-              </a>
-              <div
-                class="mdk-carousel__content"
-                style={{
-                  width: "1674px",
-                  transform: "translate3d(0px, 0px, 0px)",
-                  maxWidth: "inherit",
-                }}
-              >
-                <div class="col-2 mdk-carousel__item">
-                  <div class="card card-feedback card-body justify-content-center align-items-center">
-                    <img
-                      src="images/Priya Sunny.jpg"
-                      alt=""
-                      srcset=""
-                      width="220px"
-                    />
-                    <h5 className="text-center mt-2">PRIYA SUNNY</h5>
-                    <img
-                      src="images/PAREXEL 1.png"
-                      alt=""
-                      srcset=""
-                      width="65px"
-                    />
-                  </div>
+          
+       
+        <section className="no-padding-top wow animate__fadeIn">
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-12 padding-8-half-rem-lr xl-padding-five-lr lg-padding-two-lr sm-padding-15px-lr">
+                        <div className="swiper-container overflow-hidden portfolio-classic position-relative swiper-pagination-bottom" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 26, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "autoplay": { "delay": 3000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 5 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 2 } }, "effect": "slide" }'>
+							<div className="col-md-12 text-center margin-five-bottom">
+                        <h6 className="alt-font text-font-weight text-dark font-weight-500">Placed Students</h6>
+                    </div>
+                           
+                            <div className="swiper-wrapper margintop-swiper">
+                            <Swiper slidesPerView={isMobile ? 1: 5} navigation={true} loopFillGroupWithBlank={true} autoplay={{
+                                "delay": 4000,
+                                "disableOnInteraction": false
+                                }}  className="mySwiper">
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Priya Sunny.jpg" alt=""/></a>
+                                            {/* <div className= "align-items-center justify-content-center d-flex">
+                                                {/* <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"></i></a>
+                                                </div> }
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Priya Sunny</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">B.Tech Biotechnology</span>*/}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/PAREXEL 1.png" className="img-height" alt=""/></span> 
+   
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                {/* <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Anjana K.P.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> }
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Anjana K.P</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">B Pharmacy</span>}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">Iqvia</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide> */}
+                                <SwiperSlide>
+                              
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Anupama Kurle.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Anupama Kurle</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">B.E Biotechnology</span>
+                                            */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/Forte.jpeg" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                              
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Swathi N.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Swathi N</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">BSc Biotechnology</span>
+                                            */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/Forte.jpeg" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Pradeeksha.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Pradeeksha</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">MSc Zoology</span>
+                                          */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/COVANCE 1.jpg" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Elavarasi M.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Elavarasi M</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">Pharm D</span>
+                                            */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/Forte.jpeg" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Neelima Pinapati.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Neelima Pinapati</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">M Pharmacy</span>
+                                            */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/IQVIA.png" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Maanya K.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Maanya K</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">B Pharmacy </span>
+                                           */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/PAREXEL 1.png" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Dr. S.R Sadiya Pervaze.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase"><img src="../assets/images/logos/PAREXEL 1.png" className="img-height" alt=""/>Dr. S.R Sadiya Pervaze</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">Pharm D</span>
+                                           */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/IQVIA.png" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Smitha B R.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Smitha B R</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">MSc Biochemistry</span>
+                                            */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/IQVIA.png" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Nimna.RS.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Nimna R S</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">B Pharm</span>
+                                             */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/IQVIA.png" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Dr. Anagha Pradeep Data.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Dr. Anagha Pradeep Datar</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">B.D.S</span>
+                                           */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/" className="img-height" alt=""/>CogScentia</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Devnandan Shaw.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Devnandan Shaw</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">BSc Biotechnology</span>
+                                            */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/Nethradhama.jpeg" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Talluri Pratyusha.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Talluri Pratyusha</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">MSc Microbiology</span>
+                                             */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/PAREXEL 1.png" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Chaithrashree G S.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Chaithrashree G S</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">MSc Biochemistry</span>
+                                            */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/Nethradhama.jpeg" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <div className="swiper-slide overflow-hidden">
+                                    <div className="portfolio-box text-center">
+                                        <div className="">
+                                            <a href="#"><img src="../../assets/images/students/Gaddam Chandra kiran.jpg" alt=""/></a>
+                                            {/* <div className="portfolio-hover align-items-center justify-content-center d-flex">
+                                                <div className="portfolio-icon">
+                                                    <a href="#" className="border-all border-width-2px rounded-circle border-color-white bg-white"><i className="ti-arrow-right text-extra-dark-gray"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="portfolio-caption padding-30px-tb">
+                                            <a href="#" className="alt-font text-extra-dark-gray font-weight-500 text-uppercase">Gaddam Chandra kiran</a>
+                                            {/* <span className="d-block text-medium-gray text-small line-height-18px text-uppercase">BSc Biotechnology</span>
+                                            */}
+                                            <span className="d-block text-medium-gray text-small line-height-18px text-uppercase"><img src="../assets/images/logos/eye-hospital.jpeg" className="img-height" alt=""/></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                 
+                               
+                                </Swiper>
+                                <div className="swiper-button-next-nav swiper-button-next rounded-circle light slider-navigation-style-07 box-shadow-double-large"><i className="feather icon-feather-arrow-right"></i></div>
+                                <div className="swiper-button-previous-nav swiper-button-prev rounded-circle light slider-navigation-style-07 box-shadow-double-large"><i className="feather icon-feather-arrow-left"></i></div>
+                       
+                            </div>
+                         
+                           
+                        </div>
+                    </div>
                 </div>
-                <div class="col-2 mdk-carousel__item">
-                  <div class="card card-feedback card-body justify-content-center align-items-center">
-                    <img
-                      src="images/Smitha B R.jpg"
-                      alt=""
-                      srcset=""
-                      width="220px"
-                    />
-                    <h5 className="text-center mt-2">SMITA B. R.</h5>
-                    <img src="images/IQVIA.png" alt="" srcset="" width="65px" />
-                  </div>
-                </div>
-                <div class="col-2 mdk-carousel__item">
-                  <div class="card card-feedback card-body justify-content-center align-items-center">
-                    <img
-                      src="images/Pradeeksha.jpg"
-                      alt=""
-                      srcset=""
-                      width="220px"
-                    />
-                    <h5 className="text-center mt-2">PRADEEKSHA</h5>
-                    <img
-                      src="images/COVANCE 1.jpg"
-                      alt=""
-                      srcset=""
-                      width="65px"
-                    />
-                  </div>
-                </div>
-                <div class="col-2 mdk-carousel__item">
-                  <div class="card card-feedback card-body justify-content-center align-items-center">
-                    <img
-                      src="images/Anupama Kurle.jpg"
-                      alt=""
-                      srcset=""
-                      width="220px"
-                    />
-                    <h5 className="text-center mt-2">ANUPAMA KURLE</h5>
-                    <img
-                      src="images/Forte.jpeg"
-                      alt=""
-                      srcset=""
-                      width="65px"
-                    />
-                  </div>
-                </div>
-                <div class="col-2 mdk-carousel__item">
-                  <div class="card card-feedback card-body justify-content-center align-items-center">
-                    <img
-                      src="images/Chaithrashree G S.jpg"
-                      alt=""
-                      srcset=""
-                      width="220px"
-                    />
-                    <h5 className="text-center mt-2">CHAITHRASHREE G S</h5>
-                    <img
-                      src="images/Nethradhama.jpeg"
-                      alt=""
-                      srcset=""
-                      width="65px"
-                    />
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+        </section>
+          
+            </div>
+          
 
           <div class="page-headline text-center mt-5">
             <h2>Career Insights</h2>
@@ -355,25 +598,120 @@ export default function CareerContent() {
           <div class="row card-group-row">
             <div class="col-md-6 card-group-row__col">
               <div class="card card--elevated card-group-row__card">
-                <div class="card-body d-flex">
-                  <span class="icon-holder icon-holder--outline-muted rounded-circle d-inline-flex mr-16pt">
-                    <i class="material-icons">question_answer</i>
-                  </span>
-                  <div class="flex">
-                    <a class="card-title mb-4pt" href="/#">
-                      Who can take OET?
-                    </a>
-                    <p class="text-70 mb-0">
-                      OET has been developed specifically for 12 healthcare
-                      professions: Dentistry, Dietetics, Medicine, Nursing,
-                      Occupational Therapy, Optometry, Pharmacy, Physiotherapy,
-                      Podiatry, Radiography, Speech Pathology and Veterinary
-                      Science. OET is accepted as proof of English proficiency
-                      for visas, study, registration and employment in
-                      healthcare.
-                    </p>
-                  </div>
+              <div class="accordion__item open">
+              <a
+                href="#"
+                class="accordion__toggle collapsed"
+                data-toggle="collapse"
+                data-target="#course-toc-1"
+                data-parent="#parent"
+              >
+                <span class="flex" style={{ fontSize: "17px" }}>
+                  Careers In Clinical Research
+                </span>
+                <span class="accordion__toggle-icon material-icons">
+                  keyboard_arrow_down
+                </span>
+              </a>
+              <div class="accordion__menu collapse" id="course-toc-1">
+                <div class="accordion__menu-link">
+                  <p style={{ fontSize: "15px" }}>
+                    India is evolving in many phases to run the race in the
+                    world; and Clinical Research is one such phase where India
+                    is making remarkable development and growth. India has been
+                    involved in clinical research for the past many years and is
+                    now on its way to becoming a major focus for it. The billion
+                    dollar industry is already witnessing high demand for
+                    qualified professionals. Indian pharmaceutical industry is
+                    one of the fastest growing sectors of the Indian economy and
+                    has made rapid strides over the years. There is a massive
+                    need for clinical research professionals in this
+                    fast-growing field. Clinical research makes an interesting
+                    career option with a great scope for professional growth. To
+                    build a career in clinical research, basic education in this
+                    field is necessary and a good hands on is the need. <br />
+                    <br /> By 2020, the Indian pharma market is expected to rank
+                    among the global top three by increasing growth and is
+                    supposed to be the 6th largest market in the world with
+                    respect to absolute size. <br /> <br /> The term clinical
+                    trial refers to the entire record of any test article from
+                    its initiation in the lab to its introduction to the market
+                    and beyond. Once the promising molecule is identified in the
+                    lab, it is subjected to more per-clinical studies to get an
+                    idea about different aspects of the test article. Clinical
+                    research is often conducted at academic medical centers and
+                    recognized research centers. <br />
+                    <br /> Many believe that informed consent makes clinical
+                    research ethical. However, informed consent is not
+                    sufficient. Drawing on the basic philosophies there are some
+                    requirements that systematically explain a logical framework
+                    for evaluating the ethics of clinical research studies. The
+                    requirements are universal and they must be adapted to the
+                    various fields in which clinical research is conducted.
+                  </p>
                 </div>
+              </div>
+            </div>
+
+              </div>
+            </div>
+            <div class="col-md-6 card-group-row__col">
+              <div class="card card--elevated card-group-row__card">
+              <div class="accordion__item open">
+              <a
+                href="#"
+                class="accordion__toggle collapsed"
+                data-toggle="collapse"
+                data-target="#course-toc-1"
+                data-parent="#parent"
+              >
+                <span class="flex" style={{ fontSize: "17px" }}>
+                  Careers In Clinical Research
+                </span>
+                <span class="accordion__toggle-icon material-icons">
+                  keyboard_arrow_down
+                </span>
+              </a>
+              <div class="accordion__menu collapse" id="course-toc-1">
+                <div class="accordion__menu-link">
+                  <p style={{ fontSize: "15px" }}>
+                    India is evolving in many phases to run the race in the
+                    world; and Clinical Research is one such phase where India
+                    is making remarkable development and growth. India has been
+                    involved in clinical research for the past many years and is
+                    now on its way to becoming a major focus for it. The billion
+                    dollar industry is already witnessing high demand for
+                    qualified professionals. Indian pharmaceutical industry is
+                    one of the fastest growing sectors of the Indian economy and
+                    has made rapid strides over the years. There is a massive
+                    need for clinical research professionals in this
+                    fast-growing field. Clinical research makes an interesting
+                    career option with a great scope for professional growth. To
+                    build a career in clinical research, basic education in this
+                    field is necessary and a good hands on is the need. <br />
+                    <br /> By 2020, the Indian pharma market is expected to rank
+                    among the global top three by increasing growth and is
+                    supposed to be the 6th largest market in the world with
+                    respect to absolute size. <br /> <br /> The term clinical
+                    trial refers to the entire record of any test article from
+                    its initiation in the lab to its introduction to the market
+                    and beyond. Once the promising molecule is identified in the
+                    lab, it is subjected to more per-clinical studies to get an
+                    idea about different aspects of the test article. Clinical
+                    research is often conducted at academic medical centers and
+                    recognized research centers. <br />
+                    <br /> Many believe that informed consent makes clinical
+                    research ethical. However, informed consent is not
+                    sufficient. Drawing on the basic philosophies there are some
+                    requirements that systematically explain a logical framework
+                    for evaluating the ethics of clinical research studies. The
+                    requirements are universal and they must be adapted to the
+                    various fields in which clinical research is conducted.
+                  </p>
+                </div>
+              </div>
+            </div>
+
               </div>
             </div>
             <div class="col-md-6 card-group-row__col">
@@ -382,46 +720,61 @@ export default function CareerContent() {
                   <span class="icon-holder icon-holder--outline-muted rounded-circle d-inline-flex mr-16pt">
                     <i class="material-icons">question_answer</i>
                   </span>
-                  <div class="flex">
-                    <a class="card-title mb-4pt" href="/#">
-                      How is the test scored?
-                    </a>
-                    <p class="text-70 mb-0">
-                      You will receive a Statement of Results which shows your
-                      score for each of the four sub-tests, on a scale from 0 to
-                      500. Each of the four sub-tests is assessed in a specific
-                      way.
-                    </p>
-                  </div>
+                  <div class="accordion__item open">
+              <a
+                href="#"
+                class="accordion__toggle collapsed"
+                data-toggle="collapse"
+                data-target="#course-toc-1"
+                data-parent="#parent"
+              >
+                <span class="flex" style={{ fontSize: "17px" }}>
+                  Careers In Clinical Research
+                </span>
+                <span class="accordion__toggle-icon material-icons">
+                  keyboard_arrow_down
+                </span>
+              </a>
+              <div class="accordion__menu collapse" id="course-toc-1">
+                <div class="accordion__menu-link">
+                  <p style={{ fontSize: "15px" }}>
+                    India is evolving in many phases to run the race in the
+                    world; and Clinical Research is one such phase where India
+                    is making remarkable development and growth. India has been
+                    involved in clinical research for the past many years and is
+                    now on its way to becoming a major focus for it. The billion
+                    dollar industry is already witnessing high demand for
+                    qualified professionals. Indian pharmaceutical industry is
+                    one of the fastest growing sectors of the Indian economy and
+                    has made rapid strides over the years. There is a massive
+                    need for clinical research professionals in this
+                    fast-growing field. Clinical research makes an interesting
+                    career option with a great scope for professional growth. To
+                    build a career in clinical research, basic education in this
+                    field is necessary and a good hands on is the need. <br />
+                    <br /> By 2020, the Indian pharma market is expected to rank
+                    among the global top three by increasing growth and is
+                    supposed to be the 6th largest market in the world with
+                    respect to absolute size. <br /> <br /> The term clinical
+                    trial refers to the entire record of any test article from
+                    its initiation in the lab to its introduction to the market
+                    and beyond. Once the promising molecule is identified in the
+                    lab, it is subjected to more per-clinical studies to get an
+                    idea about different aspects of the test article. Clinical
+                    research is often conducted at academic medical centers and
+                    recognized research centers. <br />
+                    <br /> Many believe that informed consent makes clinical
+                    research ethical. However, informed consent is not
+                    sufficient. Drawing on the basic philosophies there are some
+                    requirements that systematically explain a logical framework
+                    for evaluating the ethics of clinical research studies. The
+                    requirements are universal and they must be adapted to the
+                    various fields in which clinical research is conducted.
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 card-group-row__col">
-              <div class="card card--elevated card-group-row__card">
-                <div class="card-body d-flex">
-                  <span class="icon-holder icon-holder--outline-muted rounded-circle d-inline-flex mr-16pt">
-                    <i class="material-icons">question_answer</i>
-                  </span>
-                  <div class="flex">
-                    <a class="card-title mb-4pt" href="/#">
-                      Listening and Reading
-                    </a>
-                    <p class="text-70 mb-0">
-                      Your answer booklets for Listening Part A and for Reading
-                      Part A are marked by trained OET Assessors. These answer
-                      booklets are assigned to OET Assessors at random to avoid
-                      any conflict of interest. Your answer booklets for Reading
-                      and Listening Parts B and C are computer scanned and
-                      automatically scored. Listening and Reading Assessors use
-                      a detailed marking guide which sets out which answers
-                      receive marks and how the marks are counted. Assessors use
-                      this guide to decide for each question whether you have
-                      provided enough correct information to be given the mark
-                      or marks available. Assessors are monitored for accuracy
-                      and consistency, and your Part A answers are marked by at
-                      least two different assessors.
-                    </p>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -512,3 +865,4 @@ export default function CareerContent() {
     </div>
   );
 }
+

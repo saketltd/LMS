@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Dashboard() {
+export default function Header() {
   return (
     <div
       id="header"
@@ -22,7 +22,7 @@ export default function Dashboard() {
             <span className="material-icons">short_text</span>
           </button>
 
-          <a href="/" className="navbar-brand mr-16pt">
+          <a href="/admin" className="navbar-brand mr-16pt">
             <img
               src="images/logo-white.png"
               alt="logo"
@@ -40,7 +40,7 @@ export default function Dashboard() {
 
             <small className="flex d-flex flex-column">
               <strong className="navbar-text-100">Earnings</strong>
-              <span className="navbar-text-50">&dollar;12.3k</span>
+              <span className="navbar-text-50">₹12.3k</span>
             </small>
           </span>
           <span className="d-none d-md-flex align-items-center mr-16pt">

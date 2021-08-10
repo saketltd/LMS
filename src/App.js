@@ -18,6 +18,19 @@ import Quiz from "./components/Student/Quiz";
 import Profile from "./components/Student/Profile";
 import Help from "./components/Student/Help";
 import CourseInfo from "./components/Student/CourseInfo";
+import ModulesList from "./components/Admin/ModuleList";
+import AddModule from "./components/Admin/AddModule";
+import EditModule from "./components/Admin/EditModule";
+import AddChapter from "./components/Admin/AddChapter";
+import EditChapter from "./components/Admin/EditChapter";
+import TopicList from "./components/Admin/TopicList";
+import AddTopic from "./components/Admin/AddTopic";
+import EditTopic from "./components/Admin/EditTopic";
+import SmithaP from "./components/AboutUs/SmithaP";
+import Amrutha from "./components/AboutUs/Amrutha";
+import Sushma from "./components/AboutUs/Sushama";
+import DivyaSunil from "./components/AboutUs/DivyaSunil";
+import Smitha from "./components/AboutUs/Smitha";
 
 const MyComponent = (props) => {
   useScript("vendor/jquery.min.js");
@@ -27,6 +40,7 @@ const MyComponent = (props) => {
   useScript("vendor/dom-factory.js");
   useScript("vendor/material-design-kit.js");
   useScript("js/app.js");
+  useScript("js/quill.js");
   useScript("js/preloader.js");
   useScript("js/settings.js");
   useScript("vendor/moment.min.js");
@@ -37,6 +51,9 @@ const MyComponent = (props) => {
   useScript("js/page.instructor-dashboard.js");
   useScript("vendor/list.min.js");
   useScript("js/list.js");
+  useScript("assets/js/util.js");
+  useScript("assets/js/swipe-content.js");
+  useScript("assets/js/main.js");
 };
 
 function App() {
@@ -56,10 +73,23 @@ function App() {
         <Route path="/profile" component={Profile}></Route>
         <Route path="/help" component={Help}></Route>
         <Route path="/courseInfo" component={CourseInfo}></Route>
+        <Route path="/moduleList" component={ModulesList}></Route>
+        <Route path="/addModule" component={AddModule}></Route>
+        <Route path="/editModule" component={EditModule}></Route>
+        <Route path="/topicList" component={TopicList}></Route>
+        <Route path="/addTopic" component={AddTopic}></Route>
+        <Route path="/editTopic" component={EditTopic}></Route>
+        <Route path="/addChapter" component={AddChapter}></Route>
+        <Route path="/editChapter" component={EditChapter}></Route>
         <Route exact path="/login" component={Login}></Route>
         <Route exact path="/signup" component={Signup}></Route>
         <Route exact path="/blog" component={Blog}></Route>
         <Route exact path="/studentCourse" component={StudentCourse}></Route>
+        <Route path="/SmithaP" component={SmithaP} />
+        <Route path="/Amrutha" component={Amrutha} />
+        <Route path="/Sushma" component={Sushma} />
+        <Route path="/DivyaSunil" component={DivyaSunil} />
+        <Route path="/Smitha" component={Smitha} />
         <Route exact path="/" component={Home}></Route>
       </Switch>
       {MyComponent()}
